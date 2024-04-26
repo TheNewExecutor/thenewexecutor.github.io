@@ -1,7 +1,7 @@
 ---
-title: Hello Quarto CI
+title: Jonathan's Personal Site
 date: last-modified
 resources:
   - .nojekyll
 ---
-Setting up CI for quarto website build & publish.
+Under construction
