@@ -1,6 +1,21 @@
 project:
   type: website
   output-dir: docs
+
 execute:
   freeze: auto
-format: html
+
+website:
+  site-url: "http://thenewexecutor.github.io"
+  title: "Jonathan Sarker"
+  navbar: 
+    left:
+      - href: index.qmd
+        text: Home
+
+format: 
+  html:
+    theme: slate
+    css: styles.css
+    toc: true
+    page-layout: full

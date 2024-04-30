@@ -1,7 +1,21 @@
 ---
-title: Jonathan's Personal Site
-date: last-modified
+title: Jonathan Sarker
+image: images/profile.jpg
+toc: false
+about:
+  template: trestles
+  image-shape: round
+  image-width: 20em
+  links:
+    - text: LinkedIn
+      href: www.linkedin.com/in/jonathan-sarker
+    - text: GitHub
+      href: https://github.com/TheNewExecutor 
+    - text: Email
+      href: mailto:jonathanrsarker@gmail.com
 resources:
   - .nojekyll
 ---
-Under construction
+# Welcome!
+
+Hi, I'm Jonathan. I'm a life-long learner with interests spanning from biophysics, education and machine learning. This is my personal site to share projects, interesting ideas and personal musings. Happy browsing! 
