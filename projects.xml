@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Jonathan Sarker</title>
+<link>http://thenewexecutor.github.io/projects.html</link>
+<atom:link href="http://thenewexecutor.github.io/projects.xml" rel="self" type="application/rss+xml"/>
+<description></description>
+<generator>quarto-1.4.550</generator>
+<lastBuildDate>Tue, 04 Jun 2024 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Self Learning Journey</title>
+  <link>http://thenewexecutor.github.io/projects/library/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p><br></p>
+<section id="motivation" class="level1">
+<h1>Motivation</h1>
+<p>What is the extent of a person’s knowledge? Teaching is gold proof of mastery, but outside of that, we often rely on proxies. In the job application process, a person’s educational background, work history or performance on a coding test are common ones. One personal favorite of mine is looking at someone’s bookshelf as it can potentially be a glimpse into the contents of their mind. As a huge fan of self-learning, I’ve done my fair share. I started with local library books on dinosaurs, continued on with gems like <em>The Feynman Lectures on Physics</em> in college and <em>Principles of Quantum Mechanics</em> in graduate school.</p>
+<p>After graduate school, I dedicated myself to becoming a data scientist by first studying fundamentals, including graduate level statistics and Python/machine learning related online courses. This habit of self-study took great discipline to develop and I’m proud of all the work I’ve put in and continue to put in, yet there’s not enough room for it on a resume. The content of this page is an attempt at some documentation of my self-learning journey and what you’d see on my personal bookshelf.<br>
+<br></p>
+</section>
+<section id="whats-on-my-shelf" class="level1">
+<h1>What’s on my shelf?</h1>
+<section id="physics" class="level2">
+<h2 class="anchored" data-anchor-id="physics">Physics</h2>
+<ul>
+<li>The Feynman Lectures on Physics</li>
+<li>Principles of Quantum Mechanics</li>
+</ul>
+</section>
+<section id="mathematics" class="level2">
+<h2 class="anchored" data-anchor-id="mathematics">Mathematics</h2>
+<ul>
+<li>How to Prove It</li>
+<li>All of Statistics</li>
+<li>Statistical Inference</li>
+</ul>
+</section>
+<section id="machine-learning" class="level2">
+<h2 class="anchored" data-anchor-id="machine-learning">Machine Learning</h2>
+<ul>
+<li>Information Theory, Inference and Learning Algorithms</li>
+<li>Introduction to Statistical Learning</li>
+<li>Elements of Statistical Learning</li>
+<li>Deep Learning for Coders with fastai &amp; PyTorch</li>
+<li>Natural Language Processing with Transformers</li>
+<li>Effective Xgboost</li>
+<li>Designing Machine Learning Systems</li>
+<li>Effective Data Science Infrastructure</li>
+<li>Machine Learning with PyTorch and Scikit-Learn</li>
+<li>Designing Data-Intensive Applications</li>
+<li>The Kaggle Book</li>
+<li>The Kaggle Workbook</li>
+</ul>
+</section>
+<section id="computer-science" class="level2">
+<h2 class="anchored" data-anchor-id="computer-science">Computer Science</h2>
+<ul>
+<li>Introduction to Algorithms</li>
+<li>The Algorithm Design Manual</li>
+<li>Algorithm Design</li>
+</ul>
+</section>
+<section id="programming" class="level2">
+<h2 class="anchored" data-anchor-id="programming">Programming</h2>
+<ul>
+<li>Elements of Programming Interviews in Python</li>
+<li>Effective Pandas</li>
+<li>Architecture Patterns with Python</li>
+<li>Mastering Regular Expressions</li>
+<li>Software Engineering at Google</li>
+</ul>
+</section>
+<section id="ecnomics" class="level2">
+<h2 class="anchored" data-anchor-id="ecnomics">Ecnomics</h2>
+<ul>
+<li>Basic Economics</li>
+<li>Healthcare Issues: An Economic Perspective</li>
+</ul>
+</section>
+<section id="productivity" class="level2">
+<h2 class="anchored" data-anchor-id="productivity">Productivity</h2>
+<ul>
+<li>The 7 Habits of Highly Effective People</li>
+<li>Atomic Habits</li>
+<li>So Good They Can’t Ignore You</li>
+<li>Deep Work</li>
+<li>Slow Productivity</li>
+<li>Range: Why Generalists Triumph in a Specialized World</li>
+<li>Grit</li>
+<li>The Startup of You</li>
+<li>Zero to One</li>
+</ul>
+</section>
+<section id="career-guides" class="level2">
+<h2 class="anchored" data-anchor-id="career-guides">Career Guides</h2>
+<ul>
+<li>The Effective Engineer</li>
+<li>Engineer’s Survival Guide</li>
+<li>The Staff Engineer’s Path</li>
+<li>The Software Engineer’s Guidebook</li>
+</ul>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>learning</category>
+  <guid>http://thenewexecutor.github.io/projects/library/</guid>
+  <pubDate>Tue, 04 Jun 2024 00:00:00 GMT</pubDate>
+  <media:content url="http://thenewexecutor.github.io/projects/library/brain.jpg" medium="image" type="image/jpeg"/>
+</item>
+</channel>
+</rss>

@@ -1,9 +1,72 @@
 [
   {
+    "objectID": "projects/library/index.html#physics",
+    "href": "projects/library/index.html#physics",
+    "title": "Self Learning Journey",
+    "section": "Physics",
+    "text": "Physics\n\nThe Feynman Lectures on Physics\nPrinciples of Quantum Mechanics"
+  },
+  {
+    "objectID": "projects/library/index.html#mathematics",
+    "href": "projects/library/index.html#mathematics",
+    "title": "Self Learning Journey",
+    "section": "Mathematics",
+    "text": "Mathematics\n\nHow to Prove It\nAll of Statistics\nStatistical Inference"
+  },
+  {
+    "objectID": "projects/library/index.html#machine-learning",
+    "href": "projects/library/index.html#machine-learning",
+    "title": "Self Learning Journey",
+    "section": "Machine Learning",
+    "text": "Machine Learning\n\nInformation Theory, Inference and Learning Algorithms\nIntroduction to Statistical Learning\nElements of Statistical Learning\nDeep Learning for Coders with fastai & PyTorch\nNatural Language Processing with Transformers\nEffective Xgboost\nDesigning Machine Learning Systems\nEffective Data Science Infrastructure\nMachine Learning with PyTorch and Scikit-Learn\nDesigning Data-Intensive Applications\nThe Kaggle Book\nThe Kaggle Workbook"
+  },
+  {
+    "objectID": "projects/library/index.html#computer-science",
+    "href": "projects/library/index.html#computer-science",
+    "title": "Self Learning Journey",
+    "section": "Computer Science",
+    "text": "Computer Science\n\nIntroduction to Algorithms\nThe Algorithm Design Manual\nAlgorithm Design"
+  },
+  {
+    "objectID": "projects/library/index.html#programming",
+    "href": "projects/library/index.html#programming",
+    "title": "Self Learning Journey",
+    "section": "Programming",
+    "text": "Programming\n\nElements of Programming Interviews in Python\nEffective Pandas\nArchitecture Patterns with Python\nMastering Regular Expressions\nSoftware Engineering at Google"
+  },
+  {
+    "objectID": "projects/library/index.html#ecnomics",
+    "href": "projects/library/index.html#ecnomics",
+    "title": "Self Learning Journey",
+    "section": "Ecnomics",
+    "text": "Ecnomics\n\nBasic Economics\nHealthcare Issues: An Economic Perspective"
+  },
+  {
+    "objectID": "projects/library/index.html#productivity",
+    "href": "projects/library/index.html#productivity",
+    "title": "Self Learning Journey",
+    "section": "Productivity",
+    "text": "Productivity\n\nThe 7 Habits of Highly Effective People\nAtomic Habits\nSo Good They Can’t Ignore You\nDeep Work\nSlow Productivity\nRange: Why Generalists Triumph in a Specialized World\nGrit\nThe Startup of You\nZero to One"
+  },
+  {
+    "objectID": "projects/library/index.html#career-guides",
+    "href": "projects/library/index.html#career-guides",
+    "title": "Self Learning Journey",
+    "section": "Career Guides",
+    "text": "Career Guides\n\nThe Effective Engineer\nEngineer’s Survival Guide\nThe Staff Engineer’s Path\nThe Software Engineer’s Guidebook"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Jonathan Sarker",
     "section": "",
     "text": "Welcome!\nHi, I’m Jonathan. I’m a life-long learner with interests spanning from biophysics, education and machine learning. This is my personal site to share projects, interesting ideas and personal musings. Happy browsing!"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Self Learning Journey\n\n\nReflections on my (ongoing) journey of self-study\n\n\n\n\n\n\nJun 4, 2024\n\n\n\n\n\n\n\n\nNo matching items"
   }
 ]
