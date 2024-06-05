@@ -1,0 +1,86 @@
+---
+title: "Self Learning Journey"
+description: |
+  Reflections on my (ongoing) journey of self-study
+date: 2024-06-04
+categories: [learning]
+image: brain.jpg
+draft: false
+---
+
+
+<br>
+
+# Motivation 
+What is the extent of a person's knowledge? Teaching is gold proof of mastery, but outside of that, we often rely on proxies. In the job application process, a person's educational background, work history or performance on a coding test are common ones. One personal favorite of mine is looking at someone's bookshelf as it can potentially be a glimpse into the contents of their mind. As a huge fan of self-learning, I've done my fair share. I started with local library books on dinosaurs, continued on with gems like *The Feynman Lectures on Physics* in college and *Principles of Quantum Mechanics* in graduate school.  
+
+
+After graduate school, I dedicated myself to becoming a data scientist by first studying fundamentals, including graduate level statistics and Python/machine learning related online courses. This habit of self-study took great discipline to develop and I'm proud of all the work I've put in and continue to put in, yet there's not enough room for it on a resume. The content of this page is an attempt at some documentation of my self-learning journey and what you'd see on my personal bookshelf.    
+<br>
+
+
+# What's on my shelf?
+
+## Physics
+- The Feynman Lectures on Physics
+- Principles of Quantum Mechanics
+
+
+## Mathematics
+
+- How to Prove It
+- All of Statistics
+- Statistical Inference 
+
+## Machine Learning
+
+- Information Theory, Inference and Learning Algorithms
+- Introduction to Statistical Learning
+- Elements of Statistical Learning
+- Deep Learning for Coders with fastai & PyTorch
+- Natural Language Processing with Transformers
+- Effective Xgboost
+- Designing Machine Learning Systems
+- Effective Data Science Infrastructure
+- Machine Learning with PyTorch and Scikit-Learn
+- Designing Data-Intensive Applications
+- The Kaggle Book
+- The Kaggle Workbook
+
+
+## Computer Science
+
+- Introduction to Algorithms
+- The Algorithm Design Manual
+- Algorithm Design 
+
+## Programming
+
+- Elements of Programming Interviews in Python
+- Effective Pandas
+- Architecture Patterns with Python
+- Mastering Regular Expressions
+- Software Engineering at Google
+
+## Ecnomics
+- Basic Economics
+- Healthcare Issues: An Economic Perspective
+
+## Productivity
+
+- The 7 Habits of Highly Effective People
+- Atomic Habits
+- So Good They Can't Ignore You
+- Deep Work
+- Slow Productivity
+- Range: Why Generalists Triumph in a Specialized World
+- Grit
+- The Startup of You
+- Zero to One
+
+## Career Guides
+
+- The Effective Engineer
+- Engineer's Survival Guide
+- The Staff Engineer's Path
+- The Software Engineer's Guidebook
