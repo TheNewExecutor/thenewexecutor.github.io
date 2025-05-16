@@ -22,30 +22,47 @@ After graduate school, I dedicated myself to becoming a data scientist by first 
 # What's on my shelf?
 
 ## Physics
-- The Feynman Lectures on Physics
-- Principles of Quantum Mechanics
-
+- [The Feynman Lectures on Physics](https://www.feynmanlectures.caltech.edu/index.html) by Richard Feynman
+  - These volumes have a wealth of insight and beautiful exposition straight from one of greatest teachers and legends of the subject. What other physics text has the Krebs Cycle?
+- [Principles of Quantum Mechanics](https://www.amazon.com/Principles-Quantum-Mechanics-2nd-Shankar/dp/0306447908/ref=asc_df_0306447908?mcid=9ac2bf11d48e36a7a5fb25f3a3845ea3&hvocijid=6271115953609912194-0306447908-&hvexpln=73&tag=hyprod-20&linkCode=df0&hvadid=721245378154&hvpos=&hvnetw=g&hvrand=6271115953609912194&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9191415&hvtargid=pla-2281435179538&psc=1) by Ramamurti Shankar
+  - With solved problems, fantastic organization and such a strong 1st chapter, this text helped me learn quantum mechanics more than any of the numerous classes I've taken.
 
 ## Mathematics
 
-- How to Prove It
-- All of Statistics
-- Statistical Inference 
+- [How to Prove It](https://www.amazon.com/How-Prove-Structured-Daniel-Velleman/dp/110842418X/ref=asc_df_110842418X?mcid=5af9469a059e313b9ba60a74ff76f0aa&hvocijid=15755551501711694689-110842418X-&hvexpln=73&tag=hyprod-20&linkCode=df0&hvadid=721245378154&hvpos=&hvnetw=g&hvrand=15755551501711694689&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9191415&hvtargid=pla-2281435178098&psc=1) by Daniel J. Velleman
+  - I recall stumbling through proofs before working through the first few chapters of this helpful resource.
+- [All of Statistics](https://www.amazon.com/All-Statistics-Statistical-Inference-Springer/dp/1441923225) by Larry Wasserman
+  - This book has such a high range of topics and working through through many of the problems yielded long-lasting insights into graduate statistics.
+- [Statistical Inference](https://www.amazon.com/Statistical-Inference-George-Casella/dp/0534243126) by George Casella and Roger Berger 
+  - This is a staple reference whenever I find myself requiring deeper insight into fundamentals.
 
 ## Machine Learning
 
-- Information Theory, Inference and Learning Algorithms
-- Introduction to Statistical Learning
-- Elements of Statistical Learning
-- Deep Learning for Coders with fastai & PyTorch
-- Natural Language Processing with Transformers
-- Effective Xgboost
-- Designing Machine Learning Systems
-- Effective Data Science Infrastructure
-- Machine Learning with PyTorch and Scikit-Learn
-- Designing Data-Intensive Applications
-- The Kaggle Book
-- The Kaggle Workbook
+- [Information Theory, Inference and Learning Algorithms](https://www.amazon.com/Information-Theory-Inference-Learning-Algorithms/dp/0521642981) by David MacKay
+  - Another amazing resource for self-study, providing insightful expositions and exercises with Bayesian inference, core information theory like entropy and machine learning's relation to compression. 
+- [Introduction to Statistical Learning](https://www.statlearning.com/) by Hastie, Tibshirani, James and Witten
+  - This book has some nice explanations of decision trees and is accessible.
+- [The Elements of Statistical Learning](https://www.amazon.com/Elements-Statistical-Learning-Prediction-Statistics/dp/0387848576) by Hastie, Tibshirani and Friedman
+  - A well known resource and great reference for insights into machine learning.
+- [Deep Learning for Coders with fastai & PyTorch](https://www.amazon.com/Deep-Learning-Coders-fastai-PyTorch/dp/1492045527) by Jeremy Howard and Sylvain Gugger
+  - This book had such practical bits of knowledge and insights into Pytorch and applied machine learning, by one of the greatest contributors to the machine learning community.
+- [Natural Language Processing with Transformers](https://www.amazon.com/Natural-Language-Processing-Transformers-Revised/dp/1098136799#) by Tunstall, von Werra and Wolf
+  - Another great practical book by contributors to the machine learning community, providing insight into the transformers architecture and library.
+
+- [Effective Xgboost](https://www.amazon.com/Effective-XGBoost-Optimizing-Understanding-Classification/dp/1792310390) by Matt Harrison
+  - A practical guide to XGBoost and integration into workflows.
+- [Designing Machine Learning Systems](https://www.amazon.com/Designing-Machine-Learning-Systems-Production-Ready/dp/1098107969) by Chip Huyen
+  - This was such a great book that helped me understand the bigger picture with machine learning, in the context of system design and MLops.
+- [Effective Data Science Infrastructure](https://www.amazon.com/Effective-Data-Science-Infrastructure-scientists/dp/1617299197) by Ville Tuulos
+  Written by the author of the library Metaflow, this provides great insights into productive workflows in data science and expressing that in code.
+- [Machine Learning with PyTorch and Scikit-Learn](https://www.amazon.com/Machine-Learning-PyTorch-Scikit-Learn-learning-ebook/dp/B09NW48MR1) by Sebastian Raschka
+  - This book has a nice blend of fundamentals with application, signature to the author's insightful writings and work in general.
+- [Designing Data-Intensive Applications](https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1449373321) by Martin Kleppmann
+  - A great reference for studying system design.
+- [The Kaggle Book](https://www.amazon.com/Data-Analysis-Machine-Learning-Kaggle/dp/1801817472) by Banachewicz and Massaron
+  - Filled with insights and tips in data science gleaned from Kaggle competitions.
+- [The Kaggle Workbook](https://www.amazon.com/Kaggle-Workbook-Self-learning-exercises-competitions/dp/1804611212) by Banachewicz and Massaron
+  - The practical counterpart to the previous book that helps build skill via code exercises.
 
 
 ## Computer Science
@@ -62,7 +79,7 @@ After graduate school, I dedicated myself to becoming a data scientist by first 
 - Mastering Regular Expressions
 - Software Engineering at Google
 
-## Ecnomics
+## Economics
 - Basic Economics
 - Healthcare Issues: An Economic Perspective
 
