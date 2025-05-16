@@ -10,7 +10,7 @@
 <atom:link href="http://thenewexecutor.github.io/projects.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.4.550</generator>
-<lastBuildDate>Tue, 04 Jun 2024 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 04 Jun 2024 07:00:00 GMT</lastBuildDate>
 <item>
   <title>Self Learning Journey</title>
   <link>http://thenewexecutor.github.io/projects/library/</link>
@@ -115,7 +115,7 @@
  ]]></description>
   <category>learning</category>
   <guid>http://thenewexecutor.github.io/projects/library/</guid>
-  <pubDate>Tue, 04 Jun 2024 00:00:00 GMT</pubDate>
+  <pubDate>Tue, 04 Jun 2024 07:00:00 GMT</pubDate>
   <media:content url="http://thenewexecutor.github.io/projects/library/brain.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
