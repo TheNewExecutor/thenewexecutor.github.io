@@ -1,12 +1,5 @@
 [
   {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects",
-    "section": "",
-    "text": "Self Learning Journey\n\n\nReflections on my (ongoing) journey of self-study\n\n\n\n\n\n\nJun 4, 2024\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Jonathan Sarker",
@@ -14,25 +7,32 @@
     "text": "Welcome!\nHi, I’m Jonathan. I’m a life-long learner with interests spanning from biophysics, education and machine learning. This is my personal site to share projects, interesting ideas and personal musings. Happy browsing!"
   },
   {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Self Learning Journey\n\n\nReflections on my (ongoing) journey of self-study\n\n\n\n\n\n\nJun 4, 2024\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
     "objectID": "projects/library/index.html#physics",
     "href": "projects/library/index.html#physics",
     "title": "Self Learning Journey",
     "section": "Physics",
-    "text": "Physics\n\nThe Feynman Lectures on Physics\nPrinciples of Quantum Mechanics"
+    "text": "Physics\n\nThe Feynman Lectures on Physics by Richard Feynman\n\nThese volumes have a wealth of insight and beautiful exposition straight from one of greatest teachers and legends of the subject. What other physics text has the Krebs Cycle?\n\nPrinciples of Quantum Mechanics by Ramamurti Shankar\n\nWith solved problems, fantastic organization and such a strong 1st chapter, this text helped me learn quantum mechanics more than any of the numerous classes I’ve taken."
   },
   {
     "objectID": "projects/library/index.html#mathematics",
     "href": "projects/library/index.html#mathematics",
     "title": "Self Learning Journey",
     "section": "Mathematics",
-    "text": "Mathematics\n\nHow to Prove It\nAll of Statistics\nStatistical Inference"
+    "text": "Mathematics\n\nHow to Prove It by Daniel J. Velleman\n\nI recall stumbling through proofs before working through the first few chapters of this helpful resource.\n\nAll of Statistics by Larry Wasserman\n\nThis book has such a high range of topics and working through through many of the problems yielded long-lasting insights into graduate statistics.\n\nStatistical Inference by George Casella and Roger Berger\n\nThis is a staple reference whenever I find myself requiring deeper insight into fundamentals."
   },
   {
     "objectID": "projects/library/index.html#machine-learning",
     "href": "projects/library/index.html#machine-learning",
     "title": "Self Learning Journey",
     "section": "Machine Learning",
-    "text": "Machine Learning\n\nInformation Theory, Inference and Learning Algorithms\nIntroduction to Statistical Learning\nElements of Statistical Learning\nDeep Learning for Coders with fastai & PyTorch\nNatural Language Processing with Transformers\nEffective Xgboost\nDesigning Machine Learning Systems\nEffective Data Science Infrastructure\nMachine Learning with PyTorch and Scikit-Learn\nDesigning Data-Intensive Applications\nThe Kaggle Book\nThe Kaggle Workbook"
+    "text": "Machine Learning\n\nInformation Theory, Inference and Learning Algorithms by David MacKay\n\nAnother amazing resource for self-study, providing insightful expositions and exercises with Bayesian inference, core information theory like entropy and machine learning’s relation to compression.\n\nIntroduction to Statistical Learning by Hastie, Tibshirani, James and Witten\n\nThis book has some nice explanations of decision trees and is accessible.\n\nThe Elements of Statistical Learning by Hastie, Tibshirani and Friedman\n\nA well known resource and great reference for insights into machine learning.\n\nDeep Learning for Coders with fastai & PyTorch by Jeremy Howard and Sylvain Gugger\n\nThis book had such practical bits of knowledge and insights into Pytorch and applied machine learning, by one of the greatest contributors to the machine learning community.\n\nNatural Language Processing with Transformers by Tunstall, von Werra and Wolf\n\nAnother great practical book by contributors to the machine learning community, providing insight into the transformers architecture and library.\n\nEffective Xgboost by Matt Harrison\n\nA practical guide to XGBoost and integration into workflows.\n\nDesigning Machine Learning Systems by Chip Huyen\n\nThis was such a great book that helped me understand the bigger picture with machine learning, in the context of system design and MLops.\n\nEffective Data Science Infrastructure by Ville Tuulos Written by the author of the library Metaflow, this provides great insights into productive workflows in data science and expressing that in code.\nMachine Learning with PyTorch and Scikit-Learn by Sebastian Raschka\n\nThis book has a nice blend of fundamentals with application, signature to the author’s insightful writings and work in general.\n\nDesigning Data-Intensive Applications by Martin Kleppmann\n\nA great reference for studying system design.\n\nThe Kaggle Book by Banachewicz and Massaron\n\nFilled with insights and tips in data science gleaned from Kaggle competitions.\n\nThe Kaggle Workbook by Banachewicz and Massaron\n\nThe practical counterpart to the previous book that helps build skill via code exercises."
   },
   {
     "objectID": "projects/library/index.html#computer-science",
@@ -49,11 +49,11 @@
     "text": "Programming\n\nElements of Programming Interviews in Python\nEffective Pandas\nArchitecture Patterns with Python\nMastering Regular Expressions\nSoftware Engineering at Google"
   },
   {
-    "objectID": "projects/library/index.html#ecnomics",
-    "href": "projects/library/index.html#ecnomics",
+    "objectID": "projects/library/index.html#economics",
+    "href": "projects/library/index.html#economics",
     "title": "Self Learning Journey",
-    "section": "Ecnomics",
-    "text": "Ecnomics\n\nBasic Economics\nHealthcare Issues: An Economic Perspective"
+    "section": "Economics",
+    "text": "Economics\n\nBasic Economics\nHealthcare Issues: An Economic Perspective"
   },
   {
     "objectID": "projects/library/index.html#productivity",
