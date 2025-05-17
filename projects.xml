@@ -111,40 +111,97 @@
 <section id="computer-science" class="level2">
 <h2 class="anchored" data-anchor-id="computer-science">Computer Science</h2>
 <ul>
-<li>Introduction to Algorithms</li>
-<li>The Algorithm Design Manual</li>
-<li>Algorithm Design</li>
+<li><a href="https://www.amazon.com/Introduction-Algorithms-fourth-Thomas-Cormen/dp/026204630X/ref=asc_df_026204630X?mcid=f7ba70bb3cc839bd9401ad55b67be710&amp;hvocijid=5085743896147926670-026204630X-&amp;hvexpln=73&amp;tag=hyprod-20&amp;linkCode=df0&amp;hvadid=721245378154&amp;hvpos=&amp;hvnetw=g&amp;hvrand=5085743896147926670&amp;hvpone=&amp;hvptwo=&amp;hvqmt=&amp;hvdev=c&amp;hvdvcmdl=&amp;hvlocint=&amp;hvlocphy=9191415&amp;hvtargid=pla-2281435177898&amp;psc=1">Introduction to Algorithms</a> by Cormen, Lieserson, Rivest, and Stein
+<ul>
+<li>Known as <em>CLRS</em>, it serves as a reference for classic algorithms, and is a good source of theory.<br>
+</li>
+<li><a href="https://www.amazon.com/Algorithm-Design-Manual-Computer-Science/dp/3030542556/ref=asc_df_3030542556?mcid=0b92a3052cd73e3b910248f640011cfb&amp;hvocijid=1468983480060311580-3030542556-&amp;hvexpln=73&amp;tag=hyprod-20&amp;linkCode=df0&amp;hvadid=721245378154&amp;hvpos=&amp;hvnetw=g&amp;hvrand=1468983480060311580&amp;hvpone=&amp;hvptwo=&amp;hvqmt=&amp;hvdev=c&amp;hvdvcmdl=&amp;hvlocint=&amp;hvlocphy=9191415&amp;hvtargid=pla-2281435178858&amp;psc=1">The Algorithm Design Manual</a> by Steven Skiena</li>
+<li>This is a text that is enjoyable to read beyond dry facts and has anecdotes from the author’s experiences in the wild along with C code implementations.</li>
+</ul></li>
+<li><a href="https://www.amazon.com/Algorithm-Design-Jon-Kleinberg/dp/0321295358">Algorithm Design</a> by Jon Kleinberg
+<ul>
+<li>Somewhat in between the previous two resources, this is worth taking a look at with its different perspectives and examples.</li>
+</ul></li>
 </ul>
 </section>
 <section id="programming" class="level2">
 <h2 class="anchored" data-anchor-id="programming">Programming</h2>
 <ul>
-<li>Elements of Programming Interviews in Python</li>
-<li>Effective Pandas</li>
-<li>Architecture Patterns with Python</li>
-<li>Mastering Regular Expressions</li>
-<li>Software Engineering at Google</li>
+<li><a href="https://www.amazon.com/Elements-Programming-Interviews-Python-Insiders/dp/1537713949/ref=asc_df_1537713949?mcid=a1fadc0a60873b6599c78bb26d97560a&amp;hvocijid=17809824491290902556-1537713949-&amp;hvexpln=73&amp;tag=hyprod-20&amp;linkCode=df0&amp;hvadid=721245378154&amp;hvpos=&amp;hvnetw=g&amp;hvrand=17809824491290902556&amp;hvpone=&amp;hvptwo=&amp;hvqmt=&amp;hvdev=c&amp;hvdvcmdl=&amp;hvlocint=&amp;hvlocphy=9191415&amp;hvtargid=pla-2281435179498&amp;psc=1">Elements of Programming Interviews in Python</a> by Aziz, Lee, and Prakash
+<ul>
+<li>My main source of interview preparation, it’s filled with difficult problems and clever coding style.</li>
+</ul></li>
+<li><a href="https://www.amazon.com/Effective-Pandas-Patterns-Manipulation-Treading/dp/B09MYXXSFM">Effective Pandas</a> by Matt Harrison
+<ul>
+<li>A great resource that has helped me take pride at my Pandas code and learn even more about the staple library.</li>
+</ul></li>
+<li><a href="https://www.amazon.com/Architecture-Patterns-Python-Domain-Driven-Microservices/dp/1492052205/ref=as_li_ss_tl?keywords=Architecture+Patterns+with+Python&amp;qid=1578941721&amp;sr=8-1&amp;linkCode=sl1&amp;tag=obethetesgoa-20&amp;linkId=485b120d70c0e6234511426b0e8adfc7&amp;language=en_US">Architecture Patterns with Python</a> by Percival and Gregory
+<ul>
+<li>This book provided great insight with low level design and the rationale behind abstractions, providing actual code for event-driven systems.</li>
+</ul></li>
+<li><a href="https://www.amazon.com/Mastering-Regular-Expressions-Techniques-Handbooks/dp/1565922573/ref=asc_df_1565922573?mcid=2e68774ba894390bbf8de23c86eb5ce8&amp;hvocijid=8089203791686789038-1565922573-&amp;hvexpln=73&amp;tag=hyprod-20&amp;linkCode=df0&amp;hvadid=721245378154&amp;hvpos=&amp;hvnetw=g&amp;hvrand=8089203791686789038&amp;hvpone=&amp;hvptwo=&amp;hvqmt=&amp;hvdev=c&amp;hvdvcmdl=&amp;hvlocint=&amp;hvlocphy=9191415&amp;hvtargid=pla-2281435176858&amp;psc=1">Mastering Regular Expressions</a> by Jeffrey Friedl
+<ul>
+<li>This is the resource of choice to better understand regex past just the basic level to greater commands and optimizing expressions.</li>
+</ul></li>
+<li><a href="https://www.amazon.com/Software-Engineering-Google-Lessons-Programming/dp/1492082791">Software Engineering at Google</a> by Winters, Manshreck and Wright
+<ul>
+<li>This provides a new perspective on software engineering both in dimension and scale.</li>
+</ul></li>
 </ul>
 </section>
 <section id="economics" class="level2">
 <h2 class="anchored" data-anchor-id="economics">Economics</h2>
 <ul>
-<li>Basic Economics</li>
-<li>Healthcare Issues: An Economic Perspective</li>
+<li><a href="https://www.amazon.com/Basic-Economics-Thomas-Sowell/dp/0465060730">Basic Economics</a> by Thomas Sowell
+<ul>
+<li>As someone who has never taken an economics class, the insight I gained into monetary matters while reading this book was similar to what the Feynman lectures provided for me for physics.</li>
+</ul></li>
+<li><a href="https://www.amazon.com/Health-Policy-Issues-Economic-Perspective/dp/1640553428">Healthcare Policy Issues: An Economic Perspective</a> by Feldstein and Melnick
+<ul>
+<li>This book helped me better understand the US healthcare system, its players and potential reasons for its issues.</li>
+</ul></li>
 </ul>
 </section>
 <section id="productivity" class="level2">
 <h2 class="anchored" data-anchor-id="productivity">Productivity</h2>
 <ul>
-<li>The 7 Habits of Highly Effective People</li>
-<li>Atomic Habits</li>
-<li>So Good They Can’t Ignore You</li>
-<li>Deep Work</li>
-<li>Slow Productivity</li>
-<li>Range: Why Generalists Triumph in a Specialized World</li>
-<li>Grit</li>
-<li>The Startup of You</li>
-<li>Zero to One</li>
+<li><a href="https://www.amazon.com/Habits-Highly-Effective-People/dp/1471195201/ref=sr_1_4?dib=eyJ2IjoiMSJ9.SqwOwJ5zN4dTSawslkpGL3HNdNsaU4DRSacbUhSuOe9WNRQiXKQ7inkFUkHrJO6z_jSaH-wmN6quSSwB0PCaHeGTXvP-WljC1LPGNrVoqJTCnCj9x3-ruWR01EOXG-BIEFlXK7LVtcUfL_Jc6Ge68jsYeeJMf_W81EXQtAvACiBEuHZqoWCS1U85G79HA04u59xP0ki7ffD5ZFJzF2SfssItSdo_ym3kzp2ZzdoIqOs.DnnZtJUoPUBpmX-fb05nyS4UizAQky6Wy65zwU0NpTc&amp;dib_tag=se&amp;hvadid=694218872837&amp;hvdev=c&amp;hvexpln=67&amp;hvlocphy=9191415&amp;hvnetw=g&amp;hvocijid=215799086305690609--&amp;hvqmt=e&amp;hvrand=215799086305690609&amp;hvtargid=kwd-315421562799&amp;hydadcr=24599_13626589&amp;keywords=7+habit+of+highly+effective+people&amp;mcid=d3db419f840b37e89dd51f7b3f1dc4fa&amp;qid=1747441834&amp;sr=8-4">The 7 Habits of Highly Effective People</a> by Stephen Covey
+<ul>
+<li>A great read that provides a little guidance and organizing principles to living.</li>
+</ul></li>
+<li><a href="https://www.amazon.com/Atomic-Habits-Proven-Build-Break-ebook/dp/B07D23CFGR/ref=sr_1_1?dib=eyJ2IjoiMSJ9.mOso7EVHHwSAUXVlgxo53zuSvnTwjXjJ5gb0JFKbRGlGpd2L8kA6TFyPF9QWCV9mRAd4eQWH5jIgecRDx3zj08dTTWRttiY904diU6vfOIBDlF1av7kei12-h49q8V4HLKomSokTbfReG6sAoNwyG1fO6RD5YXSDuFaldX2z4Nbo1neGFfsJSh-C8Wd9u5SEXuL26HoxboT_f_VrVFrzzZiJAOD5GU6fSSKPRLWm6zQ.wUdknpEDblv8k4o4ez5e_fpc50qeFC1aLwghtUldJiU&amp;dib_tag=se&amp;hvadid=713528120052&amp;hvdev=c&amp;hvexpln=67&amp;hvlocphy=9191415&amp;hvnetw=g&amp;hvocijid=7777793512999774373--&amp;hvqmt=e&amp;hvrand=7777793512999774373&amp;hvtargid=kwd-1668531942405&amp;hydadcr=22533_13730696&amp;keywords=atomic+habits%27&amp;mcid=341c3b6c65783d9798c658023ef6c5f4&amp;qid=1747441942&amp;sr=8-1">Atomic Habits</a> by James Clear
+<ul>
+<li>The earlier one reads and implements this, the better.</li>
+</ul></li>
+<li><a href="https://www.amazon.com/Good-They-Cant-Ignore-You-ebook/dp/B0076DDBJ6/ref=sr_1_1?dib=eyJ2IjoiMSJ9.Xv6K4-KoDITEt9wfGDOLw-RLDPHDqJT2TCozVAhh0q02pPVq7_i_vOYfq_HW0Y6kv1xmen9PN9ZO-IBjgxpikkaAhRIS9iA4398uJxf4klvDacUHiNJ7FHLAWCzJbKCIlx0yzg5LIGg_7pWPE327yQMETQaFmTiXjNokirccAfq6wZ1_neLFLvzVmxaOJKIVHVIvU74cO7TTHqDqcW8S9L-3i3UvdReuNUI7m5vNVDY.jwR-ShEALJXLJHbRJGKIIj-xkgoVZG5ZlcnSEKj_KDY&amp;dib_tag=se&amp;hvadid=694704231093&amp;hvdev=c&amp;hvexpln=67&amp;hvlocphy=9191415&amp;hvnetw=g&amp;hvocijid=12336751887017585148--&amp;hvqmt=e&amp;hvrand=12336751887017585148&amp;hvtargid=kwd-301275781818&amp;hydadcr=21909_13324147&amp;keywords=so+good+they+can%27t+ignore+you&amp;mcid=75c72d090c90325e9d9fb63ccc7f171b&amp;qid=1747442054&amp;sr=8-1">So Good They Can’t Ignore You</a> by Cal Newport
+<ul>
+<li>A fun read that provided inspiration to keep up with self-improvement and prioritize learning in career choices.</li>
+</ul></li>
+<li><a href="https://www.amazon.com/Deep-Work-Focused-Success-Distracted-ebook/dp/B00X47ZVXM/ref=sr_1_1?dib=eyJ2IjoiMSJ9.-Big-X9XsMQ0-dzTEtcohz_Ihl3pSbBJy16ogfyV0-9Yblkdq41U1h4NGl39RXN9MCK7Cd-rzwaNEPDVc-W_2xqK76O2TNqkAGWULJQ05Q9yPERgDkZMQ42dX0haS1qLM6YNwXSQztP-gDjcB3KsEndJs0H6H8xP9zkDeP3-N45mfcFPTa-1IqLL0sMkzZGcuZuXdGf7lizgVclnncCPtWFnAHtfvGfLplHUl1SX-QY.458H6QnHjZ7mOpomZpt6biXqZP-fe1aA8hztbtU19Vo&amp;dib_tag=se&amp;hvadid=694498940841&amp;hvdev=c&amp;hvexpln=67&amp;hvlocphy=9191415&amp;hvnetw=g&amp;hvocijid=13830483529875558149--&amp;hvqmt=e&amp;hvrand=13830483529875558149&amp;hvtargid=kwd-299098987646&amp;hydadcr=15645_13518028&amp;keywords=deep+work&amp;mcid=ef96055a60113b21bf224bdbb509db0c&amp;qid=1747442131&amp;sr=8-1">Deep Work</a> by Cal Newport
+<ul>
+<li>This book really drives home how concentration and attention are essential to modern success and work life.<br>
+</li>
+</ul></li>
+<li><a href="https://www.amazon.com/Slow-Productivity-Accomplishment-Without-Burnout-ebook/dp/B0C7716FW1/ref=sr_1_1?dib=eyJ2IjoiMSJ9.9bysSgJ4cscbOLj5I3tfJOgsf0cVYMN8nwuFur-owZa8vBpZba9OsK25MmMuoRllQVrBKz2xxeFw87hPqElXTedZc2pP9qk3z5SQb-Av9Gbkn5NhzlaQMt-GMy6mFqK8M7aZ3sdYM5tGSBNE4ZaM7zxvVw390l5O0nL_cl4J39BvLHCywhqNEB2QWO_qvgJqMdBdfuz08qeG1OkPZP_99y9AVipSU-4qbj6g1T99LxE.ZCPU532-QJMvFtu_IykDaKOTyG0D7mO8BeskIBm3tIk&amp;dib_tag=se&amp;hvadid=694873244060&amp;hvdev=c&amp;hvexpln=67&amp;hvlocphy=9191415&amp;hvnetw=g&amp;hvocijid=7276611749880973846--&amp;hvqmt=e&amp;hvrand=7276611749880973846&amp;hvtargid=kwd-1880876830232&amp;hydadcr=27860_14512633&amp;keywords=slow+productivity&amp;mcid=6c5bb60ebd78389c8d3f6be44df430fd&amp;qid=1747442272&amp;sr=8-1">Slow Productivity</a> by Cal Newport
+<ul>
+<li>Another book by Newport, this one reaffirms personal experiences I’ve had prioritizing consistency over bursts of productivity.</li>
+</ul></li>
+<li><a href="https://www.amazon.com/Range-Generalists-Triumph-Specialized-World-ebook/dp/B07H1ZYWTM/ref=sr_1_1?dib=eyJ2IjoiMSJ9.RuZvpLPA4Rq9XvFm90c9XuscvLIBY_Ljhsv1Ufp85qCQA5xNTlVvSiks8RdAcsXAv0iDpzzMWXiHG-3IKlrOpmFC4FcbrerujvdC72_1p0Ed7E5z5a0ysf9CJDcd-jkKCvIqKk3-lMIN3-poVTAQ88jyPVgNfKUy39fNw-Ig0Q6rejPY2nX2tEWb4Mwl-M9gRCGk1Sr8omUa1WCItrR6GPZ9cZebj9rCeZQrYUFGjEY.4A-4khq-JflgCaFSPG3RIRXgS7WU28706TYcDY0P8zA&amp;dib_tag=se&amp;hvadid=693654696473&amp;hvdev=c&amp;hvexpln=67&amp;hvlocphy=9191415&amp;hvnetw=g&amp;hvocijid=9768792201733884280--&amp;hvqmt=e&amp;hvrand=9768792201733884280&amp;hvtargid=kwd-656818571687&amp;hydadcr=2738_13534606&amp;keywords=range+david+epstein&amp;mcid=0dabe559de8537c6a714980853f12422&amp;qid=1747442387&amp;sr=8-1">Range: Why Generalists Triumph in a Specialized World</a> by David Epstein
+<ul>
+<li>I like being well-rounded and this book put generalists on the same pedestal we typically do for specialists.</li>
+</ul></li>
+<li><a href="https://www.amazon.com/Grit-Passion-Perseverance-Angela-Duckworth/dp/1501111108">Grit</a> by Angela Duckworth
+<ul>
+<li>Inspiring stories that emphasize the importance of perseverance.</li>
+</ul></li>
+<li><a href="https://www.amazon.com/Start-up-You-Future-Yourself-Transform-ebook/dp/B0050DIWHU">The Startup of You</a> by Reid Hoffman
+<ul>
+<li>A useful read to gain a new, entrepenurial perspective on one’s self in the economy.</li>
+</ul></li>
+<li><a href="https://www.amazon.com/Zero-One-Notes-Startups-Future-ebook/dp/B00J6YBOFQ/ref=sr_1_1?dib=eyJ2IjoiMSJ9.F1NbgoVkJyjbb8Mx-3vB9VUx05CtdT-jtrsB9eTtUwb_zSq32thdEjACavlj-jLSXPF_IIun4Gr-Tycy098gQQhb2X85vyb1mHs-X0G39joVoswJCojvwHlMtyM9Zz6spyNsmhxXBECixUb95xZbmUIp6IBMjjMCk9eTMUSh0dMWdcx4ZRkpT84LAqO_KjcZP2N24HTL-NZ6MSseX2LLmcrrXfPEDmcWuDkyAlATmeQ.fKlKbqoDDiGD51m9KJpP9bBIyXZfry57NYCtd41kITE&amp;dib_tag=se&amp;hvadid=694606511993&amp;hvdev=c&amp;hvexpln=67&amp;hvlocphy=9191415&amp;hvnetw=g&amp;hvocijid=5931335251964797056--&amp;hvqmt=e&amp;hvrand=5931335251964797056&amp;hvtargid=kwd-301702964581&amp;hydadcr=21906_13324133&amp;keywords=zero+to+one+by+peter+thiel&amp;mcid=c98fe483155e3bc989b6174a5e00ff83&amp;qid=1747442740&amp;sr=8-1">Zero to One</a> by Peter Thiel
+<ul>
+<li>This book provided some insightful perspective on startups, innovation and monopolies.</li>
+</ul></li>
 </ul>
 </section>
 <section id="career-guides" class="level2">

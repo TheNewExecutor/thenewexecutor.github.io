@@ -39,28 +39,28 @@
     "href": "projects/library/index.html#computer-science",
     "title": "Self Learning Journey",
     "section": "Computer Science",
-    "text": "Computer Science\n\nIntroduction to Algorithms\nThe Algorithm Design Manual\nAlgorithm Design"
+    "text": "Computer Science\n\nIntroduction to Algorithms by Cormen, Lieserson, Rivest, and Stein\n\nKnown as CLRS, it serves as a reference for classic algorithms, and is a good source of theory.\n\nThe Algorithm Design Manual by Steven Skiena\nThis is a text that is enjoyable to read beyond dry facts and has anecdotes from the author’s experiences in the wild along with C code implementations.\n\nAlgorithm Design by Jon Kleinberg\n\nSomewhat in between the previous two resources, this is worth taking a look at with its different perspectives and examples."
   },
   {
     "objectID": "projects/library/index.html#programming",
     "href": "projects/library/index.html#programming",
     "title": "Self Learning Journey",
     "section": "Programming",
-    "text": "Programming\n\nElements of Programming Interviews in Python\nEffective Pandas\nArchitecture Patterns with Python\nMastering Regular Expressions\nSoftware Engineering at Google"
+    "text": "Programming\n\nElements of Programming Interviews in Python by Aziz, Lee, and Prakash\n\nMy main source of interview preparation, it’s filled with difficult problems and clever coding style.\n\nEffective Pandas by Matt Harrison\n\nA great resource that has helped me take pride at my Pandas code and learn even more about the staple library.\n\nArchitecture Patterns with Python by Percival and Gregory\n\nThis book provided great insight with low level design and the rationale behind abstractions, providing actual code for event-driven systems.\n\nMastering Regular Expressions by Jeffrey Friedl\n\nThis is the resource of choice to better understand regex past just the basic level to greater commands and optimizing expressions.\n\nSoftware Engineering at Google by Winters, Manshreck and Wright\n\nThis provides a new perspective on software engineering both in dimension and scale."
   },
   {
     "objectID": "projects/library/index.html#economics",
     "href": "projects/library/index.html#economics",
     "title": "Self Learning Journey",
     "section": "Economics",
-    "text": "Economics\n\nBasic Economics\nHealthcare Issues: An Economic Perspective"
+    "text": "Economics\n\nBasic Economics by Thomas Sowell\n\nAs someone who has never taken an economics class, the insight I gained into monetary matters while reading this book was similar to what the Feynman lectures provided for me for physics.\n\nHealthcare Policy Issues: An Economic Perspective by Feldstein and Melnick\n\nThis book helped me better understand the US healthcare system, its players and potential reasons for its issues."
   },
   {
     "objectID": "projects/library/index.html#productivity",
     "href": "projects/library/index.html#productivity",
     "title": "Self Learning Journey",
     "section": "Productivity",
-    "text": "Productivity\n\nThe 7 Habits of Highly Effective People\nAtomic Habits\nSo Good They Can’t Ignore You\nDeep Work\nSlow Productivity\nRange: Why Generalists Triumph in a Specialized World\nGrit\nThe Startup of You\nZero to One"
+    "text": "Productivity\n\nThe 7 Habits of Highly Effective People by Stephen Covey\n\nA great read that provides a little guidance and organizing principles to living.\n\nAtomic Habits by James Clear\n\nThe earlier one reads and implements this, the better.\n\nSo Good They Can’t Ignore You by Cal Newport\n\nA fun read that provided inspiration to keep up with self-improvement and prioritize learning in career choices.\n\nDeep Work by Cal Newport\n\nThis book really drives home how concentration and attention are essential to modern success and work life.\n\n\nSlow Productivity by Cal Newport\n\nAnother book by Newport, this one reaffirms personal experiences I’ve had prioritizing consistency over bursts of productivity.\n\nRange: Why Generalists Triumph in a Specialized World by David Epstein\n\nI like being well-rounded and this book put generalists on the same pedestal we typically do for specialists.\n\nGrit by Angela Duckworth\n\nInspiring stories that emphasize the importance of perseverance.\n\nThe Startup of You by Reid Hoffman\n\nA useful read to gain a new, entrepenurial perspective on one’s self in the economy.\n\nZero to One by Peter Thiel\n\nThis book provided some insightful perspective on startups, innovation and monopolies."
   },
   {
     "objectID": "projects/library/index.html#career-guides",
