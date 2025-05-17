@@ -29,6 +29,8 @@ After graduate school, I dedicated myself to becoming a data scientist by first 
 
 ## Mathematics
 
+- [How to Solve It](https://www.amazon.com/How-Solve-Mathematical-Princeton-Science/dp/069111966X) by George Polya
+  - This was an influential read that provides a general framework on solving problems not only in math, but beyond.
 - [How to Prove It](https://www.amazon.com/How-Prove-Structured-Daniel-Velleman/dp/110842418X/ref=asc_df_110842418X?mcid=5af9469a059e313b9ba60a74ff76f0aa&hvocijid=15755551501711694689-110842418X-&hvexpln=73&tag=hyprod-20&linkCode=df0&hvadid=721245378154&hvpos=&hvnetw=g&hvrand=15755551501711694689&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9191415&hvtargid=pla-2281435178098&psc=1) by Daniel J. Velleman
   - I recall stumbling through proofs before working through the first few chapters of this helpful resource.
 - [All of Statistics](https://www.amazon.com/All-Statistics-Statistical-Inference-Springer/dp/1441923225) by Larry Wasserman
@@ -69,7 +71,7 @@ After graduate school, I dedicated myself to becoming a data scientist by first 
 
 - [Introduction to Algorithms](https://www.amazon.com/Introduction-Algorithms-fourth-Thomas-Cormen/dp/026204630X/ref=asc_df_026204630X?mcid=f7ba70bb3cc839bd9401ad55b67be710&hvocijid=5085743896147926670-026204630X-&hvexpln=73&tag=hyprod-20&linkCode=df0&hvadid=721245378154&hvpos=&hvnetw=g&hvrand=5085743896147926670&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9191415&hvtargid=pla-2281435177898&psc=1) by Cormen, Lieserson, Rivest, and Stein
   - Known as *CLRS*, it serves as a reference for classic algorithms, and is a good source of theory.  
-  - [The Algorithm Design Manual](https://www.amazon.com/Algorithm-Design-Manual-Computer-Science/dp/3030542556/ref=asc_df_3030542556?mcid=0b92a3052cd73e3b910248f640011cfb&hvocijid=1468983480060311580-3030542556-&hvexpln=73&tag=hyprod-20&linkCode=df0&hvadid=721245378154&hvpos=&hvnetw=g&hvrand=1468983480060311580&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9191415&hvtargid=pla-2281435178858&psc=1) by Steven Skiena
+- [The Algorithm Design Manual](https://www.amazon.com/Algorithm-Design-Manual-Computer-Science/dp/3030542556/ref=asc_df_3030542556?mcid=0b92a3052cd73e3b910248f640011cfb&hvocijid=1468983480060311580-3030542556-&hvexpln=73&tag=hyprod-20&linkCode=df0&hvadid=721245378154&hvpos=&hvnetw=g&hvrand=1468983480060311580&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9191415&hvtargid=pla-2281435178858&psc=1) by Steven Skiena
   - This is a text that is enjoyable to read beyond dry facts and has anecdotes from the author's experiences in the wild along with C code implementations.
 
 - [Algorithm Design](https://www.amazon.com/Algorithm-Design-Jon-Kleinberg/dp/0321295358) by Jon Kleinberg
@@ -117,7 +119,11 @@ After graduate school, I dedicated myself to becoming a data scientist by first 
 
 ## Career Guides
 
-- The Effective Engineer
-- Engineer's Survival Guide
-- The Staff Engineer's Path
-- The Software Engineer's Guidebook
+- [The Effective Engineer](https://www.amazon.com/Effective-Engineer-Engineering-Disproportionate-Meaningful/dp/0996128107) by Edmond Lau
+  - An interesting read on how to be a better engineer, framing it in the context of high leverage activities.
+- [Engineer's Survival Guide](https://www.amazon.com/Engineers-Survival-Guide-Facebook-Microsoft/dp/B09MBZBGFK) by Merih Taze
+  - Good advice from the author's personal experiences about navigating an SWE career.
+- [The Staff Engineer's Path](https://www.amazon.com/Staff-Engineers-Path-Individual-Contributors/dp/1098118731) by Tanya Reilly
+  - I appreciated the perspective of taking the individual contributor path to the highest levels and what that looks like.
+- [The Software Engineer's Guidebook](https://www.amazon.com/Software-Engineers-Guidebook-Navigating-positions/dp/908338182X) by Gergely Orosz
+  - This truly is a guidebook for the SWE career path and provides so much information on what to expect at different environments, meetings and managers and time in the career.
