@@ -25,7 +25,7 @@
     "href": "projects/library/index.html#mathematics",
     "title": "Self Learning Journey",
     "section": "Mathematics",
-    "text": "Mathematics\n\nHow to Prove It by Daniel J. Velleman\n\nI recall stumbling through proofs before working through the first few chapters of this helpful resource.\n\nAll of Statistics by Larry Wasserman\n\nThis book has such a high range of topics and working through through many of the problems yielded long-lasting insights into graduate statistics.\n\nStatistical Inference by George Casella and Roger Berger\n\nThis is a staple reference whenever I find myself requiring deeper insight into fundamentals."
+    "text": "Mathematics\n\nHow to Solve It by George Polya\n\nThis was an influential read that provides a general framework on solving problems not only in math, but beyond.\n\nHow to Prove It by Daniel J. Velleman\n\nI recall stumbling through proofs before working through the first few chapters of this helpful resource.\n\nAll of Statistics by Larry Wasserman\n\nThis book has such a high range of topics and working through through many of the problems yielded long-lasting insights into graduate statistics.\n\nStatistical Inference by George Casella and Roger Berger\n\nThis is a staple reference whenever I find myself requiring deeper insight into fundamentals."
   },
   {
     "objectID": "projects/library/index.html#machine-learning",
@@ -39,7 +39,7 @@
     "href": "projects/library/index.html#computer-science",
     "title": "Self Learning Journey",
     "section": "Computer Science",
-    "text": "Computer Science\n\nIntroduction to Algorithms by Cormen, Lieserson, Rivest, and Stein\n\nKnown as CLRS, it serves as a reference for classic algorithms, and is a good source of theory.\n\nThe Algorithm Design Manual by Steven Skiena\nThis is a text that is enjoyable to read beyond dry facts and has anecdotes from the author’s experiences in the wild along with C code implementations.\n\nAlgorithm Design by Jon Kleinberg\n\nSomewhat in between the previous two resources, this is worth taking a look at with its different perspectives and examples."
+    "text": "Computer Science\n\nIntroduction to Algorithms by Cormen, Lieserson, Rivest, and Stein\n\nKnown as CLRS, it serves as a reference for classic algorithms, and is a good source of theory.\n\n\nThe Algorithm Design Manual by Steven Skiena\n\nThis is a text that is enjoyable to read beyond dry facts and has anecdotes from the author’s experiences in the wild along with C code implementations.\n\nAlgorithm Design by Jon Kleinberg\n\nSomewhat in between the previous two resources, this is worth taking a look at with its different perspectives and examples."
   },
   {
     "objectID": "projects/library/index.html#programming",
@@ -67,6 +67,6 @@
     "href": "projects/library/index.html#career-guides",
     "title": "Self Learning Journey",
     "section": "Career Guides",
-    "text": "Career Guides\n\nThe Effective Engineer\nEngineer’s Survival Guide\nThe Staff Engineer’s Path\nThe Software Engineer’s Guidebook"
+    "text": "Career Guides\n\nThe Effective Engineer by Edmond Lau\n\nAn interesting read on how to be a better engineer, framing it in the context of high leverage activities.\n\nEngineer’s Survival Guide by Merih Taze\n\nGood advice from the author’s personal experiences about navigating an SWE career.\n\nThe Staff Engineer’s Path by Tanya Reilly\n\nI appreciated the perspective of taking the individual contributor path to the highest levels and what that looks like.\n\nThe Software Engineer’s Guidebook by Gergely Orosz\n\nThis truly is a guidebook for the SWE career path and provides so much information on what to expect at different environments, meetings and managers and time in the career."
   }
 ]
