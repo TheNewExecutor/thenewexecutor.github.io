@@ -67,33 +67,53 @@ After graduate school, I dedicated myself to becoming a data scientist by first 
 
 ## Computer Science
 
-- Introduction to Algorithms
-- The Algorithm Design Manual
-- Algorithm Design 
+- [Introduction to Algorithms](https://www.amazon.com/Introduction-Algorithms-fourth-Thomas-Cormen/dp/026204630X/ref=asc_df_026204630X?mcid=f7ba70bb3cc839bd9401ad55b67be710&hvocijid=5085743896147926670-026204630X-&hvexpln=73&tag=hyprod-20&linkCode=df0&hvadid=721245378154&hvpos=&hvnetw=g&hvrand=5085743896147926670&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9191415&hvtargid=pla-2281435177898&psc=1) by Cormen, Lieserson, Rivest, and Stein
+  - Known as *CLRS*, it serves as a reference for classic algorithms, and is a good source of theory.  
+  - [The Algorithm Design Manual](https://www.amazon.com/Algorithm-Design-Manual-Computer-Science/dp/3030542556/ref=asc_df_3030542556?mcid=0b92a3052cd73e3b910248f640011cfb&hvocijid=1468983480060311580-3030542556-&hvexpln=73&tag=hyprod-20&linkCode=df0&hvadid=721245378154&hvpos=&hvnetw=g&hvrand=1468983480060311580&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9191415&hvtargid=pla-2281435178858&psc=1) by Steven Skiena
+  - This is a text that is enjoyable to read beyond dry facts and has anecdotes from the author's experiences in the wild along with C code implementations.
+
+- [Algorithm Design](https://www.amazon.com/Algorithm-Design-Jon-Kleinberg/dp/0321295358) by Jon Kleinberg
+  - Somewhat in between the previous two resources, this is worth taking a look at with its different perspectives and examples.
 
 ## Programming
 
-- Elements of Programming Interviews in Python
-- Effective Pandas
-- Architecture Patterns with Python
-- Mastering Regular Expressions
-- Software Engineering at Google
+- [Elements of Programming Interviews in Python](https://www.amazon.com/Elements-Programming-Interviews-Python-Insiders/dp/1537713949/ref=asc_df_1537713949?mcid=a1fadc0a60873b6599c78bb26d97560a&hvocijid=17809824491290902556-1537713949-&hvexpln=73&tag=hyprod-20&linkCode=df0&hvadid=721245378154&hvpos=&hvnetw=g&hvrand=17809824491290902556&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9191415&hvtargid=pla-2281435179498&psc=1) by Aziz, Lee, and Prakash
+  - My main source of interview preparation, it's filled with difficult problems and clever coding style.
+- [Effective Pandas](https://www.amazon.com/Effective-Pandas-Patterns-Manipulation-Treading/dp/B09MYXXSFM) by Matt Harrison
+  - A great resource that has helped me take pride at my Pandas code and learn even more about the staple library.
+- [Architecture Patterns with Python](https://www.amazon.com/Architecture-Patterns-Python-Domain-Driven-Microservices/dp/1492052205/ref=as_li_ss_tl?keywords=Architecture+Patterns+with+Python&qid=1578941721&sr=8-1&linkCode=sl1&tag=obethetesgoa-20&linkId=485b120d70c0e6234511426b0e8adfc7&language=en_US) by Percival and Gregory
+  - This book provided great insight with low level design and the rationale behind abstractions, providing actual code for event-driven systems.
+- [Mastering Regular Expressions](https://www.amazon.com/Mastering-Regular-Expressions-Techniques-Handbooks/dp/1565922573/ref=asc_df_1565922573?mcid=2e68774ba894390bbf8de23c86eb5ce8&hvocijid=8089203791686789038-1565922573-&hvexpln=73&tag=hyprod-20&linkCode=df0&hvadid=721245378154&hvpos=&hvnetw=g&hvrand=8089203791686789038&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9191415&hvtargid=pla-2281435176858&psc=1) by Jeffrey Friedl
+  - This is the resource of choice to better understand regex past just the basic level to greater commands and optimizing expressions.
+- [Software Engineering at Google](https://www.amazon.com/Software-Engineering-Google-Lessons-Programming/dp/1492082791) by Winters, Manshreck and Wright
+  - This provides a new perspective on software engineering both in dimension and scale.
 
 ## Economics
-- Basic Economics
-- Healthcare Issues: An Economic Perspective
+- [Basic Economics](https://www.amazon.com/Basic-Economics-Thomas-Sowell/dp/0465060730) by Thomas Sowell
+  - As someone who has never taken an economics class, the insight I gained into monetary matters while reading this book was similar to what the Feynman lectures provided for me for physics.
+- [Healthcare Policy Issues: An Economic Perspective](https://www.amazon.com/Health-Policy-Issues-Economic-Perspective/dp/1640553428) by Feldstein and Melnick
+  - This book helped me better understand the US healthcare system, its players and potential reasons for its issues.
 
 ## Productivity
 
-- The 7 Habits of Highly Effective People
-- Atomic Habits
-- So Good They Can't Ignore You
-- Deep Work
-- Slow Productivity
-- Range: Why Generalists Triumph in a Specialized World
-- Grit
-- The Startup of You
-- Zero to One
+- [The 7 Habits of Highly Effective People](https://www.amazon.com/Habits-Highly-Effective-People/dp/1471195201/ref=sr_1_4?dib=eyJ2IjoiMSJ9.SqwOwJ5zN4dTSawslkpGL3HNdNsaU4DRSacbUhSuOe9WNRQiXKQ7inkFUkHrJO6z_jSaH-wmN6quSSwB0PCaHeGTXvP-WljC1LPGNrVoqJTCnCj9x3-ruWR01EOXG-BIEFlXK7LVtcUfL_Jc6Ge68jsYeeJMf_W81EXQtAvACiBEuHZqoWCS1U85G79HA04u59xP0ki7ffD5ZFJzF2SfssItSdo_ym3kzp2ZzdoIqOs.DnnZtJUoPUBpmX-fb05nyS4UizAQky6Wy65zwU0NpTc&dib_tag=se&hvadid=694218872837&hvdev=c&hvexpln=67&hvlocphy=9191415&hvnetw=g&hvocijid=215799086305690609--&hvqmt=e&hvrand=215799086305690609&hvtargid=kwd-315421562799&hydadcr=24599_13626589&keywords=7+habit+of+highly+effective+people&mcid=d3db419f840b37e89dd51f7b3f1dc4fa&qid=1747441834&sr=8-4) by Stephen Covey
+  - A great read that provides a little guidance and organizing principles to living.
+- [Atomic Habits](https://www.amazon.com/Atomic-Habits-Proven-Build-Break-ebook/dp/B07D23CFGR/ref=sr_1_1?dib=eyJ2IjoiMSJ9.mOso7EVHHwSAUXVlgxo53zuSvnTwjXjJ5gb0JFKbRGlGpd2L8kA6TFyPF9QWCV9mRAd4eQWH5jIgecRDx3zj08dTTWRttiY904diU6vfOIBDlF1av7kei12-h49q8V4HLKomSokTbfReG6sAoNwyG1fO6RD5YXSDuFaldX2z4Nbo1neGFfsJSh-C8Wd9u5SEXuL26HoxboT_f_VrVFrzzZiJAOD5GU6fSSKPRLWm6zQ.wUdknpEDblv8k4o4ez5e_fpc50qeFC1aLwghtUldJiU&dib_tag=se&hvadid=713528120052&hvdev=c&hvexpln=67&hvlocphy=9191415&hvnetw=g&hvocijid=7777793512999774373--&hvqmt=e&hvrand=7777793512999774373&hvtargid=kwd-1668531942405&hydadcr=22533_13730696&keywords=atomic+habits%27&mcid=341c3b6c65783d9798c658023ef6c5f4&qid=1747441942&sr=8-1) by James Clear
+  - The earlier one reads and implements this, the better.
+- [So Good They Can't Ignore You](https://www.amazon.com/Good-They-Cant-Ignore-You-ebook/dp/B0076DDBJ6/ref=sr_1_1?dib=eyJ2IjoiMSJ9.Xv6K4-KoDITEt9wfGDOLw-RLDPHDqJT2TCozVAhh0q02pPVq7_i_vOYfq_HW0Y6kv1xmen9PN9ZO-IBjgxpikkaAhRIS9iA4398uJxf4klvDacUHiNJ7FHLAWCzJbKCIlx0yzg5LIGg_7pWPE327yQMETQaFmTiXjNokirccAfq6wZ1_neLFLvzVmxaOJKIVHVIvU74cO7TTHqDqcW8S9L-3i3UvdReuNUI7m5vNVDY.jwR-ShEALJXLJHbRJGKIIj-xkgoVZG5ZlcnSEKj_KDY&dib_tag=se&hvadid=694704231093&hvdev=c&hvexpln=67&hvlocphy=9191415&hvnetw=g&hvocijid=12336751887017585148--&hvqmt=e&hvrand=12336751887017585148&hvtargid=kwd-301275781818&hydadcr=21909_13324147&keywords=so+good+they+can%27t+ignore+you&mcid=75c72d090c90325e9d9fb63ccc7f171b&qid=1747442054&sr=8-1) by Cal Newport
+  - A fun read that provided inspiration to keep up with self-improvement and prioritize learning in career choices.
+- [Deep Work](https://www.amazon.com/Deep-Work-Focused-Success-Distracted-ebook/dp/B00X47ZVXM/ref=sr_1_1?dib=eyJ2IjoiMSJ9.-Big-X9XsMQ0-dzTEtcohz_Ihl3pSbBJy16ogfyV0-9Yblkdq41U1h4NGl39RXN9MCK7Cd-rzwaNEPDVc-W_2xqK76O2TNqkAGWULJQ05Q9yPERgDkZMQ42dX0haS1qLM6YNwXSQztP-gDjcB3KsEndJs0H6H8xP9zkDeP3-N45mfcFPTa-1IqLL0sMkzZGcuZuXdGf7lizgVclnncCPtWFnAHtfvGfLplHUl1SX-QY.458H6QnHjZ7mOpomZpt6biXqZP-fe1aA8hztbtU19Vo&dib_tag=se&hvadid=694498940841&hvdev=c&hvexpln=67&hvlocphy=9191415&hvnetw=g&hvocijid=13830483529875558149--&hvqmt=e&hvrand=13830483529875558149&hvtargid=kwd-299098987646&hydadcr=15645_13518028&keywords=deep+work&mcid=ef96055a60113b21bf224bdbb509db0c&qid=1747442131&sr=8-1) by Cal Newport
+  - This book really drives home how concentration and attention are essential to modern success and work life.    
+- [Slow Productivity](https://www.amazon.com/Slow-Productivity-Accomplishment-Without-Burnout-ebook/dp/B0C7716FW1/ref=sr_1_1?dib=eyJ2IjoiMSJ9.9bysSgJ4cscbOLj5I3tfJOgsf0cVYMN8nwuFur-owZa8vBpZba9OsK25MmMuoRllQVrBKz2xxeFw87hPqElXTedZc2pP9qk3z5SQb-Av9Gbkn5NhzlaQMt-GMy6mFqK8M7aZ3sdYM5tGSBNE4ZaM7zxvVw390l5O0nL_cl4J39BvLHCywhqNEB2QWO_qvgJqMdBdfuz08qeG1OkPZP_99y9AVipSU-4qbj6g1T99LxE.ZCPU532-QJMvFtu_IykDaKOTyG0D7mO8BeskIBm3tIk&dib_tag=se&hvadid=694873244060&hvdev=c&hvexpln=67&hvlocphy=9191415&hvnetw=g&hvocijid=7276611749880973846--&hvqmt=e&hvrand=7276611749880973846&hvtargid=kwd-1880876830232&hydadcr=27860_14512633&keywords=slow+productivity&mcid=6c5bb60ebd78389c8d3f6be44df430fd&qid=1747442272&sr=8-1) by Cal Newport
+  - Another book by Newport, this one reaffirms personal experiences I've had prioritizing consistency over bursts of productivity.
+- [Range: Why Generalists Triumph in a Specialized World](https://www.amazon.com/Range-Generalists-Triumph-Specialized-World-ebook/dp/B07H1ZYWTM/ref=sr_1_1?dib=eyJ2IjoiMSJ9.RuZvpLPA4Rq9XvFm90c9XuscvLIBY_Ljhsv1Ufp85qCQA5xNTlVvSiks8RdAcsXAv0iDpzzMWXiHG-3IKlrOpmFC4FcbrerujvdC72_1p0Ed7E5z5a0ysf9CJDcd-jkKCvIqKk3-lMIN3-poVTAQ88jyPVgNfKUy39fNw-Ig0Q6rejPY2nX2tEWb4Mwl-M9gRCGk1Sr8omUa1WCItrR6GPZ9cZebj9rCeZQrYUFGjEY.4A-4khq-JflgCaFSPG3RIRXgS7WU28706TYcDY0P8zA&dib_tag=se&hvadid=693654696473&hvdev=c&hvexpln=67&hvlocphy=9191415&hvnetw=g&hvocijid=9768792201733884280--&hvqmt=e&hvrand=9768792201733884280&hvtargid=kwd-656818571687&hydadcr=2738_13534606&keywords=range+david+epstein&mcid=0dabe559de8537c6a714980853f12422&qid=1747442387&sr=8-1) by David Epstein
+  - I like being well-rounded and this book put generalists on the same pedestal we typically do for specialists.
+- [Grit](https://www.amazon.com/Grit-Passion-Perseverance-Angela-Duckworth/dp/1501111108) by Angela Duckworth
+  - Inspiring stories that emphasize the importance of perseverance.
+- [The Startup of You](https://www.amazon.com/Start-up-You-Future-Yourself-Transform-ebook/dp/B0050DIWHU) by Reid Hoffman
+  - A useful read to gain a new, entrepenurial perspective on one's self in the economy.
+- [Zero to One](https://www.amazon.com/Zero-One-Notes-Startups-Future-ebook/dp/B00J6YBOFQ/ref=sr_1_1?dib=eyJ2IjoiMSJ9.F1NbgoVkJyjbb8Mx-3vB9VUx05CtdT-jtrsB9eTtUwb_zSq32thdEjACavlj-jLSXPF_IIun4Gr-Tycy098gQQhb2X85vyb1mHs-X0G39joVoswJCojvwHlMtyM9Zz6spyNsmhxXBECixUb95xZbmUIp6IBMjjMCk9eTMUSh0dMWdcx4ZRkpT84LAqO_KjcZP2N24HTL-NZ6MSseX2LLmcrrXfPEDmcWuDkyAlATmeQ.fKlKbqoDDiGD51m9KJpP9bBIyXZfry57NYCtd41kITE&dib_tag=se&hvadid=694606511993&hvdev=c&hvexpln=67&hvlocphy=9191415&hvnetw=g&hvocijid=5931335251964797056--&hvqmt=e&hvrand=5931335251964797056&hvtargid=kwd-301702964581&hydadcr=21906_13324133&keywords=zero+to+one+by+peter+thiel&mcid=c98fe483155e3bc989b6174a5e00ff83&qid=1747442740&sr=8-1) by Peter Thiel
+  - This book provided some insightful perspective on startups, innovation and monopolies.
 
 ## Career Guides
 
