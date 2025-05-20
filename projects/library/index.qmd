@@ -53,8 +53,6 @@ After graduate school, I dedicated myself to becoming a data scientist by first 
 
 - [Effective Xgboost](https://www.amazon.com/Effective-XGBoost-Optimizing-Understanding-Classification/dp/1792310390) by Matt Harrison
   - A practical guide to XGBoost and integration into workflows.
-- [Designing Machine Learning Systems](https://www.amazon.com/Designing-Machine-Learning-Systems-Production-Ready/dp/1098107969) by Chip Huyen
-  - This was such a great book that helped me understand the bigger picture with machine learning, in the context of system design and MLops.
 - [Effective Data Science Infrastructure](https://www.amazon.com/Effective-Data-Science-Infrastructure-scientists/dp/1617299197) by Ville Tuulos
   Written by the author of the library Metaflow, this provides great insights into productive workflows in data science and expressing that in code.
 - [Machine Learning with PyTorch and Scikit-Learn](https://www.amazon.com/Machine-Learning-PyTorch-Scikit-Learn-learning-ebook/dp/B09NW48MR1) by Sebastian Raschka
@@ -65,7 +63,10 @@ After graduate school, I dedicated myself to becoming a data scientist by first 
   - Filled with insights and tips in data science gleaned from Kaggle competitions.
 - [The Kaggle Workbook](https://www.amazon.com/Kaggle-Workbook-Self-learning-exercises-competitions/dp/1804611212) by Banachewicz and Massaron
   - The practical counterpart to the previous book that helps build skill via code exercises.
-
+- [Designing Machine Learning Systems](https://www.amazon.com/Designing-Machine-Learning-Systems-Production-Ready/dp/1098107969) by Chip Huyen
+  - This was such a great book that helped me understand the bigger picture with machine learning, in the context of system design and MLOps.
+- [AI Engineering](https://www.amazon.com/AI-Engineering-Building-Applications-Foundation/dp/1098166302) by Chip Huyen
+  - What the author's first book did for ML systems, this book does for generative AI applications, providing a wide survey of important topics, in digestible bits, preserving key details and putting it all together in the final chapter.
 
 ## Computer Science
 
