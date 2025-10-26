@@ -14,6 +14,8 @@ website:
         text: Home
       - href: projects.qmd
         text: Projects
+      - href: notes.qmd
+        text: Notes
 
 format: 
   html:
