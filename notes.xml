@@ -10,7 +10,7 @@
 <atom:link href="http://thenewexecutor.github.io/notes.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.4.550</generator>
-<lastBuildDate>Sun, 26 Oct 2025 05:00:59 GMT</lastBuildDate>
+<lastBuildDate>Sun, 26 Oct 2025 05:06:29 GMT</lastBuildDate>
 <item>
   <title>Decorator Notes</title>
   <link>http://thenewexecutor.github.io/notes/Decorators.html</link>
@@ -3527,7 +3527,7 @@ font-style: inherit;">=</span> value.upper()</span></code></pre></div>
 
  ]]></description>
   <guid>http://thenewexecutor.github.io/notes/Decorators.html</guid>
-  <pubDate>Sun, 26 Oct 2025 05:00:59 GMT</pubDate>
+  <pubDate>Sun, 26 Oct 2025 05:06:29 GMT</pubDate>
 </item>
 <item>
   <title>Multivariate Statistics</title>
@@ -3701,7 +3701,7 @@ font-style: inherit;">'equal'</span>)</span>
 
  ]]></description>
   <guid>http://thenewexecutor.github.io/notes/MultivariateStatisticsNotes.html</guid>
-  <pubDate>Sun, 26 Oct 2025 05:00:59 GMT</pubDate>
+  <pubDate>Sun, 26 Oct 2025 05:06:29 GMT</pubDate>
 </item>
 <item>
   <title>Clustering Notes</title>
@@ -22047,7 +22047,7 @@ font-style: inherit;">'</span>)</span></code></pre></div>
 
  ]]></description>
   <guid>http://thenewexecutor.github.io/notes/ClusteringNotes.html</guid>
-  <pubDate>Sun, 26 Oct 2025 05:00:59 GMT</pubDate>
+  <pubDate>Sun, 26 Oct 2025 05:06:29 GMT</pubDate>
 </item>
 <item>
   <title>Entropy Notes</title>
@@ -23250,7 +23250,7 @@ font-style: inherit;">==</span> Y31</span></code></pre></div>
 
  ]]></description>
   <guid>http://thenewexecutor.github.io/notes/EntropyNotes.html</guid>
-  <pubDate>Sun, 26 Oct 2025 05:00:59 GMT</pubDate>
+  <pubDate>Sun, 26 Oct 2025 05:06:29 GMT</pubDate>
 </item>
 <item>
   <title>Closure Notes</title>
@@ -24209,7 +24209,7 @@ font-style: inherit;">42</span>)</span></code></pre></div>
 
  ]]></description>
   <guid>http://thenewexecutor.github.io/notes/Closures.html</guid>
-  <pubDate>Sun, 26 Oct 2025 05:00:59 GMT</pubDate>
+  <pubDate>Sun, 26 Oct 2025 05:06:29 GMT</pubDate>
 </item>
 <item>
   <title>Probability Distribution Notes</title>
@@ -25207,7 +25207,10 @@ font-style: inherit;">in</span> a_]</span>
 </div>
 </div>
 </div>
-<p><a id="lognormal"></a> ### Log-normal Distribution</p>
+</section>
+<section id="log-normal-distribution" class="level3">
+<h3 class="anchored" data-anchor-id="log-normal-distribution">Log-normal Distribution</h3>
+<p><a id="lognormal"></a></p>
 <p><img src="https://latex.codecogs.com/png.latex?X"> has a Log-normal distribution with parameters <img src="https://latex.codecogs.com/png.latex?%5Cmu"> and <img src="https://latex.codecogs.com/png.latex?%5Csigma">, denoted by $ X (, )$ if <img src="https://latex.codecogs.com/png.latex?%5Cln%20X%20%5Csim%20N(%5Cmu,%20%5Csigma%5E2)">. This results in a probability distribution function of:</p>
 <p><img src="https://latex.codecogs.com/png.latex?f(x)%20=%20%5Cfrac%7B1%7D%7Bx%5Csigma%20%5Csqrt%7B2%20%5Cpi%7D%7D%20%5Cexp%5CBig%5C%7B-%5Cfrac%7B1%7D%7B2%5Csigma%5E2%7D(%5Cln%20x-%5Cmu)%5E2%5CBig%5C%7D,%20%5Cquad%5Ctext%7B%20%20%7D%20x%20%5Cin%20%5Cmathbb%7BR%7D%20"></p>
 <div id="cell-69" class="cell" data-jupyter="{&quot;outputs_hidden&quot;:true}" data-execution_count="6">
@@ -25561,7 +25564,7 @@ Matrix <img src="https://latex.codecogs.com/png.latex?%5CSigma_%7Bij%7D%20=%20%5
 
  ]]></description>
   <guid>http://thenewexecutor.github.io/notes/ProbabilityDistributionNotes.html</guid>
-  <pubDate>Sun, 26 Oct 2025 05:00:59 GMT</pubDate>
+  <pubDate>Sun, 26 Oct 2025 05:06:29 GMT</pubDate>
 </item>
 </channel>
 </rss>
