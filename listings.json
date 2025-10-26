@@ -4,5 +4,16 @@
     "items": [
       "/projects/library/index.html"
     ]
+  },
+  {
+    "listing": "/notes.html",
+    "items": [
+      "/notes/Decorators.html",
+      "/notes/MultivariateStatisticsNotes.html",
+      "/notes/ClusteringNotes.html",
+      "/notes/EntropyNotes.html",
+      "/notes/Closures.html",
+      "/notes/ProbabilityDistributionNotes.html"
+    ]
   }
 ]
