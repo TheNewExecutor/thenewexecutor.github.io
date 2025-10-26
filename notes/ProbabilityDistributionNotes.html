@@ -201,6 +201,8 @@ window.Quarto = {
   <li><a href="#exponential-distribution" id="toc-exponential-distribution" class="nav-link" data-scroll-target="#exponential-distribution">Exponential Distribution</a></li>
   <li><a href="#gamma-distribution" id="toc-gamma-distribution" class="nav-link" data-scroll-target="#gamma-distribution">Gamma Distribution</a></li>
   <li><a href="#chi-squared-distribution" id="toc-chi-squared-distribution" class="nav-link" data-scroll-target="#chi-squared-distribution">Chi Squared Distribution</a></li>
+  <li><a href="#beta-distribution" id="toc-beta-distribution" class="nav-link" data-scroll-target="#beta-distribution">Beta Distribution</a></li>
+  <li><a href="#dirichlet-distribution" id="toc-dirichlet-distribution" class="nav-link" data-scroll-target="#dirichlet-distribution">Dirichlet Distribution</a></li>
   <li><a href="#t-and-cauchy-distribution" id="toc-t-and-cauchy-distribution" class="nav-link" data-scroll-target="#t-and-cauchy-distribution">t and Cauchy Distribution</a></li>
   <li><a href="#pareto-distribution" id="toc-pareto-distribution" class="nav-link" data-scroll-target="#pareto-distribution">Pareto Distribution</a></li>
   </ul></li>
@@ -617,7 +619,11 @@ p\)</span> and <span class="math inline">\(P(X=0) = 1-p\)</span> for some <span 
 </div>
 </div>
 </div>
-<p><a id="beta"></a> ### Beta Distribution</p>
+</section>
+</section>
+<section id="beta-distribution" class="level3">
+<h3 class="anchored" data-anchor-id="beta-distribution">Beta Distribution</h3>
+<p><a id="beta"></a></p>
 <p>The Beta function is defined as</p>
 <p><span class="math display">\[\text{Beta}(a,b) \equiv \int^\infty_0 t^{a-1}(1-t)^{b-1} = \dfrac{\Gamma(a)\Gamma(b)}{\Gamma(a+b)}\]</span></p>
 <p>See <a href="https://en.wikipedia.org/wiki/Beta_function">here</a> for the proof of the last equality which involves change of variables in evaluating the product of two Gamma functions.</p>
@@ -647,13 +653,15 @@ p\)</span> and <span class="math inline">\(P(X=0) = 1-p\)</span> for some <span 
 </div>
 </div>
 </div>
-<p><a id="dirichlet"></a> ### Dirichlet Distribution</p>
+</section>
+<section id="dirichlet-distribution" class="level3">
+<h3 class="anchored" data-anchor-id="dirichlet-distribution">Dirichlet Distribution</h3>
+<p><a id="dirichlet"></a></p>
 <p>The Dirichlet distribution is an extention of the beta distribution to more dimensions. It’s a density over a <em>K</em>-dimensional vector, <span class="math inline">\(\mathbf{p}\)</span>, with <span class="math inline">\(\sum p_i = 1\)</span>. It is defined as:</p>
 <p><span class="math display">\[f(\mathbf{p}|\alpha \mathbf{m}) = \dfrac{1}{Z(\alpha \mathbf{m})}\prod_{i=1}^K p^{\alpha m_i - 1}_i \equiv \text{Dirichlet}^{(K)}(\mathbf{p}|\alpha\mathbf{m}), \quad\text{ } 0&lt;p&lt;1\]</span></p>
 <p>where <span class="math inline">\(\mathbf{m}\)</span> is normalized such that <span class="math inline">\(\sum m_i = 1\)</span> and <span class="math inline">\(\alpha &gt; 0\)</span>. The normalizing constant is defined as:</p>
 <p><span class="math display">\[Z(\alpha\mathbf{m}) = \prod_i \Gamma(\alpha m_i)/\Gamma(\alpha)\]</span></p>
 <p>The parameter <span class="math inline">\(\mathbf{m}\)</span> is the mean of the probability distribution while the constant <span class="math inline">\(\alpha\)</span></p>
-</section>
 </section>
 <section id="t-and-cauchy-distribution" class="level3">
 <h3 class="anchored" data-anchor-id="t-and-cauchy-distribution">t and Cauchy Distribution</h3>

@@ -10,7 +10,7 @@
 <atom:link href="http://thenewexecutor.github.io/notes.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.4.550</generator>
-<lastBuildDate>Sun, 26 Oct 2025 04:53:31 GMT</lastBuildDate>
+<lastBuildDate>Sun, 26 Oct 2025 05:00:59 GMT</lastBuildDate>
 <item>
   <title>Decorator Notes</title>
   <link>http://thenewexecutor.github.io/notes/Decorators.html</link>
@@ -3527,7 +3527,7 @@ font-style: inherit;">=</span> value.upper()</span></code></pre></div>
 
  ]]></description>
   <guid>http://thenewexecutor.github.io/notes/Decorators.html</guid>
-  <pubDate>Sun, 26 Oct 2025 04:53:31 GMT</pubDate>
+  <pubDate>Sun, 26 Oct 2025 05:00:59 GMT</pubDate>
 </item>
 <item>
   <title>Multivariate Statistics</title>
@@ -3701,7 +3701,7 @@ font-style: inherit;">'equal'</span>)</span>
 
  ]]></description>
   <guid>http://thenewexecutor.github.io/notes/MultivariateStatisticsNotes.html</guid>
-  <pubDate>Sun, 26 Oct 2025 04:53:31 GMT</pubDate>
+  <pubDate>Sun, 26 Oct 2025 05:00:59 GMT</pubDate>
 </item>
 <item>
   <title>Clustering Notes</title>
@@ -22047,7 +22047,7 @@ font-style: inherit;">'</span>)</span></code></pre></div>
 
  ]]></description>
   <guid>http://thenewexecutor.github.io/notes/ClusteringNotes.html</guid>
-  <pubDate>Sun, 26 Oct 2025 04:53:31 GMT</pubDate>
+  <pubDate>Sun, 26 Oct 2025 05:00:59 GMT</pubDate>
 </item>
 <item>
   <title>Entropy Notes</title>
@@ -23250,7 +23250,7 @@ font-style: inherit;">==</span> Y31</span></code></pre></div>
 
  ]]></description>
   <guid>http://thenewexecutor.github.io/notes/EntropyNotes.html</guid>
-  <pubDate>Sun, 26 Oct 2025 04:53:31 GMT</pubDate>
+  <pubDate>Sun, 26 Oct 2025 05:00:59 GMT</pubDate>
 </item>
 <item>
   <title>Closure Notes</title>
@@ -24209,7 +24209,7 @@ font-style: inherit;">42</span>)</span></code></pre></div>
 
  ]]></description>
   <guid>http://thenewexecutor.github.io/notes/Closures.html</guid>
-  <pubDate>Sun, 26 Oct 2025 04:53:31 GMT</pubDate>
+  <pubDate>Sun, 26 Oct 2025 05:00:59 GMT</pubDate>
 </item>
 <item>
   <title>Probability Distribution Notes</title>
@@ -24963,7 +24963,11 @@ font-style: inherit;">in</span> df_]</span>
 </div>
 </div>
 </div>
-<p><a id="beta"></a> ### Beta Distribution</p>
+</section>
+</section>
+<section id="beta-distribution" class="level3">
+<h3 class="anchored" data-anchor-id="beta-distribution">Beta Distribution</h3>
+<p><a id="beta"></a></p>
 <p>The Beta function is defined as</p>
 <p><img src="https://latex.codecogs.com/png.latex?%5Ctext%7BBeta%7D(a,b)%20%5Cequiv%20%5Cint%5E%5Cinfty_0%20t%5E%7Ba-1%7D(1-t)%5E%7Bb-1%7D%20=%20%5Cdfrac%7B%5CGamma(a)%5CGamma(b)%7D%7B%5CGamma(a+b)%7D"></p>
 <p>See <a href="https://en.wikipedia.org/wiki/Beta_function">here</a> for the proof of the last equality which involves change of variables in evaluating the product of two Gamma functions.</p>
@@ -25055,13 +25059,15 @@ font-style: inherit;">zip</span>(A,B)]</span>
 </div>
 </div>
 </div>
-<p><a id="dirichlet"></a> ### Dirichlet Distribution</p>
+</section>
+<section id="dirichlet-distribution" class="level3">
+<h3 class="anchored" data-anchor-id="dirichlet-distribution">Dirichlet Distribution</h3>
+<p><a id="dirichlet"></a></p>
 <p>The Dirichlet distribution is an extention of the beta distribution to more dimensions. It’s a density over a <em>K</em>-dimensional vector, <img src="https://latex.codecogs.com/png.latex?%5Cmathbf%7Bp%7D">, with <img src="https://latex.codecogs.com/png.latex?%5Csum%20p_i%20=%201">. It is defined as:</p>
 <p><img src="https://latex.codecogs.com/png.latex?f(%5Cmathbf%7Bp%7D%7C%5Calpha%20%5Cmathbf%7Bm%7D)%20=%20%5Cdfrac%7B1%7D%7BZ(%5Calpha%20%5Cmathbf%7Bm%7D)%7D%5Cprod_%7Bi=1%7D%5EK%20p%5E%7B%5Calpha%20m_i%20-%201%7D_i%20%5Cequiv%20%5Ctext%7BDirichlet%7D%5E%7B(K)%7D(%5Cmathbf%7Bp%7D%7C%5Calpha%5Cmathbf%7Bm%7D),%20%5Cquad%5Ctext%7B%20%7D%200%3Cp%3C1"></p>
 <p>where <img src="https://latex.codecogs.com/png.latex?%5Cmathbf%7Bm%7D"> is normalized such that <img src="https://latex.codecogs.com/png.latex?%5Csum%20m_i%20=%201"> and <img src="https://latex.codecogs.com/png.latex?%5Calpha%20%3E%200">. The normalizing constant is defined as:</p>
 <p><img src="https://latex.codecogs.com/png.latex?Z(%5Calpha%5Cmathbf%7Bm%7D)%20=%20%5Cprod_i%20%5CGamma(%5Calpha%20m_i)/%5CGamma(%5Calpha)"></p>
 <p>The parameter <img src="https://latex.codecogs.com/png.latex?%5Cmathbf%7Bm%7D"> is the mean of the probability distribution while the constant <img src="https://latex.codecogs.com/png.latex?%5Calpha"></p>
-</section>
 </section>
 <section id="t-and-cauchy-distribution" class="level3">
 <h3 class="anchored" data-anchor-id="t-and-cauchy-distribution">t and Cauchy Distribution</h3>
@@ -25555,7 +25561,7 @@ Matrix <img src="https://latex.codecogs.com/png.latex?%5CSigma_%7Bij%7D%20=%20%5
 
  ]]></description>
   <guid>http://thenewexecutor.github.io/notes/ProbabilityDistributionNotes.html</guid>
-  <pubDate>Sun, 26 Oct 2025 04:53:31 GMT</pubDate>
+  <pubDate>Sun, 26 Oct 2025 05:00:59 GMT</pubDate>
 </item>
 </channel>
 </rss>
