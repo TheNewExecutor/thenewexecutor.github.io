@@ -10,7 +10,7 @@
 <atom:link href="http://thenewexecutor.github.io/notes.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.4.550</generator>
-<lastBuildDate>Sun, 26 Oct 2025 04:23:08 GMT</lastBuildDate>
+<lastBuildDate>Sun, 26 Oct 2025 04:27:22 GMT</lastBuildDate>
 <item>
   <title>Decorator Notes</title>
   <link>http://thenewexecutor.github.io/notes/Decorators.html</link>
@@ -3527,7 +3527,7 @@ font-style: inherit;">=</span> value.upper()</span></code></pre></div>
 
  ]]></description>
   <guid>http://thenewexecutor.github.io/notes/Decorators.html</guid>
-  <pubDate>Sun, 26 Oct 2025 04:23:08 GMT</pubDate>
+  <pubDate>Sun, 26 Oct 2025 04:27:22 GMT</pubDate>
 </item>
 <item>
   <title>Multivariate Statistics</title>
@@ -3701,7 +3701,7 @@ font-style: inherit;">'equal'</span>)</span>
 
  ]]></description>
   <guid>http://thenewexecutor.github.io/notes/MultivariateStatisticsNotes.html</guid>
-  <pubDate>Sun, 26 Oct 2025 04:23:08 GMT</pubDate>
+  <pubDate>Sun, 26 Oct 2025 04:27:22 GMT</pubDate>
 </item>
 <item>
   <title>Clustering Notes</title>
@@ -22047,7 +22047,7 @@ font-style: inherit;">'</span>)</span></code></pre></div>
 
  ]]></description>
   <guid>http://thenewexecutor.github.io/notes/ClusteringNotes.html</guid>
-  <pubDate>Sun, 26 Oct 2025 04:23:08 GMT</pubDate>
+  <pubDate>Sun, 26 Oct 2025 04:27:22 GMT</pubDate>
 </item>
 <item>
   <title>Entropy Notes</title>
@@ -23250,7 +23250,7 @@ font-style: inherit;">==</span> Y31</span></code></pre></div>
 
  ]]></description>
   <guid>http://thenewexecutor.github.io/notes/EntropyNotes.html</guid>
-  <pubDate>Sun, 26 Oct 2025 04:23:08 GMT</pubDate>
+  <pubDate>Sun, 26 Oct 2025 04:27:22 GMT</pubDate>
 </item>
 <item>
   <title>Closure Notes</title>
@@ -24209,7 +24209,7 @@ font-style: inherit;">42</span>)</span></code></pre></div>
 
  ]]></description>
   <guid>http://thenewexecutor.github.io/notes/Closures.html</guid>
-  <pubDate>Sun, 26 Oct 2025 04:23:08 GMT</pubDate>
+  <pubDate>Sun, 26 Oct 2025 04:27:22 GMT</pubDate>
 </item>
 <item>
   <title>Probability Distribution Notes</title>
@@ -25541,7 +25541,7 @@ Matrix <img src="https://latex.codecogs.com/png.latex?%5CSigma_%7Bij%7D%20=%20%5
 
  ]]></description>
   <guid>http://thenewexecutor.github.io/notes/ProbabilityDistributionNotes.html</guid>
-  <pubDate>Sun, 26 Oct 2025 04:23:08 GMT</pubDate>
+  <pubDate>Sun, 26 Oct 2025 04:27:22 GMT</pubDate>
 </item>
 </channel>
 </rss>
