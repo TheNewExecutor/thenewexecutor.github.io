@@ -10,7 +10,7 @@
 <atom:link href="http://thenewexecutor.github.io/notes.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.4.550</generator>
-<lastBuildDate>Sun, 26 Oct 2025 04:43:17 GMT</lastBuildDate>
+<lastBuildDate>Sun, 26 Oct 2025 04:53:31 GMT</lastBuildDate>
 <item>
   <title>Decorator Notes</title>
   <link>http://thenewexecutor.github.io/notes/Decorators.html</link>
@@ -3527,7 +3527,7 @@ font-style: inherit;">=</span> value.upper()</span></code></pre></div>
 
  ]]></description>
   <guid>http://thenewexecutor.github.io/notes/Decorators.html</guid>
-  <pubDate>Sun, 26 Oct 2025 04:43:17 GMT</pubDate>
+  <pubDate>Sun, 26 Oct 2025 04:53:31 GMT</pubDate>
 </item>
 <item>
   <title>Multivariate Statistics</title>
@@ -3701,7 +3701,7 @@ font-style: inherit;">'equal'</span>)</span>
 
  ]]></description>
   <guid>http://thenewexecutor.github.io/notes/MultivariateStatisticsNotes.html</guid>
-  <pubDate>Sun, 26 Oct 2025 04:43:17 GMT</pubDate>
+  <pubDate>Sun, 26 Oct 2025 04:53:31 GMT</pubDate>
 </item>
 <item>
   <title>Clustering Notes</title>
@@ -22047,7 +22047,7 @@ font-style: inherit;">'</span>)</span></code></pre></div>
 
  ]]></description>
   <guid>http://thenewexecutor.github.io/notes/ClusteringNotes.html</guid>
-  <pubDate>Sun, 26 Oct 2025 04:43:17 GMT</pubDate>
+  <pubDate>Sun, 26 Oct 2025 04:53:31 GMT</pubDate>
 </item>
 <item>
   <title>Entropy Notes</title>
@@ -23250,7 +23250,7 @@ font-style: inherit;">==</span> Y31</span></code></pre></div>
 
  ]]></description>
   <guid>http://thenewexecutor.github.io/notes/EntropyNotes.html</guid>
-  <pubDate>Sun, 26 Oct 2025 04:43:17 GMT</pubDate>
+  <pubDate>Sun, 26 Oct 2025 04:53:31 GMT</pubDate>
 </item>
 <item>
   <title>Closure Notes</title>
@@ -24209,7 +24209,7 @@ font-style: inherit;">42</span>)</span></code></pre></div>
 
  ]]></description>
   <guid>http://thenewexecutor.github.io/notes/Closures.html</guid>
-  <pubDate>Sun, 26 Oct 2025 04:43:17 GMT</pubDate>
+  <pubDate>Sun, 26 Oct 2025 04:53:31 GMT</pubDate>
 </item>
 <item>
   <title>Probability Distribution Notes</title>
@@ -24245,7 +24245,7 @@ font-style: inherit;">42</span>)</span></code></pre></div>
 <ul>
 <li>Table</li>
 </ul>
-<div id="cell-3" class="cell" data-execution_count="1">
+<div id="cell-3" class="cell" data-execution_count="2">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><span class="im" style="color: #00769E;
@@ -24288,7 +24288,7 @@ background-color: null;
 font-style: inherit;">set</span>()</span></code></pre></div>
 </details>
 </div>
-<div id="cell-4" class="cell" data-execution_count="2">
+<div id="cell-4" class="cell" data-execution_count="3">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><span class="kw" style="color: #003B4F;
@@ -24401,9 +24401,9 @@ font-style: inherit;">=</span> randint.pmf(x,low,high)</span>
 </section>
 <section id="bernoulli-distribution" class="level3">
 <h3 class="anchored" data-anchor-id="bernoulli-distribution">Bernoulli Distribution</h3>
-<p>Let $ X $ represent an all or nothing event. Then <img src="https://latex.codecogs.com/png.latex?P(X=1)%20=%0Ap"> and <img src="https://latex.codecogs.com/png.latex?P(X=0)%20=%201-p"> for some <img src="https://latex.codecogs.com/png.latex?p%20%5Cin%20%5B0,%201%5D">. <img src="https://latex.codecogs.com/png.latex?X%5Csim"> Bernoulli if:</p>
+<p>Let <img src="https://latex.codecogs.com/png.latex?X"> represent an all or nothing event. Then <img src="https://latex.codecogs.com/png.latex?P(X=1)%20=%0Ap"> and <img src="https://latex.codecogs.com/png.latex?P(X=0)%20=%201-p"> for some <img src="https://latex.codecogs.com/png.latex?p%20%5Cin%20%5B0,%201%5D">. <img src="https://latex.codecogs.com/png.latex?X%5Csim"> Bernoulli if:</p>
 <p><img src="https://latex.codecogs.com/png.latex?f(x)%20=%20p%5Ex(1-p)%5E%7B1-x%7D%20%5Ctext%7B%20for%20%7D%20x%20%5Cin%20%5C%7B0,%201%5C%7D"></p>
-<div id="cell-12" class="cell" data-scrolled="true" data-execution_count="54">
+<div id="cell-12" class="cell" data-scrolled="true" data-execution_count="5">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1">x <span class="op" style="color: #5E5E5E;
@@ -24444,7 +24444,7 @@ font-style: inherit;">=</span> bernoulli.pmf(x,p)</span>
 <p><img src="https://latex.codecogs.com/png.latex?%5Cbegin%7Bequation%7D%0A%20%20%20%20f(x)%20=%20%5Cbegin%7Bcases%7D%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%5Cbinom%7Bn%7D%7Bx%7Dp%5Ex(1-p)%5E%7Bn-x%7D%20%20%20&amp;%20%5Ctext%7Bfor%20%7D%20%20x%20=%200,%20...,%20n%5C%5C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%200%20%20%20%20%20%20%20%20%20%20%20%20%20%20&amp;%20%5Ctext%7Botherwise%7D%0A%20%20%20%20%20%20%20%20%20%20%20%5Cend%7Bcases%7D%0A%5Cend%7Bequation%7D"></p>
 <p>We say <img src="https://latex.codecogs.com/png.latex?X%20%5Ctext%7B~%20Binomial%7D(n,p)"> where <img src="https://latex.codecogs.com/png.latex?X"> is the random variable and <img src="https://latex.codecogs.com/png.latex?n"> and <img src="https://latex.codecogs.com/png.latex?p"> are the parameters. Adapting our notation, another form is:</p>
 <p><img src="https://latex.codecogs.com/png.latex?%5Cbegin%7Bequation%7D%0A%20%20%20%20f(x%7Cn,%20p)%20=%20%5Cbegin%7Bcases%7D%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%5Cbinom%7Bn%7D%7Bx%7Dp%5Ex(1-p)%5E%7Bn-x%7D%20%20%20&amp;%20%5Ctext%7Bfor%20%7D%20%20x%20=%200,%20...,%20n%5C%5C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%200%20%20%20%20%20%20%20%20%20%20%20%20%20%20&amp;%20%5Ctext%7Botherwise%7D%0A%20%20%20%20%20%20%20%20%20%20%20%5Cend%7Bcases%7D%0A%5Cend%7Bequation%7D"></p>
-<div id="cell-16" class="cell" data-execution_count="21">
+<div id="cell-16" class="cell" data-execution_count="6">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1">n<span class="op" style="color: #5E5E5E;
@@ -24495,7 +24495,7 @@ font-style: inherit;">=</span> binom.pmf(x,n,p)</span>
 <p><img src="https://latex.codecogs.com/png.latex?P(X=k)%20=%20p(1-p)%5E%7Bk-1%7D,%20%5Ctext%7B%20%20%20%20%20%7D%20k%5Cge1"></p>
 <p>It’s also worth noting that:</p>
 <p><img src="https://latex.codecogs.com/png.latex?%5Csum%5E%7B%5Cinfty%7D_%7Bk=1%7DP(X=k)%20=%20p%5Csum%5E%7B%5Cinfty%7D_%7Bk=0%7D(1-p)%5Ek%20=%20%5Cdfrac%7Bp%7D%7B1-(1-p)%7D%20=%201"></p>
-<div id="cell-24" class="cell" data-execution_count="26">
+<div id="cell-24" class="cell" data-execution_count="7">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb6" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1">p <span class="op" style="color: #5E5E5E;
@@ -24522,7 +24522,7 @@ font-style: inherit;">=</span> geom.pmf(x,p)</span>
 <h3 class="anchored" data-anchor-id="the-hypergeometric-distribution">The Hypergeometric Distribution</h3>
 <p>In contrast to the binomial distribution, for draws without replacement, the probability of a successful draw changes with each draw. Given a total of <img src="https://latex.codecogs.com/png.latex?N"> objects with <img src="https://latex.codecogs.com/png.latex?K"> success objects and <img src="https://latex.codecogs.com/png.latex?N-K"> others, the probability of <img src="https://latex.codecogs.com/png.latex?k"> successes in <img src="https://latex.codecogs.com/png.latex?n"> draws is given by the total combinations of drawing <img src="https://latex.codecogs.com/png.latex?k"> out of <img src="https://latex.codecogs.com/png.latex?K"> successes and <img src="https://latex.codecogs.com/png.latex?n-k"> out of <img src="https://latex.codecogs.com/png.latex?N-K"> other objects out of the total ways to draw <img src="https://latex.codecogs.com/png.latex?n"> out of <img src="https://latex.codecogs.com/png.latex?N"> objects:</p>
 <p><img src="https://latex.codecogs.com/png.latex?%20P(X%20=%20k%7Cn,N,K)%20=%20%5Cdfrac%7B%5Cbinom%7BK%7D%7Bk%7D%5Cbinom%7BN-K%7D%7Bn-k%7D%7D%7B%5Cbinom%7BN%7D%7Bn%7D%7D"></p>
-<div id="cell-27" class="cell" data-execution_count="51">
+<div id="cell-27" class="cell" data-execution_count="8">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb7" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1">N, K, n <span class="op" style="color: #5E5E5E;
@@ -24566,7 +24566,7 @@ font-style: inherit;">=</span> hypergeom.pmf(k, N, n, K)</span>
 <p><img src="https://latex.codecogs.com/png.latex?%20f(x)%20=%20%5Cexp(-%5Clambda)%5Cfrac%7B%5Clambda%5Ex%7D%7Bx!%7D"></p>
 <p>It’s also worth noting that:</p>
 <p><img src="https://latex.codecogs.com/png.latex?%5Csum%5E%7B%5Cinfty%7D_%7Bx=0%7Df(x)%20=%20%5Cexp(-%5Clambda)%20%5Csum%5E%7B%5Cinfty%7D_%7Bx=0%7D%5Cfrac%7B%5Clambda%5Ex%7D%7Bx!%7D%20=%20%5Cexp(-%5Clambda)%5Cexp(%5Clambda)=%201"></p>
-<div id="cell-31" class="cell" data-execution_count="7">
+<div id="cell-31" class="cell" data-execution_count="9">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb8" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1">x <span class="op" style="color: #5E5E5E;
@@ -24616,7 +24616,7 @@ font-style: inherit;">5</span>))</span></code></pre></div>
 <p><img src="https://latex.codecogs.com/png.latex?%5Cbegin%7Bequation%7D%0A%20%20%20%20f(x)%20=%20%5Cbegin%7Bcases%7D%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%5Cfrac%7B1%7D%7Bb-a%7D%20%20%20&amp;%20%5Ctext%7Bfor%20%7D%20%20x%20%5Cin%5Ba,b%5D%5C%5C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%200%20%20%20%20%20%20%20%20%20%20%20%20%20%20&amp;%20%5Ctext%7Botherwise%7D%0A%20%20%20%20%20%20%20%20%20%20%20%5Cend%7Bcases%7D%0A%5Cend%7Bequation%7D"></p>
 <p>where <img src="https://latex.codecogs.com/png.latex?a%20%3C%20b">. The distribution function is:</p>
 <p><img src="https://latex.codecogs.com/png.latex?%5Cbegin%7Bequation%7D%0A%20%20%20%20F(x)%20=%20%5Cbegin%7Bcases%7D%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%200%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20&amp;%20x%20%3C%20a%5C%5C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%5Cfrac%7Bx-a%7D%7Bb-a%7D%20%20&amp;%20x%20%5Cin%20%5Ba,b%5D%5C%5C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%201%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20&amp;%20x%20%3E%20b%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%5Cend%7Bcases%7D%0A%5Cend%7Bequation%7D"></p>
-<div id="cell-35" class="cell" data-jupyter="{&quot;outputs_hidden&quot;:true}" data-execution_count="195">
+<div id="cell-35" class="cell" data-jupyter="{&quot;outputs_hidden&quot;:true}" data-execution_count="10">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb9" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1">loc <span class="op" style="color: #5E5E5E;
@@ -24641,10 +24641,14 @@ font-style: inherit;">=</span> uniform.pdf(x, loc,scale)</span>
 background-color: null;
 font-style: inherit;">None</span>])</span></code></pre></div>
 </details>
+<div class="cell-output cell-output-stderr">
+<pre><code>C:\Users\Jonathan\AppData\Local\Temp\ipykernel_20100\1199473827.py:19: UserWarning: No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+  plt.legend()</code></pre>
+</div>
 <div class="cell-output cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="http://thenewexecutor.github.io/notes/ProbabilityDistributionNotes_files/figure-html/cell-10-output-1.png" class="img-fluid figure-img"></p>
+<p><img src="http://thenewexecutor.github.io/notes/ProbabilityDistributionNotes_files/figure-html/cell-10-output-2.png" class="img-fluid figure-img"></p>
 </figure>
 </div>
 </div>
@@ -24655,10 +24659,10 @@ font-style: inherit;">None</span>])</span></code></pre></div>
 <h3 class="anchored" data-anchor-id="normal-gaussian-distributions">Normal (Gaussian) Distributions</h3>
 <p><img src="https://latex.codecogs.com/png.latex?X"> has a Normal or Gaussian distribution with parameters <img src="https://latex.codecogs.com/png.latex?%5Cmu"> and <img src="https://latex.codecogs.com/png.latex?%5Csigma">, denoted by <img src="https://latex.codecogs.com/png.latex?X%20%5Ctext%7B%20~%20%7DN(%5Cmu,%20%5Csigma%5E2)"> if:</p>
 <p><img src="https://latex.codecogs.com/png.latex?f(x)%20=%20%5Cfrac%7B1%7D%7B%5Csigma%20%5Csqrt%7B2%20%5Cpi%7D%7D%20%5Cexp%5CBig%5C%7B-%5Cfrac%7B1%7D%7B2%5Csigma%5E2%7D(x-%5Cmu)%5E2%5CBig%5C%7D,%20%5Cquad%5Ctext%7B%20%20%7D%20x%20%5Cin%20%5Cmathbb%7BR%7D%20"></p>
-<div id="cell-39" class="cell" data-jupyter="{&quot;outputs_hidden&quot;:true}" data-execution_count="199">
+<div id="cell-39" class="cell" data-jupyter="{&quot;outputs_hidden&quot;:true}" data-execution_count="11">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb10" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb10-1">u_ <span class="op" style="color: #5E5E5E;
+<div class="sourceCode cell-code" id="cb11" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb11-1">u_ <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span> [<span class="dv" style="color: #AD0000;
 background-color: null;
@@ -24673,7 +24677,7 @@ background-color: null;
 font-style: inherit;">1</span>, <span class="dv" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">2</span>,]</span>
-<span id="cb10-2">sigma_ <span class="op" style="color: #5E5E5E;
+<span id="cb11-2">sigma_ <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span> [<span class="dv" style="color: #AD0000;
 background-color: null;
@@ -24686,7 +24690,7 @@ background-color: null;
 font-style: inherit;">1</span>,<span class="dv" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">1</span>]</span>
-<span id="cb10-3">x <span class="op" style="color: #5E5E5E;
+<span id="cb11-3">x <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span> np.arange(<span class="op" style="color: #5E5E5E;
 background-color: null;
@@ -24697,7 +24701,7 @@ background-color: null;
 font-style: inherit;">10</span>,<span class="fl" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">.1</span>)</span>
-<span id="cb10-4">f <span class="op" style="color: #5E5E5E;
+<span id="cb11-4">f <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span> [norm.pdf(x,u,sigma) <span class="cf" style="color: #003B4F;
 background-color: null;
@@ -24706,7 +24710,7 @@ background-color: null;
 font-style: inherit;">in</span> <span class="bu" style="color: null;
 background-color: null;
 font-style: inherit;">zip</span>(u_, sigma_)]</span>
-<span id="cb10-5">labels <span class="op" style="color: #5E5E5E;
+<span id="cb11-5">labels <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span> [<span class="vs" style="color: #20794D;
 background-color: null;
@@ -24727,7 +24731,7 @@ background-color: null;
 font-style: inherit;">in</span> <span class="bu" style="color: null;
 background-color: null;
 font-style: inherit;">zip</span>(u_, sigma_)]</span>
-<span id="cb10-6">plot2(x,f, labels)</span></code></pre></div>
+<span id="cb11-6">plot2(x,f, labels)</span></code></pre></div>
 </details>
 <div class="cell-output cell-output-display">
 <div>
@@ -24743,10 +24747,10 @@ font-style: inherit;">zip</span>(u_, sigma_)]</span>
 <h3 class="anchored" data-anchor-id="exponential-distribution">Exponential Distribution</h3>
 <p><img src="https://latex.codecogs.com/png.latex?X"> has an Exponential distribution with parameber <img src="https://latex.codecogs.com/png.latex?%5Cbeta">, noted by <img src="https://latex.codecogs.com/png.latex?X%20%5Ctext%7B%20~%20Exp%7D(%5Cbeta)"> if:</p>
 <p><img src="https://latex.codecogs.com/png.latex?f(x)%20=%20%5Cdfrac%7B1%7D%7B%5Cbeta%7D%5Cexp%5CBig(-%5Cfrac%7Bx%7D%7B%5Cbeta%7D%5CBig),%20%5Cquad%20%5Ctext%7B%20%20%20%20%20%7D%20x%20%3E0"></p>
-<div id="cell-43" class="cell" data-jupyter="{&quot;outputs_hidden&quot;:true}" data-execution_count="205">
+<div id="cell-43" class="cell" data-jupyter="{&quot;outputs_hidden&quot;:true}" data-execution_count="12">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb11" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb11-1">x <span class="op" style="color: #5E5E5E;
+<div class="sourceCode cell-code" id="cb12" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb12-1">x <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span> np.arange(<span class="fl" style="color: #AD0000;
 background-color: null;
@@ -24755,7 +24759,7 @@ background-color: null;
 font-style: inherit;">10</span>,<span class="fl" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">.01</span>)</span>
-<span id="cb11-2">b <span class="op" style="color: #5E5E5E;
+<span id="cb12-2">b <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span> np.arange(<span class="dv" style="color: #AD0000;
 background-color: null;
@@ -24764,14 +24768,14 @@ background-color: null;
 font-style: inherit;">5</span>, <span class="fl" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">.5</span>)</span>
-<span id="cb11-3">f <span class="op" style="color: #5E5E5E;
+<span id="cb12-3">f <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span> [expon.pdf(x, B) <span class="cf" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">for</span> B <span class="kw" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">in</span> b]</span>
-<span id="cb11-4">labels <span class="op" style="color: #5E5E5E;
+<span id="cb12-4">labels <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span> [<span class="vs" style="color: #20794D;
 background-color: null;
@@ -24786,7 +24790,7 @@ background-color: null;
 font-style: inherit;">for</span> B <span class="kw" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">in</span> b]</span>
-<span id="cb11-5">plot2(x,f,labels)</span></code></pre></div>
+<span id="cb12-5">plot2(x,f,labels)</span></code></pre></div>
 </details>
 <div class="cell-output cell-output-display">
 <div>
@@ -24805,10 +24809,10 @@ font-style: inherit;">in</span> b]</span>
 <p><img src="https://latex.codecogs.com/png.latex?X"> has a Gamma distribution with parameters <img src="https://latex.codecogs.com/png.latex?%5Calpha"> and <img src="https://latex.codecogs.com/png.latex?%5Cbeta">, or <img src="https://latex.codecogs.com/png.latex?X%20%5Ctext%7B%20~%20Gamma%7D(%5Calpha,%20%5Cbeta)">, if:</p>
 <p><img src="https://latex.codecogs.com/png.latex?%20f(x)%20=%20%5Cdfrac%7B1%7D%7B%5Cbeta%5E%5Calpha%20%5CGamma(%5Calpha)%7Dx%5E%7B%5Calpha-1%7D%5Cexp%5CBig(-%5Cdfrac%7Bx%7D%7B%5Cbeta%7D%5CBig),%20%5Cquad%20%5Ctext%7B%20%20%7D%20x%3E0"></p>
 <p><strong>Special cases</strong>: - The Exponential distribution is the special case of <img src="https://latex.codecogs.com/png.latex?%5Ctext%7BGamma%7D(1,%20%5Cbeta)"> - The Chi-square distribution is a special case of <img src="https://latex.codecogs.com/png.latex?%5Ctext%7BGamma%7D(p/2,%202)"> - Using <img src="https://latex.codecogs.com/png.latex?y%20=%20u%5E2">, <img src="https://latex.codecogs.com/png.latex?dy%20=%202udu">, and the result $^_{-}({-u^2}) = $</p>
-<div id="cell-47" class="cell" data-execution_count="221">
+<div id="cell-47" class="cell" data-execution_count="13">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb12" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb12-1">x <span class="op" style="color: #5E5E5E;
+<div class="sourceCode cell-code" id="cb13" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb13-1">x <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span> np.arange(<span class="fl" style="color: #AD0000;
 background-color: null;
@@ -24817,7 +24821,7 @@ background-color: null;
 font-style: inherit;">100</span>,<span class="fl" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">.01</span>)</span>
-<span id="cb12-2">A <span class="op" style="color: #5E5E5E;
+<span id="cb13-2">A <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span> np.arange(<span class="dv" style="color: #AD0000;
 background-color: null;
@@ -24828,7 +24832,7 @@ background-color: null;
 font-style: inherit;">1</span>)<span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># shape</span></span>
-<span id="cb12-3">B <span class="op" style="color: #5E5E5E;
+<span id="cb13-3">B <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span> np.arange(<span class="dv" style="color: #AD0000;
 background-color: null;
@@ -24839,7 +24843,7 @@ background-color: null;
 font-style: inherit;">1</span>) <span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># scale</span></span>
-<span id="cb12-4">f <span class="op" style="color: #5E5E5E;
+<span id="cb13-4">f <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span> [gamma.pdf(x,a<span class="op" style="color: #5E5E5E;
 background-color: null;
@@ -24854,7 +24858,7 @@ background-color: null;
 font-style: inherit;">for</span> b <span class="kw" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">in</span> B]</span>
-<span id="cb12-5">labels <span class="op" style="color: #5E5E5E;
+<span id="cb13-5">labels <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span> [<span class="vs" style="color: #20794D;
 background-color: null;
@@ -24877,7 +24881,7 @@ background-color: null;
 font-style: inherit;">for</span> b <span class="kw" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">in</span> B]</span>
-<span id="cb12-6">plot2(x,f, labels)</span></code></pre></div>
+<span id="cb13-6">plot2(x,f, labels)</span></code></pre></div>
 </details>
 <div class="cell-output cell-output-display">
 <div>
@@ -24897,10 +24901,10 @@ font-style: inherit;">in</span> B]</span>
 <h4 class="anchored" data-anchor-id="relationship-with-normal">Relationship with Normal</h4>
 <p>This distribution is related to the normal distribution in that if a variable <img src="https://latex.codecogs.com/png.latex?X"> has a standard normal distribution, its square follows a chi-square distribution with one degree of freedom: <img src="https://latex.codecogs.com/png.latex?Y%20=%20X%5E2%20%5Ctext%7B~%7D%20%5Cchi%5E2_1">.</p>
 <p>Often, we compare how far a value is from an expected one by finding the square of their difference. If the variable converges to a normal distribution, the square of the difference can be considered a chi squared distribution.</p>
-<div id="cell-51" class="cell" data-execution_count="9">
+<div id="cell-51" class="cell" data-execution_count="14">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb13" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb13-1">x<span class="op" style="color: #5E5E5E;
+<div class="sourceCode cell-code" id="cb14" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb14-1">x<span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span> np.arange(<span class="fl" style="color: #AD0000;
 background-color: null;
@@ -24909,7 +24913,7 @@ background-color: null;
 font-style: inherit;">20</span>,<span class="fl" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">.01</span>)</span>
-<span id="cb13-2">df_ <span class="op" style="color: #5E5E5E;
+<span id="cb14-2">df_ <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span> np.arange(<span class="dv" style="color: #AD0000;
 background-color: null;
@@ -24918,7 +24922,7 @@ background-color: null;
 font-style: inherit;">6</span>,<span class="dv" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">1</span>)</span>
-<span id="cb13-3">x <span class="op" style="color: #5E5E5E;
+<span id="cb14-3">x <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span> np.arange(<span class="fl" style="color: #AD0000;
 background-color: null;
@@ -24927,14 +24931,14 @@ background-color: null;
 font-style: inherit;">15</span>,<span class="fl" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">.01</span>)</span>
-<span id="cb13-4">f <span class="op" style="color: #5E5E5E;
+<span id="cb14-4">f <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span> [chi2.pdf(x,df) <span class="cf" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">for</span> df <span class="kw" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">in</span> df_]</span>
-<span id="cb13-5">labels <span class="op" style="color: #5E5E5E;
+<span id="cb14-5">labels <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span> [<span class="vs" style="color: #20794D;
 background-color: null;
@@ -24949,7 +24953,7 @@ background-color: null;
 font-style: inherit;">for</span> df <span class="kw" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">in</span> df_]</span>
-<span id="cb13-6">plot2(x,f, labels)</span></code></pre></div>
+<span id="cb14-6">plot2(x,f, labels)</span></code></pre></div>
 </details>
 <div class="cell-output cell-output-display">
 <div>
@@ -24967,10 +24971,10 @@ font-style: inherit;">in</span> df_]</span>
 <p><img src="https://latex.codecogs.com/png.latex?f(x)%20=%20%5Cdfrac%7B%5CGamma(%5Calpha%20+%20%5Cbeta)%7D%7B%5CGamma(%5Calpha)%5CGamma(%5Cbeta)%7Dx%5E%7B%5Calpha-1%7D(1-x)%5E%7B%5Cbeta-1%7D,%20%5Cquad%5Ctext%7B%20%7D%200%3Cx%3C1"></p>
 <p>Alternatively, we can view the the beta distribution as a distribution over probabilities, <img src="https://latex.codecogs.com/png.latex?p"> and parameters of number of outcomes <img src="https://latex.codecogs.com/png.latex?u_1"> and <img src="https://latex.codecogs.com/png.latex?u_2">:</p>
 <p><img src="https://latex.codecogs.com/png.latex?f(p%7Cu_1,u_2)%20=%20%5Cdfrac%7B%5CGamma(u_1%20+%20u_2)%7D%7B%5CGamma(u_1)%5CGamma(u_2)%7Dp%5E%7Bu_1-1%7D(1-p)%5E%7Bu_2-1%7D,%20%5Cquad%5Ctext%7B%20%7D%200%3Cp%3C1"></p>
-<div id="cell-55" class="cell" data-execution_count="4">
+<div id="cell-55" class="cell" data-execution_count="15">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb14" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb14-1">x <span class="op" style="color: #5E5E5E;
+<div class="sourceCode cell-code" id="cb15" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb15-1">x <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span> np.arange(<span class="fl" style="color: #AD0000;
 background-color: null;
@@ -24979,7 +24983,7 @@ background-color: null;
 font-style: inherit;">.99</span>,<span class="fl" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">.001</span>)</span>
-<span id="cb14-2">A <span class="op" style="color: #5E5E5E;
+<span id="cb15-2">A <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span> np.arange(<span class="dv" style="color: #AD0000;
 background-color: null;
@@ -24990,20 +24994,20 @@ background-color: null;
 font-style: inherit;">1</span>)<span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># shape</span></span>
-<span id="cb14-3"><span class="co" style="color: #5E5E5E;
+<span id="cb15-3"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">#B = np.arange(1,6,1) # scale</span></span>
-<span id="cb14-4">B <span class="op" style="color: #5E5E5E;
+<span id="cb15-4">B <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span> <span class="dv" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">6</span><span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">-</span>A</span>
-<span id="cb14-5"><span class="co" style="color: #5E5E5E;
+<span id="cb15-5"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">#f = [beta.pdf(x,a=a,b=b) for a in A for b in B]</span></span>
-<span id="cb14-6">f <span class="op" style="color: #5E5E5E;
+<span id="cb15-6">f <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span> [beta.pdf(x, a<span class="op" style="color: #5E5E5E;
 background-color: null;
@@ -25016,10 +25020,10 @@ background-color: null;
 font-style: inherit;">in</span> <span class="bu" style="color: null;
 background-color: null;
 font-style: inherit;">zip</span>(A,B)]</span>
-<span id="cb14-7"><span class="co" style="color: #5E5E5E;
+<span id="cb15-7"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">#labels = [r'$\alpha = %.1f$, $\beta = %.1f$' % (a,b) for a in A for b in B]</span></span>
-<span id="cb14-8">labels <span class="op" style="color: #5E5E5E;
+<span id="cb15-8">labels <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span> [<span class="vs" style="color: #20794D;
 background-color: null;
@@ -25040,8 +25044,8 @@ background-color: null;
 font-style: inherit;">in</span> <span class="bu" style="color: null;
 background-color: null;
 font-style: inherit;">zip</span>(A,B)]</span>
-<span id="cb14-9"></span>
-<span id="cb14-10">plot2(x,f, labels)</span></code></pre></div>
+<span id="cb15-9"></span>
+<span id="cb15-10">plot2(x,f, labels)</span></code></pre></div>
 </details>
 <div class="cell-output cell-output-display">
 <div>
@@ -25070,10 +25074,10 @@ font-style: inherit;">zip</span>(A,B)]</span>
 <p><img src="https://latex.codecogs.com/png.latex?%5Cint%5E%5Cinfty_%7B-%5Cinfty%7D%20f(x)dx%20=%20%5Cdfrac%7B1%7D%7B%5Cpi%7D%5Cint%5E%5Cinfty_%7B-%5Cinfty%7D%5Cdfrac%7B1%7D%7B%5Cpi%20(1+x%5E2)%7D%20=%20%5Cdfrac%7B1%7D%7B%5Cpi%7D%5Cint%5E%5Cinfty_%7B-%5Cinfty%7D%5Cdfrac%7Bd%5Carctan%7D%7Bdx%7D%20=%20%5Cdfrac%7B1%7D%7B%5Cpi%7D%5B%5Carctan(%5Cinfty)%20-%20%5Carctan(-%5Cinfty)%5D%20=%20%5Cdfrac%7B1%7D%7B%5Cpi%7D%5CBig%5B%5Cdfrac%7B%5Cpi%7D%7B2%7D-%5CBig(-%5Cdfrac%7B%5Cpi%7D%7B2%7D%5CBig)%5CBig%5D=1"></p>
 <p>While the mean and variance do not exist for the Cauchy distribution, it often is seen with location parameter <img src="https://latex.codecogs.com/png.latex?%5Cmu"> and scale parameter <img src="https://latex.codecogs.com/png.latex?%5Csigma"> by the transformation <img src="https://latex.codecogs.com/png.latex?x%20%5Crightarrow%20%5Cdfrac%7Bx-%5Cmu%7D%7B%5Csigma%7D">, and <img src="https://latex.codecogs.com/png.latex?dx%20%5Crightarrow%20%5Cfrac%7B1%7D%7B%5Csigma%7D"> to obtain the modified pdf:</p>
 <p><img src="https://latex.codecogs.com/png.latex?f(x)%20=%20%5Cdfrac%7B1%7D%7B%5Csigma%5Cpi%20%5CBig(1+%5Cbig%5B%5Cfrac%7Bx-%5Cmu%7D%7B%5Csigma%7D%5Cbig%5D%5E2%5CBig)%7D"></p>
-<div id="cell-62" class="cell" data-execution_count="233">
+<div id="cell-62" class="cell" data-execution_count="16">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb15" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb15-1">df_ <span class="op" style="color: #5E5E5E;
+<div class="sourceCode cell-code" id="cb16" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb16-1">df_ <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span> np.arange(<span class="dv" style="color: #AD0000;
 background-color: null;
@@ -25082,7 +25086,7 @@ background-color: null;
 font-style: inherit;">5</span>,<span class="dv" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">1</span>)</span>
-<span id="cb15-2">x <span class="op" style="color: #5E5E5E;
+<span id="cb16-2">x <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span> np.arange(<span class="op" style="color: #5E5E5E;
 background-color: null;
@@ -25093,14 +25097,14 @@ background-color: null;
 font-style: inherit;">10</span>,<span class="fl" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">.01</span>)</span>
-<span id="cb15-3">f <span class="op" style="color: #5E5E5E;
+<span id="cb16-3">f <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span> [t.pdf(x,df) <span class="cf" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">for</span> df <span class="kw" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">in</span> df_]</span>
-<span id="cb15-4">labels <span class="op" style="color: #5E5E5E;
+<span id="cb16-4">labels <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span> [<span class="vs" style="color: #20794D;
 background-color: null;
@@ -25115,7 +25119,7 @@ background-color: null;
 font-style: inherit;">for</span> df <span class="kw" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">in</span> df_]</span>
-<span id="cb15-5">plot2(x,f, labels)</span></code></pre></div>
+<span id="cb16-5">plot2(x,f, labels)</span></code></pre></div>
 </details>
 <div class="cell-output cell-output-display">
 <div>
@@ -25135,10 +25139,15 @@ font-style: inherit;">in</span> df_]</span>
 <section id="pareto-distribution" class="level3">
 <h3 class="anchored" data-anchor-id="pareto-distribution">Pareto Distribution</h3>
 <p><img src="https://latex.codecogs.com/png.latex?%5Cbegin%7Bequation%7D%0A%20%20%20%20f(x)%20=%20%5Cbegin%7Bcases%7D%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%5Cdfrac%7B%5Calpha%20x_m%5E%5Calpha%7D%7Bx%5E%7B%5Calpha+1%7D%7D%20%20%20&amp;%20%5Ctext%7Bfor%20%7D%20%20x%20%5Cge%20x_m%5C%5C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%200%20%20%20%20%20%20%20%20%20%20%20%20%20%20&amp;%20%5Ctext%7Bfor%20%7D%20x%20%3C%20x_m%0A%20%20%20%20%20%20%20%20%20%20%20%5Cend%7Bcases%7D%0A%5Cend%7Bequation%7D"></p>
-<div id="cell-66" class="cell" data-execution_count="1">
+<div id="cell-66" class="cell" data-execution_count="17">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb16" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb16-1">x <span class="op" style="color: #5E5E5E;
+<div class="sourceCode cell-code" id="cb17" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb17-1"><span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">import</span> numpy <span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">as</span> np</span>
+<span id="cb17-2">x <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span> np.arange(<span class="fl" style="color: #AD0000;
 background-color: null;
@@ -25147,7 +25156,7 @@ background-color: null;
 font-style: inherit;">10</span>,<span class="fl" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">.01</span>)</span>
-<span id="cb16-2">a_ <span class="op" style="color: #5E5E5E;
+<span id="cb17-3">a_ <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span> np.arange(<span class="dv" style="color: #AD0000;
 background-color: null;
@@ -25156,7 +25165,7 @@ background-color: null;
 font-style: inherit;">6</span>,<span class="dv" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">1</span>)</span>
-<span id="cb16-3">f <span class="op" style="color: #5E5E5E;
+<span id="cb17-4">f <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span> [pareto.pdf(x,a, scale<span class="op" style="color: #5E5E5E;
 background-color: null;
@@ -25167,7 +25176,7 @@ background-color: null;
 font-style: inherit;">for</span> a <span class="kw" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">in</span> a_]</span>
-<span id="cb16-4">labels <span class="op" style="color: #5E5E5E;
+<span id="cb17-5">labels <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span> [<span class="vs" style="color: #20794D;
 background-color: null;
@@ -25182,10 +25191,14 @@ background-color: null;
 font-style: inherit;">for</span> a <span class="kw" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">in</span> a_]</span>
-<span id="cb16-5">plot2(x,f, labels)</span></code></pre></div>
+<span id="cb17-6">plot2(x,f, labels)</span></code></pre></div>
 </details>
-<div class="cell-output cell-output-error">
-<pre><code>NameError: name 'np' is not defined</code></pre>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="http://thenewexecutor.github.io/notes/ProbabilityDistributionNotes_files/figure-html/cell-17-output-1.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
 </div>
 </div>
 <p><a id="lognormal"></a> ### Log-normal Distribution</p>
@@ -25542,7 +25555,7 @@ Matrix <img src="https://latex.codecogs.com/png.latex?%5CSigma_%7Bij%7D%20=%20%5
 
  ]]></description>
   <guid>http://thenewexecutor.github.io/notes/ProbabilityDistributionNotes.html</guid>
-  <pubDate>Sun, 26 Oct 2025 04:43:17 GMT</pubDate>
+  <pubDate>Sun, 26 Oct 2025 04:53:31 GMT</pubDate>
 </item>
 </channel>
 </rss>

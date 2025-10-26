@@ -262,7 +262,7 @@ window.Quarto = {
 <ul>
 <li><a href="#bottom">Table</a></li>
 </ul>
-<div id="cell-3" class="cell" data-execution_count="1">
+<div id="cell-3" class="cell" data-execution_count="2">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
@@ -275,7 +275,7 @@ window.Quarto = {
 <span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>sns.<span class="bu">set</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 </div>
-<div id="cell-4" class="cell" data-execution_count="2">
+<div id="cell-4" class="cell" data-execution_count="3">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> plot1(x,f):</span>
@@ -333,10 +333,10 @@ window.Quarto = {
 </section>
 <section id="bernoulli-distribution" class="level3">
 <h3 class="anchored" data-anchor-id="bernoulli-distribution">Bernoulli Distribution</h3>
-<p>Let $ X $ represent an all or nothing event. Then <span class="math inline">\(P(X=1) =
+<p>Let <span class="math inline">\(X\)</span> represent an all or nothing event. Then <span class="math inline">\(P(X=1) =
 p\)</span> and <span class="math inline">\(P(X=0) = 1-p\)</span> for some <span class="math inline">\(p \in [0, 1]\)</span>. <span class="math inline">\(X\sim\)</span> Bernoulli if:</p>
 <p><span class="math display">\[f(x) = p^x(1-p)^{1-x} \text{ for } x \in \{0, 1\}\]</span></p>
-<div id="cell-12" class="cell" data-scrolled="true" data-execution_count="54">
+<div id="cell-12" class="cell" data-scrolled="true" data-execution_count="5">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> np.arange(<span class="op">-</span><span class="dv">1</span>,<span class="dv">2</span>,<span class="dv">1</span>)</span>
@@ -371,7 +371,7 @@ p\)</span> and <span class="math inline">\(P(X=0) = 1-p\)</span> for some <span 
                 0              &amp; \text{otherwise}
            \end{cases}
 \end{equation}\]</span></p>
-<div id="cell-16" class="cell" data-execution_count="21">
+<div id="cell-16" class="cell" data-execution_count="6">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>n<span class="op">=</span><span class="dv">10</span></span>
@@ -404,7 +404,7 @@ p\)</span> and <span class="math inline">\(P(X=0) = 1-p\)</span> for some <span 
 <p><span class="math display">\[P(X=k) = p(1-p)^{k-1}, \text{     } k\ge1\]</span></p>
 <p>It’s also worth noting that:</p>
 <p><span class="math display">\[\sum^{\infty}_{k=1}P(X=k) = p\sum^{\infty}_{k=0}(1-p)^k = \dfrac{p}{1-(1-p)} = 1\]</span></p>
-<div id="cell-24" class="cell" data-execution_count="26">
+<div id="cell-24" class="cell" data-execution_count="7">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>p <span class="op">=</span> <span class="fl">.1</span></span>
@@ -425,7 +425,7 @@ p\)</span> and <span class="math inline">\(P(X=0) = 1-p\)</span> for some <span 
 <h3 class="anchored" data-anchor-id="the-hypergeometric-distribution">The Hypergeometric Distribution</h3>
 <p>In contrast to the binomial distribution, for draws without replacement, the probability of a successful draw changes with each draw. Given a total of <span class="math inline">\(N\)</span> objects with <span class="math inline">\(K\)</span> success objects and <span class="math inline">\(N-K\)</span> others, the probability of <span class="math inline">\(k\)</span> successes in <span class="math inline">\(n\)</span> draws is given by the total combinations of drawing <span class="math inline">\(k\)</span> out of <span class="math inline">\(K\)</span> successes and <span class="math inline">\(n-k\)</span> out of <span class="math inline">\(N-K\)</span> other objects out of the total ways to draw <span class="math inline">\(n\)</span> out of <span class="math inline">\(N\)</span> objects:</p>
 <p><span class="math display">\[ P(X = k|n,N,K) = \dfrac{\binom{K}{k}\binom{N-K}{n-k}}{\binom{N}{n}}\]</span></p>
-<div id="cell-27" class="cell" data-execution_count="51">
+<div id="cell-27" class="cell" data-execution_count="8">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>N, K, n <span class="op">=</span> <span class="dv">100</span>, <span class="dv">5</span>, <span class="dv">10</span></span>
@@ -449,7 +449,7 @@ p\)</span> and <span class="math inline">\(P(X=0) = 1-p\)</span> for some <span 
 <p><span class="math display">\[ f(x) = \exp(-\lambda)\frac{\lambda^x}{x!}\]</span></p>
 <p>It’s also worth noting that:</p>
 <p><span class="math display">\[\sum^{\infty}_{x=0}f(x) = \exp(-\lambda) \sum^{\infty}_{x=0}\frac{\lambda^x}{x!} = \exp(-\lambda)\exp(\lambda)= 1\]</span></p>
-<div id="cell-31" class="cell" data-execution_count="7">
+<div id="cell-31" class="cell" data-execution_count="9">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb8"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> np.arange(<span class="dv">1</span>,<span class="dv">200</span>,<span class="dv">1</span>)</span>
@@ -494,7 +494,7 @@ p\)</span> and <span class="math inline">\(P(X=0) = 1-p\)</span> for some <span 
               1                &amp; x &gt; b
               \end{cases}
 \end{equation}\]</span></p>
-<div id="cell-35" class="cell" data-jupyter="{&quot;outputs_hidden&quot;:true}" data-execution_count="195">
+<div id="cell-35" class="cell" data-jupyter="{&quot;outputs_hidden&quot;:true}" data-execution_count="10">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb9"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>loc <span class="op">=</span> <span class="dv">0</span></span>
@@ -503,10 +503,14 @@ p\)</span> and <span class="math inline">\(P(X=0) = 1-p\)</span> for some <span 
 <span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>f <span class="op">=</span> uniform.pdf(x, loc,scale)</span>
 <span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>plot2(x,[f], [<span class="va">None</span>])</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
+<div class="cell-output cell-output-stderr">
+<pre><code>C:\Users\Jonathan\AppData\Local\Temp\ipykernel_20100\1199473827.py:19: UserWarning: No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+  plt.legend()</code></pre>
+</div>
 <div class="cell-output cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="ProbabilityDistributionNotes_files/figure-html/cell-10-output-1.png" class="img-fluid figure-img"></p>
+<p><img src="ProbabilityDistributionNotes_files/figure-html/cell-10-output-2.png" class="img-fluid figure-img"></p>
 </figure>
 </div>
 </div>
@@ -517,15 +521,15 @@ p\)</span> and <span class="math inline">\(P(X=0) = 1-p\)</span> for some <span 
 <h3 class="anchored" data-anchor-id="normal-gaussian-distributions">Normal (Gaussian) Distributions</h3>
 <p><span class="math inline">\(X\)</span> has a Normal or Gaussian distribution with parameters <span class="math inline">\(\mu\)</span> and <span class="math inline">\(\sigma\)</span>, denoted by <span class="math inline">\(X \text{ ~ }N(\mu, \sigma^2)\)</span> if:</p>
 <p><span class="math display">\[f(x) = \frac{1}{\sigma \sqrt{2 \pi}} \exp\Big\{-\frac{1}{2\sigma^2}(x-\mu)^2\Big\}, \quad\text{  } x \in \mathbb{R} \]</span></p>
-<div id="cell-39" class="cell" data-jupyter="{&quot;outputs_hidden&quot;:true}" data-execution_count="199">
+<div id="cell-39" class="cell" data-jupyter="{&quot;outputs_hidden&quot;:true}" data-execution_count="11">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>u_ <span class="op">=</span> [<span class="dv">0</span>, <span class="dv">0</span>, <span class="dv">0</span>, <span class="dv">0</span>, <span class="dv">1</span>, <span class="dv">2</span>,]</span>
-<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>sigma_ <span class="op">=</span> [<span class="dv">1</span>,<span class="dv">2</span>,<span class="dv">5</span>,<span class="dv">1</span>,<span class="dv">1</span>]</span>
-<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> np.arange(<span class="op">-</span><span class="dv">10</span>,<span class="dv">10</span>,<span class="fl">.1</span>)</span>
-<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a>f <span class="op">=</span> [norm.pdf(x,u,sigma) <span class="cf">for</span> u,sigma <span class="kw">in</span> <span class="bu">zip</span>(u_, sigma_)]</span>
-<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a>labels <span class="op">=</span> [<span class="vs">r'$\mu = </span><span class="sc">%d</span><span class="vs">$, $\sigma = </span><span class="sc">%d</span><span class="vs">$'</span> <span class="op">%</span>(u,sigma) <span class="cf">for</span> u, sigma <span class="kw">in</span> <span class="bu">zip</span>(u_, sigma_)]</span>
-<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a>plot2(x,f, labels)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>u_ <span class="op">=</span> [<span class="dv">0</span>, <span class="dv">0</span>, <span class="dv">0</span>, <span class="dv">0</span>, <span class="dv">1</span>, <span class="dv">2</span>,]</span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>sigma_ <span class="op">=</span> [<span class="dv">1</span>,<span class="dv">2</span>,<span class="dv">5</span>,<span class="dv">1</span>,<span class="dv">1</span>]</span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> np.arange(<span class="op">-</span><span class="dv">10</span>,<span class="dv">10</span>,<span class="fl">.1</span>)</span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a>f <span class="op">=</span> [norm.pdf(x,u,sigma) <span class="cf">for</span> u,sigma <span class="kw">in</span> <span class="bu">zip</span>(u_, sigma_)]</span>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a>labels <span class="op">=</span> [<span class="vs">r'$\mu = </span><span class="sc">%d</span><span class="vs">$, $\sigma = </span><span class="sc">%d</span><span class="vs">$'</span> <span class="op">%</span>(u,sigma) <span class="cf">for</span> u, sigma <span class="kw">in</span> <span class="bu">zip</span>(u_, sigma_)]</span>
+<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a>plot2(x,f, labels)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output cell-output-display">
 <div>
@@ -541,14 +545,14 @@ p\)</span> and <span class="math inline">\(P(X=0) = 1-p\)</span> for some <span 
 <h3 class="anchored" data-anchor-id="exponential-distribution">Exponential Distribution</h3>
 <p><span class="math inline">\(X\)</span> has an Exponential distribution with parameber <span class="math inline">\(\beta\)</span>, noted by <span class="math inline">\(X \text{ ~ Exp}(\beta)\)</span> if:</p>
 <p><span class="math display">\[f(x) = \dfrac{1}{\beta}\exp\Big(-\frac{x}{\beta}\Big), \quad \text{     } x &gt;0\]</span></p>
-<div id="cell-43" class="cell" data-jupyter="{&quot;outputs_hidden&quot;:true}" data-execution_count="205">
+<div id="cell-43" class="cell" data-jupyter="{&quot;outputs_hidden&quot;:true}" data-execution_count="12">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> np.arange(<span class="fl">.1</span>,<span class="dv">10</span>,<span class="fl">.01</span>)</span>
-<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>b <span class="op">=</span> np.arange(<span class="dv">0</span>,<span class="dv">5</span>, <span class="fl">.5</span>)</span>
-<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>f <span class="op">=</span> [expon.pdf(x, B) <span class="cf">for</span> B <span class="kw">in</span> b]</span>
-<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a>labels <span class="op">=</span> [<span class="vs">r'$\beta = </span><span class="sc">%.1f</span><span class="vs">$'</span> <span class="op">%</span> B <span class="cf">for</span> B <span class="kw">in</span> b]</span>
-<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a>plot2(x,f,labels)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> np.arange(<span class="fl">.1</span>,<span class="dv">10</span>,<span class="fl">.01</span>)</span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>b <span class="op">=</span> np.arange(<span class="dv">0</span>,<span class="dv">5</span>, <span class="fl">.5</span>)</span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>f <span class="op">=</span> [expon.pdf(x, B) <span class="cf">for</span> B <span class="kw">in</span> b]</span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a>labels <span class="op">=</span> [<span class="vs">r'$\beta = </span><span class="sc">%.1f</span><span class="vs">$'</span> <span class="op">%</span> B <span class="cf">for</span> B <span class="kw">in</span> b]</span>
+<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a>plot2(x,f,labels)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output cell-output-display">
 <div>
@@ -567,15 +571,15 @@ p\)</span> and <span class="math inline">\(P(X=0) = 1-p\)</span> for some <span 
 <p><span class="math inline">\(X\)</span> has a Gamma distribution with parameters <span class="math inline">\(\alpha\)</span> and <span class="math inline">\(\beta\)</span>, or <span class="math inline">\(X \text{ ~ Gamma}(\alpha, \beta)\)</span>, if:</p>
 <p><span class="math display">\[ f(x) = \dfrac{1}{\beta^\alpha \Gamma(\alpha)}x^{\alpha-1}\exp\Big(-\dfrac{x}{\beta}\Big), \quad \text{  } x&gt;0\]</span></p>
 <p><strong>Special cases</strong>: - The Exponential distribution is the special case of <span class="math inline">\(\text{Gamma}(1, \beta)\)</span> - The Chi-square distribution is a special case of <span class="math inline">\(\text{Gamma}(p/2, 2)\)</span> - Using <span class="math inline">\(y = u^2\)</span>, <span class="math inline">\(dy = 2udu\)</span>, and the result $^_{-}({-u^2}) = $</p>
-<div id="cell-47" class="cell" data-execution_count="221">
+<div id="cell-47" class="cell" data-execution_count="13">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> np.arange(<span class="fl">.1</span>,<span class="dv">100</span>,<span class="fl">.01</span>)</span>
-<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>A <span class="op">=</span> np.arange(<span class="dv">2</span>,<span class="dv">10</span>,<span class="dv">1</span>)<span class="co"># shape</span></span>
-<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>B <span class="op">=</span> np.arange(<span class="dv">4</span>,<span class="dv">5</span>,<span class="dv">1</span>) <span class="co"># scale</span></span>
-<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a>f <span class="op">=</span> [gamma.pdf(x,a<span class="op">=</span>a,scale<span class="op">=</span>b) <span class="cf">for</span> a <span class="kw">in</span> A <span class="cf">for</span> b <span class="kw">in</span> B]</span>
-<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a>labels <span class="op">=</span> [<span class="vs">r'$\alpha = </span><span class="sc">%.1f</span><span class="vs">$, $\beta = </span><span class="sc">%.1f</span><span class="vs">$'</span> <span class="op">%</span> (a,b) <span class="cf">for</span> a <span class="kw">in</span> A <span class="cf">for</span> b <span class="kw">in</span> B]</span>
-<span id="cb12-6"><a href="#cb12-6" aria-hidden="true" tabindex="-1"></a>plot2(x,f, labels)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> np.arange(<span class="fl">.1</span>,<span class="dv">100</span>,<span class="fl">.01</span>)</span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>A <span class="op">=</span> np.arange(<span class="dv">2</span>,<span class="dv">10</span>,<span class="dv">1</span>)<span class="co"># shape</span></span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a>B <span class="op">=</span> np.arange(<span class="dv">4</span>,<span class="dv">5</span>,<span class="dv">1</span>) <span class="co"># scale</span></span>
+<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a>f <span class="op">=</span> [gamma.pdf(x,a<span class="op">=</span>a,scale<span class="op">=</span>b) <span class="cf">for</span> a <span class="kw">in</span> A <span class="cf">for</span> b <span class="kw">in</span> B]</span>
+<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a>labels <span class="op">=</span> [<span class="vs">r'$\alpha = </span><span class="sc">%.1f</span><span class="vs">$, $\beta = </span><span class="sc">%.1f</span><span class="vs">$'</span> <span class="op">%</span> (a,b) <span class="cf">for</span> a <span class="kw">in</span> A <span class="cf">for</span> b <span class="kw">in</span> B]</span>
+<span id="cb13-6"><a href="#cb13-6" aria-hidden="true" tabindex="-1"></a>plot2(x,f, labels)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output cell-output-display">
 <div>
@@ -595,15 +599,15 @@ p\)</span> and <span class="math inline">\(P(X=0) = 1-p\)</span> for some <span 
 <h4 class="anchored" data-anchor-id="relationship-with-normal">Relationship with Normal</h4>
 <p>This distribution is related to the normal distribution in that if a variable <span class="math inline">\(X\)</span> has a standard normal distribution, its square follows a chi-square distribution with one degree of freedom: <span class="math inline">\(Y = X^2 \text{~} \chi^2_1\)</span>.</p>
 <p>Often, we compare how far a value is from an expected one by finding the square of their difference. If the variable converges to a normal distribution, the square of the difference can be considered a chi squared distribution.</p>
-<div id="cell-51" class="cell" data-execution_count="9">
+<div id="cell-51" class="cell" data-execution_count="14">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>x<span class="op">=</span> np.arange(<span class="fl">.01</span>,<span class="dv">20</span>,<span class="fl">.01</span>)</span>
-<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>df_ <span class="op">=</span> np.arange(<span class="dv">3</span>,<span class="dv">6</span>,<span class="dv">1</span>)</span>
-<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> np.arange(<span class="fl">0.01</span>,<span class="dv">15</span>,<span class="fl">.01</span>)</span>
-<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a>f <span class="op">=</span> [chi2.pdf(x,df) <span class="cf">for</span> df <span class="kw">in</span> df_]</span>
-<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a>labels <span class="op">=</span> [<span class="vs">r'$\nu = </span><span class="sc">%.1f</span><span class="vs">$'</span> <span class="op">%</span>df <span class="cf">for</span> df <span class="kw">in</span> df_]</span>
-<span id="cb13-6"><a href="#cb13-6" aria-hidden="true" tabindex="-1"></a>plot2(x,f, labels)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>x<span class="op">=</span> np.arange(<span class="fl">.01</span>,<span class="dv">20</span>,<span class="fl">.01</span>)</span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>df_ <span class="op">=</span> np.arange(<span class="dv">3</span>,<span class="dv">6</span>,<span class="dv">1</span>)</span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> np.arange(<span class="fl">0.01</span>,<span class="dv">15</span>,<span class="fl">.01</span>)</span>
+<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a>f <span class="op">=</span> [chi2.pdf(x,df) <span class="cf">for</span> df <span class="kw">in</span> df_]</span>
+<span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a>labels <span class="op">=</span> [<span class="vs">r'$\nu = </span><span class="sc">%.1f</span><span class="vs">$'</span> <span class="op">%</span>df <span class="cf">for</span> df <span class="kw">in</span> df_]</span>
+<span id="cb14-6"><a href="#cb14-6" aria-hidden="true" tabindex="-1"></a>plot2(x,f, labels)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output cell-output-display">
 <div>
@@ -621,19 +625,19 @@ p\)</span> and <span class="math inline">\(P(X=0) = 1-p\)</span> for some <span 
 <p><span class="math display">\[f(x) = \dfrac{\Gamma(\alpha + \beta)}{\Gamma(\alpha)\Gamma(\beta)}x^{\alpha-1}(1-x)^{\beta-1}, \quad\text{ } 0&lt;x&lt;1\]</span></p>
 <p>Alternatively, we can view the the beta distribution as a distribution over probabilities, <span class="math inline">\(p\)</span> and parameters of number of outcomes <span class="math inline">\(u_1\)</span> and <span class="math inline">\(u_2\)</span>:</p>
 <p><span class="math display">\[f(p|u_1,u_2) = \dfrac{\Gamma(u_1 + u_2)}{\Gamma(u_1)\Gamma(u_2)}p^{u_1-1}(1-p)^{u_2-1}, \quad\text{ } 0&lt;p&lt;1\]</span></p>
-<div id="cell-55" class="cell" data-execution_count="4">
+<div id="cell-55" class="cell" data-execution_count="15">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> np.arange(<span class="fl">0.1</span>,<span class="fl">.99</span>,<span class="fl">.001</span>)</span>
-<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>A <span class="op">=</span> np.arange(<span class="dv">1</span>,<span class="dv">6</span>,<span class="dv">1</span>)<span class="co"># shape</span></span>
-<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a><span class="co">#B = np.arange(1,6,1) # scale</span></span>
-<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a>B <span class="op">=</span> <span class="dv">6</span><span class="op">-</span>A</span>
-<span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a><span class="co">#f = [beta.pdf(x,a=a,b=b) for a in A for b in B]</span></span>
-<span id="cb14-6"><a href="#cb14-6" aria-hidden="true" tabindex="-1"></a>f <span class="op">=</span> [beta.pdf(x, a<span class="op">=</span>a,b<span class="op">=</span>b) <span class="cf">for</span> a,b <span class="kw">in</span> <span class="bu">zip</span>(A,B)]</span>
-<span id="cb14-7"><a href="#cb14-7" aria-hidden="true" tabindex="-1"></a><span class="co">#labels = [r'$\alpha = %.1f$, $\beta = %.1f$' % (a,b) for a in A for b in B]</span></span>
-<span id="cb14-8"><a href="#cb14-8" aria-hidden="true" tabindex="-1"></a>labels <span class="op">=</span> [<span class="vs">r'$\alpha = </span><span class="sc">%.1f</span><span class="vs">$, $\beta = </span><span class="sc">%.1f</span><span class="vs">$'</span> <span class="op">%</span> (a,b) <span class="cf">for</span> a,b <span class="kw">in</span> <span class="bu">zip</span>(A,B)]</span>
-<span id="cb14-9"><a href="#cb14-9" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb14-10"><a href="#cb14-10" aria-hidden="true" tabindex="-1"></a>plot2(x,f, labels)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> np.arange(<span class="fl">0.1</span>,<span class="fl">.99</span>,<span class="fl">.001</span>)</span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>A <span class="op">=</span> np.arange(<span class="dv">1</span>,<span class="dv">6</span>,<span class="dv">1</span>)<span class="co"># shape</span></span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a><span class="co">#B = np.arange(1,6,1) # scale</span></span>
+<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a>B <span class="op">=</span> <span class="dv">6</span><span class="op">-</span>A</span>
+<span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a><span class="co">#f = [beta.pdf(x,a=a,b=b) for a in A for b in B]</span></span>
+<span id="cb15-6"><a href="#cb15-6" aria-hidden="true" tabindex="-1"></a>f <span class="op">=</span> [beta.pdf(x, a<span class="op">=</span>a,b<span class="op">=</span>b) <span class="cf">for</span> a,b <span class="kw">in</span> <span class="bu">zip</span>(A,B)]</span>
+<span id="cb15-7"><a href="#cb15-7" aria-hidden="true" tabindex="-1"></a><span class="co">#labels = [r'$\alpha = %.1f$, $\beta = %.1f$' % (a,b) for a in A for b in B]</span></span>
+<span id="cb15-8"><a href="#cb15-8" aria-hidden="true" tabindex="-1"></a>labels <span class="op">=</span> [<span class="vs">r'$\alpha = </span><span class="sc">%.1f</span><span class="vs">$, $\beta = </span><span class="sc">%.1f</span><span class="vs">$'</span> <span class="op">%</span> (a,b) <span class="cf">for</span> a,b <span class="kw">in</span> <span class="bu">zip</span>(A,B)]</span>
+<span id="cb15-9"><a href="#cb15-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-10"><a href="#cb15-10" aria-hidden="true" tabindex="-1"></a>plot2(x,f, labels)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output cell-output-display">
 <div>
@@ -662,14 +666,14 @@ p\)</span> and <span class="math inline">\(P(X=0) = 1-p\)</span> for some <span 
 <p><span class="math display">\[\int^\infty_{-\infty} f(x)dx = \dfrac{1}{\pi}\int^\infty_{-\infty}\dfrac{1}{\pi (1+x^2)} = \dfrac{1}{\pi}\int^\infty_{-\infty}\dfrac{d\arctan}{dx} = \dfrac{1}{\pi}[\arctan(\infty) - \arctan(-\infty)] = \dfrac{1}{\pi}\Big[\dfrac{\pi}{2}-\Big(-\dfrac{\pi}{2}\Big)\Big]=1\]</span></p>
 <p>While the mean and variance do not exist for the Cauchy distribution, it often is seen with location parameter <span class="math inline">\(\mu\)</span> and scale parameter <span class="math inline">\(\sigma\)</span> by the transformation <span class="math inline">\(x \rightarrow \dfrac{x-\mu}{\sigma}\)</span>, and <span class="math inline">\(dx \rightarrow \frac{1}{\sigma}\)</span> to obtain the modified pdf:</p>
 <p><span class="math display">\[f(x) = \dfrac{1}{\sigma\pi \Big(1+\big[\frac{x-\mu}{\sigma}\big]^2\Big)}\]</span></p>
-<div id="cell-62" class="cell" data-execution_count="233">
+<div id="cell-62" class="cell" data-execution_count="16">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>df_ <span class="op">=</span> np.arange(<span class="dv">1</span>,<span class="dv">5</span>,<span class="dv">1</span>)</span>
-<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> np.arange(<span class="op">-</span><span class="dv">10</span>,<span class="dv">10</span>,<span class="fl">.01</span>)</span>
-<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a>f <span class="op">=</span> [t.pdf(x,df) <span class="cf">for</span> df <span class="kw">in</span> df_]</span>
-<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a>labels <span class="op">=</span> [<span class="vs">r'$\nu = </span><span class="sc">%.1f</span><span class="vs">$'</span> <span class="op">%</span>df <span class="cf">for</span> df <span class="kw">in</span> df_]</span>
-<span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a>plot2(x,f, labels)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb16"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>df_ <span class="op">=</span> np.arange(<span class="dv">1</span>,<span class="dv">5</span>,<span class="dv">1</span>)</span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> np.arange(<span class="op">-</span><span class="dv">10</span>,<span class="dv">10</span>,<span class="fl">.01</span>)</span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a>f <span class="op">=</span> [t.pdf(x,df) <span class="cf">for</span> df <span class="kw">in</span> df_]</span>
+<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a>labels <span class="op">=</span> [<span class="vs">r'$\nu = </span><span class="sc">%.1f</span><span class="vs">$'</span> <span class="op">%</span>df <span class="cf">for</span> df <span class="kw">in</span> df_]</span>
+<span id="cb16-5"><a href="#cb16-5" aria-hidden="true" tabindex="-1"></a>plot2(x,f, labels)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output cell-output-display">
 <div>
@@ -697,17 +701,22 @@ f_X(x) &amp;= \int^{\infty}_0 \\
                 0              &amp; \text{for } x &lt; x_m
            \end{cases}
 \end{equation}\]</span></p>
-<div id="cell-66" class="cell" data-execution_count="1">
+<div id="cell-66" class="cell" data-execution_count="17">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb16"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> np.arange(<span class="fl">0.01</span>,<span class="dv">10</span>,<span class="fl">.01</span>)</span>
-<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>a_ <span class="op">=</span> np.arange(<span class="dv">0</span>,<span class="dv">6</span>,<span class="dv">1</span>)</span>
-<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a>f <span class="op">=</span> [pareto.pdf(x,a, scale<span class="op">=</span><span class="dv">1</span>) <span class="cf">for</span> a <span class="kw">in</span> a_]</span>
-<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a>labels <span class="op">=</span> [<span class="vs">r'$\alpha = </span><span class="sc">%.1f</span><span class="vs">$'</span> <span class="op">%</span>a <span class="cf">for</span> a <span class="kw">in</span> a_]</span>
-<span id="cb16-5"><a href="#cb16-5" aria-hidden="true" tabindex="-1"></a>plot2(x,f, labels)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb17"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> np.arange(<span class="fl">0.01</span>,<span class="dv">10</span>,<span class="fl">.01</span>)</span>
+<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a>a_ <span class="op">=</span> np.arange(<span class="dv">0</span>,<span class="dv">6</span>,<span class="dv">1</span>)</span>
+<span id="cb17-4"><a href="#cb17-4" aria-hidden="true" tabindex="-1"></a>f <span class="op">=</span> [pareto.pdf(x,a, scale<span class="op">=</span><span class="dv">1</span>) <span class="cf">for</span> a <span class="kw">in</span> a_]</span>
+<span id="cb17-5"><a href="#cb17-5" aria-hidden="true" tabindex="-1"></a>labels <span class="op">=</span> [<span class="vs">r'$\alpha = </span><span class="sc">%.1f</span><span class="vs">$'</span> <span class="op">%</span>a <span class="cf">for</span> a <span class="kw">in</span> a_]</span>
+<span id="cb17-6"><a href="#cb17-6" aria-hidden="true" tabindex="-1"></a>plot2(x,f, labels)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
-<div class="cell-output cell-output-error">
-<pre><code>NameError: name 'np' is not defined</code></pre>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="ProbabilityDistributionNotes_files/figure-html/cell-17-output-1.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
 </div>
 </div>
 <p><a id="lognormal"></a> ### Log-normal Distribution</p>
