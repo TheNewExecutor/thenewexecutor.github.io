@@ -10,7 +10,7 @@
 <atom:link href="http://thenewexecutor.github.io/notes.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.4.550</generator>
-<lastBuildDate>Sun, 26 Oct 2025 04:27:22 GMT</lastBuildDate>
+<lastBuildDate>Sun, 26 Oct 2025 04:43:17 GMT</lastBuildDate>
 <item>
   <title>Decorator Notes</title>
   <link>http://thenewexecutor.github.io/notes/Decorators.html</link>
@@ -3527,7 +3527,7 @@ font-style: inherit;">=</span> value.upper()</span></code></pre></div>
 
  ]]></description>
   <guid>http://thenewexecutor.github.io/notes/Decorators.html</guid>
-  <pubDate>Sun, 26 Oct 2025 04:27:22 GMT</pubDate>
+  <pubDate>Sun, 26 Oct 2025 04:43:17 GMT</pubDate>
 </item>
 <item>
   <title>Multivariate Statistics</title>
@@ -3701,7 +3701,7 @@ font-style: inherit;">'equal'</span>)</span>
 
  ]]></description>
   <guid>http://thenewexecutor.github.io/notes/MultivariateStatisticsNotes.html</guid>
-  <pubDate>Sun, 26 Oct 2025 04:27:22 GMT</pubDate>
+  <pubDate>Sun, 26 Oct 2025 04:43:17 GMT</pubDate>
 </item>
 <item>
   <title>Clustering Notes</title>
@@ -22047,7 +22047,7 @@ font-style: inherit;">'</span>)</span></code></pre></div>
 
  ]]></description>
   <guid>http://thenewexecutor.github.io/notes/ClusteringNotes.html</guid>
-  <pubDate>Sun, 26 Oct 2025 04:27:22 GMT</pubDate>
+  <pubDate>Sun, 26 Oct 2025 04:43:17 GMT</pubDate>
 </item>
 <item>
   <title>Entropy Notes</title>
@@ -23250,7 +23250,7 @@ font-style: inherit;">==</span> Y31</span></code></pre></div>
 
  ]]></description>
   <guid>http://thenewexecutor.github.io/notes/EntropyNotes.html</guid>
-  <pubDate>Sun, 26 Oct 2025 04:27:22 GMT</pubDate>
+  <pubDate>Sun, 26 Oct 2025 04:43:17 GMT</pubDate>
 </item>
 <item>
   <title>Closure Notes</title>
@@ -24209,7 +24209,7 @@ font-style: inherit;">42</span>)</span></code></pre></div>
 
  ]]></description>
   <guid>http://thenewexecutor.github.io/notes/Closures.html</guid>
-  <pubDate>Sun, 26 Oct 2025 04:27:22 GMT</pubDate>
+  <pubDate>Sun, 26 Oct 2025 04:43:17 GMT</pubDate>
 </item>
 <item>
   <title>Probability Distribution Notes</title>
@@ -24960,13 +24960,14 @@ font-style: inherit;">in</span> df_]</span>
 </div>
 </div>
 <p><a id="beta"></a> ### Beta Distribution</p>
-<p>The Beta function is defined as <img src="https://latex.codecogs.com/png.latex?%5Ctext%7BBeta%7D(a,b)%20%5Cequiv%20%5Cint%5E%5Cinfty_0%20t%5E%7Ba-1%7D(1-t)%5E%7Bb-1%7D%20=%20%5Cdfrac%7B%5CGamma(a)%5CGamma(b)%7D%7B%5CGamma(a+b)%7D"></p>
+<p>The Beta function is defined as</p>
+<p><img src="https://latex.codecogs.com/png.latex?%5Ctext%7BBeta%7D(a,b)%20%5Cequiv%20%5Cint%5E%5Cinfty_0%20t%5E%7Ba-1%7D(1-t)%5E%7Bb-1%7D%20=%20%5Cdfrac%7B%5CGamma(a)%5CGamma(b)%7D%7B%5CGamma(a+b)%7D"></p>
 <p>See <a href="https://en.wikipedia.org/wiki/Beta_function">here</a> for the proof of the last equality which involves change of variables in evaluating the product of two Gamma functions.</p>
 <p><img src="https://latex.codecogs.com/png.latex?X"> has a Beta distribution with parameters <img src="https://latex.codecogs.com/png.latex?%5Calpha%20%3E%200"> and <img src="https://latex.codecogs.com/png.latex?%5Cbeta%20%3E%200">, denoted by <img src="https://latex.codecogs.com/png.latex?X%20%5Ctext%7B%20~%20Beta%7D%20(%5Calpha,%20%5Cbeta)"> if:</p>
 <p><img src="https://latex.codecogs.com/png.latex?f(x)%20=%20%5Cdfrac%7B%5CGamma(%5Calpha%20+%20%5Cbeta)%7D%7B%5CGamma(%5Calpha)%5CGamma(%5Cbeta)%7Dx%5E%7B%5Calpha-1%7D(1-x)%5E%7B%5Cbeta-1%7D,%20%5Cquad%5Ctext%7B%20%7D%200%3Cx%3C1"></p>
 <p>Alternatively, we can view the the beta distribution as a distribution over probabilities, <img src="https://latex.codecogs.com/png.latex?p"> and parameters of number of outcomes <img src="https://latex.codecogs.com/png.latex?u_1"> and <img src="https://latex.codecogs.com/png.latex?u_2">:</p>
 <p><img src="https://latex.codecogs.com/png.latex?f(p%7Cu_1,u_2)%20=%20%5Cdfrac%7B%5CGamma(u_1%20+%20u_2)%7D%7B%5CGamma(u_1)%5CGamma(u_2)%7Dp%5E%7Bu_1-1%7D(1-p)%5E%7Bu_2-1%7D,%20%5Cquad%5Ctext%7B%20%7D%200%3Cp%3C1"></p>
-<div id="cell-54" class="cell" data-execution_count="4">
+<div id="cell-55" class="cell" data-execution_count="4">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb14" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb14-1">x <span class="op" style="color: #5E5E5E;
@@ -25069,7 +25070,7 @@ font-style: inherit;">zip</span>(A,B)]</span>
 <p><img src="https://latex.codecogs.com/png.latex?%5Cint%5E%5Cinfty_%7B-%5Cinfty%7D%20f(x)dx%20=%20%5Cdfrac%7B1%7D%7B%5Cpi%7D%5Cint%5E%5Cinfty_%7B-%5Cinfty%7D%5Cdfrac%7B1%7D%7B%5Cpi%20(1+x%5E2)%7D%20=%20%5Cdfrac%7B1%7D%7B%5Cpi%7D%5Cint%5E%5Cinfty_%7B-%5Cinfty%7D%5Cdfrac%7Bd%5Carctan%7D%7Bdx%7D%20=%20%5Cdfrac%7B1%7D%7B%5Cpi%7D%5B%5Carctan(%5Cinfty)%20-%20%5Carctan(-%5Cinfty)%5D%20=%20%5Cdfrac%7B1%7D%7B%5Cpi%7D%5CBig%5B%5Cdfrac%7B%5Cpi%7D%7B2%7D-%5CBig(-%5Cdfrac%7B%5Cpi%7D%7B2%7D%5CBig)%5CBig%5D=1"></p>
 <p>While the mean and variance do not exist for the Cauchy distribution, it often is seen with location parameter <img src="https://latex.codecogs.com/png.latex?%5Cmu"> and scale parameter <img src="https://latex.codecogs.com/png.latex?%5Csigma"> by the transformation <img src="https://latex.codecogs.com/png.latex?x%20%5Crightarrow%20%5Cdfrac%7Bx-%5Cmu%7D%7B%5Csigma%7D">, and <img src="https://latex.codecogs.com/png.latex?dx%20%5Crightarrow%20%5Cfrac%7B1%7D%7B%5Csigma%7D"> to obtain the modified pdf:</p>
 <p><img src="https://latex.codecogs.com/png.latex?f(x)%20=%20%5Cdfrac%7B1%7D%7B%5Csigma%5Cpi%20%5CBig(1+%5Cbig%5B%5Cfrac%7Bx-%5Cmu%7D%7B%5Csigma%7D%5Cbig%5D%5E2%5CBig)%7D"></p>
-<div id="cell-61" class="cell" data-execution_count="233">
+<div id="cell-62" class="cell" data-execution_count="233">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb15" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb15-1">df_ <span class="op" style="color: #5E5E5E;
@@ -25134,7 +25135,7 @@ font-style: inherit;">in</span> df_]</span>
 <section id="pareto-distribution" class="level3">
 <h3 class="anchored" data-anchor-id="pareto-distribution">Pareto Distribution</h3>
 <p><img src="https://latex.codecogs.com/png.latex?%5Cbegin%7Bequation%7D%0A%20%20%20%20f(x)%20=%20%5Cbegin%7Bcases%7D%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%5Cdfrac%7B%5Calpha%20x_m%5E%5Calpha%7D%7Bx%5E%7B%5Calpha+1%7D%7D%20%20%20&amp;%20%5Ctext%7Bfor%20%7D%20%20x%20%5Cge%20x_m%5C%5C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%200%20%20%20%20%20%20%20%20%20%20%20%20%20%20&amp;%20%5Ctext%7Bfor%20%7D%20x%20%3C%20x_m%0A%20%20%20%20%20%20%20%20%20%20%20%5Cend%7Bcases%7D%0A%5Cend%7Bequation%7D"></p>
-<div id="cell-65" class="cell" data-execution_count="1">
+<div id="cell-66" class="cell" data-execution_count="1">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb16" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb16-1">x <span class="op" style="color: #5E5E5E;
@@ -25190,7 +25191,7 @@ font-style: inherit;">in</span> a_]</span>
 <p><a id="lognormal"></a> ### Log-normal Distribution</p>
 <p><img src="https://latex.codecogs.com/png.latex?X"> has a Log-normal distribution with parameters <img src="https://latex.codecogs.com/png.latex?%5Cmu"> and <img src="https://latex.codecogs.com/png.latex?%5Csigma">, denoted by $ X (, )$ if <img src="https://latex.codecogs.com/png.latex?%5Cln%20X%20%5Csim%20N(%5Cmu,%20%5Csigma%5E2)">. This results in a probability distribution function of:</p>
 <p><img src="https://latex.codecogs.com/png.latex?f(x)%20=%20%5Cfrac%7B1%7D%7Bx%5Csigma%20%5Csqrt%7B2%20%5Cpi%7D%7D%20%5Cexp%5CBig%5C%7B-%5Cfrac%7B1%7D%7B2%5Csigma%5E2%7D(%5Cln%20x-%5Cmu)%5E2%5CBig%5C%7D,%20%5Cquad%5Ctext%7B%20%20%7D%20x%20%5Cin%20%5Cmathbb%7BR%7D%20"></p>
-<div id="cell-68" class="cell" data-jupyter="{&quot;outputs_hidden&quot;:true}" data-execution_count="6">
+<div id="cell-69" class="cell" data-jupyter="{&quot;outputs_hidden&quot;:true}" data-execution_count="6">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb18" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb18-1">u_ <span class="op" style="color: #5E5E5E;
@@ -25541,7 +25542,7 @@ Matrix <img src="https://latex.codecogs.com/png.latex?%5CSigma_%7Bij%7D%20=%20%5
 
  ]]></description>
   <guid>http://thenewexecutor.github.io/notes/ProbabilityDistributionNotes.html</guid>
-  <pubDate>Sun, 26 Oct 2025 04:27:22 GMT</pubDate>
+  <pubDate>Sun, 26 Oct 2025 04:43:17 GMT</pubDate>
 </item>
 </channel>
 </rss>

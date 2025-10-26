@@ -614,13 +614,14 @@ p\)</span> and <span class="math inline">\(P(X=0) = 1-p\)</span> for some <span 
 </div>
 </div>
 <p><a id="beta"></a> ### Beta Distribution</p>
-<p>The Beta function is defined as <span class="math display">\[\text{Beta}(a,b) \equiv \int^\infty_0 t^{a-1}(1-t)^{b-1} = \dfrac{\Gamma(a)\Gamma(b)}{\Gamma(a+b)}\]</span></p>
+<p>The Beta function is defined as</p>
+<p><span class="math display">\[\text{Beta}(a,b) \equiv \int^\infty_0 t^{a-1}(1-t)^{b-1} = \dfrac{\Gamma(a)\Gamma(b)}{\Gamma(a+b)}\]</span></p>
 <p>See <a href="https://en.wikipedia.org/wiki/Beta_function">here</a> for the proof of the last equality which involves change of variables in evaluating the product of two Gamma functions.</p>
 <p><span class="math inline">\(X\)</span> has a Beta distribution with parameters <span class="math inline">\(\alpha &gt; 0\)</span> and <span class="math inline">\(\beta &gt; 0\)</span>, denoted by <span class="math inline">\(X \text{ ~ Beta} (\alpha, \beta)\)</span> if:</p>
 <p><span class="math display">\[f(x) = \dfrac{\Gamma(\alpha + \beta)}{\Gamma(\alpha)\Gamma(\beta)}x^{\alpha-1}(1-x)^{\beta-1}, \quad\text{ } 0&lt;x&lt;1\]</span></p>
 <p>Alternatively, we can view the the beta distribution as a distribution over probabilities, <span class="math inline">\(p\)</span> and parameters of number of outcomes <span class="math inline">\(u_1\)</span> and <span class="math inline">\(u_2\)</span>:</p>
 <p><span class="math display">\[f(p|u_1,u_2) = \dfrac{\Gamma(u_1 + u_2)}{\Gamma(u_1)\Gamma(u_2)}p^{u_1-1}(1-p)^{u_2-1}, \quad\text{ } 0&lt;p&lt;1\]</span></p>
-<div id="cell-54" class="cell" data-execution_count="4">
+<div id="cell-55" class="cell" data-execution_count="4">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb14"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> np.arange(<span class="fl">0.1</span>,<span class="fl">.99</span>,<span class="fl">.001</span>)</span>
@@ -661,7 +662,7 @@ p\)</span> and <span class="math inline">\(P(X=0) = 1-p\)</span> for some <span 
 <p><span class="math display">\[\int^\infty_{-\infty} f(x)dx = \dfrac{1}{\pi}\int^\infty_{-\infty}\dfrac{1}{\pi (1+x^2)} = \dfrac{1}{\pi}\int^\infty_{-\infty}\dfrac{d\arctan}{dx} = \dfrac{1}{\pi}[\arctan(\infty) - \arctan(-\infty)] = \dfrac{1}{\pi}\Big[\dfrac{\pi}{2}-\Big(-\dfrac{\pi}{2}\Big)\Big]=1\]</span></p>
 <p>While the mean and variance do not exist for the Cauchy distribution, it often is seen with location parameter <span class="math inline">\(\mu\)</span> and scale parameter <span class="math inline">\(\sigma\)</span> by the transformation <span class="math inline">\(x \rightarrow \dfrac{x-\mu}{\sigma}\)</span>, and <span class="math inline">\(dx \rightarrow \frac{1}{\sigma}\)</span> to obtain the modified pdf:</p>
 <p><span class="math display">\[f(x) = \dfrac{1}{\sigma\pi \Big(1+\big[\frac{x-\mu}{\sigma}\big]^2\Big)}\]</span></p>
-<div id="cell-61" class="cell" data-execution_count="233">
+<div id="cell-62" class="cell" data-execution_count="233">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb15"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>df_ <span class="op">=</span> np.arange(<span class="dv">1</span>,<span class="dv">5</span>,<span class="dv">1</span>)</span>
@@ -696,7 +697,7 @@ f_X(x) &amp;= \int^{\infty}_0 \\
                 0              &amp; \text{for } x &lt; x_m
            \end{cases}
 \end{equation}\]</span></p>
-<div id="cell-65" class="cell" data-execution_count="1">
+<div id="cell-66" class="cell" data-execution_count="1">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb16"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> np.arange(<span class="fl">0.01</span>,<span class="dv">10</span>,<span class="fl">.01</span>)</span>
@@ -712,7 +713,7 @@ f_X(x) &amp;= \int^{\infty}_0 \\
 <p><a id="lognormal"></a> ### Log-normal Distribution</p>
 <p><span class="math inline">\(X\)</span> has a Log-normal distribution with parameters <span class="math inline">\(\mu\)</span> and <span class="math inline">\(\sigma\)</span>, denoted by $ X (, )$ if <span class="math inline">\(\ln X \sim N(\mu, \sigma^2)\)</span>. This results in a probability distribution function of:</p>
 <p><span class="math display">\[f(x) = \frac{1}{x\sigma \sqrt{2 \pi}} \exp\Big\{-\frac{1}{2\sigma^2}(\ln x-\mu)^2\Big\}, \quad\text{  } x \in \mathbb{R} \]</span></p>
-<div id="cell-68" class="cell" data-jupyter="{&quot;outputs_hidden&quot;:true}" data-execution_count="6">
+<div id="cell-69" class="cell" data-jupyter="{&quot;outputs_hidden&quot;:true}" data-execution_count="6">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb18"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>u_ <span class="op">=</span> [<span class="dv">0</span>,<span class="dv">0</span>,<span class="dv">1</span>,<span class="dv">1</span>]</span>
