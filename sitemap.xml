@@ -1,15 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://thenewexecutor.github.io/index.html</loc>
-    <lastmod>2025-05-20T08:15:25.535Z</lastmod>
+    <loc>http://thenewexecutor.github.io/notes/ProbabilityDistributionNotes.html</loc>
+    <lastmod>2025-10-26T04:13:17.076Z</lastmod>
+  </url>
+  <url>
+    <loc>http://thenewexecutor.github.io/notes/EntropyNotes.html</loc>
+    <lastmod>2025-10-26T04:13:17.074Z</lastmod>
+  </url>
+  <url>
+    <loc>http://thenewexecutor.github.io/notes/MultivariateStatisticsNotes.html</loc>
+    <lastmod>2025-10-26T04:13:17.074Z</lastmod>
   </url>
   <url>
     <loc>http://thenewexecutor.github.io/projects.html</loc>
-    <lastmod>2025-05-20T08:15:25.535Z</lastmod>
+    <lastmod>2025-10-26T04:13:17.076Z</lastmod>
   </url>
   <url>
     <loc>http://thenewexecutor.github.io/projects/library/index.html</loc>
-    <lastmod>2025-05-20T08:15:25.536Z</lastmod>
+    <lastmod>2025-10-26T04:13:17.077Z</lastmod>
+  </url>
+  <url>
+    <loc>http://thenewexecutor.github.io/notes.html</loc>
+    <lastmod>2025-10-26T04:13:17.042Z</lastmod>
+  </url>
+  <url>
+    <loc>http://thenewexecutor.github.io/index.html</loc>
+    <lastmod>2025-10-26T04:13:17.042Z</lastmod>
+  </url>
+  <url>
+    <loc>http://thenewexecutor.github.io/notes/Decorators.html</loc>
+    <lastmod>2025-10-26T04:13:17.073Z</lastmod>
+  </url>
+  <url>
+    <loc>http://thenewexecutor.github.io/notes/ClusteringNotes.html</loc>
+    <lastmod>2025-10-26T04:13:17.073Z</lastmod>
+  </url>
+  <url>
+    <loc>http://thenewexecutor.github.io/notes/Closures.html</loc>
+    <lastmod>2025-10-26T04:13:17.042Z</lastmod>
   </url>
 </urlset>
