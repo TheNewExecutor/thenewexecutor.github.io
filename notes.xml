@@ -10,7 +10,7 @@
 <atom:link href="http://thenewexecutor.github.io/notes.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.4.550</generator>
-<lastBuildDate>Sun, 26 Oct 2025 05:06:29 GMT</lastBuildDate>
+<lastBuildDate>Mon, 27 Oct 2025 06:25:28 GMT</lastBuildDate>
 <item>
   <title>Decorator Notes</title>
   <link>http://thenewexecutor.github.io/notes/Decorators.html</link>
@@ -3527,7 +3527,7 @@ font-style: inherit;">=</span> value.upper()</span></code></pre></div>
 
  ]]></description>
   <guid>http://thenewexecutor.github.io/notes/Decorators.html</guid>
-  <pubDate>Sun, 26 Oct 2025 05:06:29 GMT</pubDate>
+  <pubDate>Mon, 27 Oct 2025 06:25:28 GMT</pubDate>
 </item>
 <item>
   <title>Multivariate Statistics</title>
@@ -3701,7 +3701,7 @@ font-style: inherit;">'equal'</span>)</span>
 
  ]]></description>
   <guid>http://thenewexecutor.github.io/notes/MultivariateStatisticsNotes.html</guid>
-  <pubDate>Sun, 26 Oct 2025 05:06:29 GMT</pubDate>
+  <pubDate>Mon, 27 Oct 2025 06:25:28 GMT</pubDate>
 </item>
 <item>
   <title>Clustering Notes</title>
@@ -22047,7 +22047,7 @@ font-style: inherit;">'</span>)</span></code></pre></div>
 
  ]]></description>
   <guid>http://thenewexecutor.github.io/notes/ClusteringNotes.html</guid>
-  <pubDate>Sun, 26 Oct 2025 05:06:29 GMT</pubDate>
+  <pubDate>Mon, 27 Oct 2025 06:25:28 GMT</pubDate>
 </item>
 <item>
   <title>Entropy Notes</title>
@@ -23250,18 +23250,17 @@ font-style: inherit;">==</span> Y31</span></code></pre></div>
 
  ]]></description>
   <guid>http://thenewexecutor.github.io/notes/EntropyNotes.html</guid>
-  <pubDate>Sun, 26 Oct 2025 05:06:29 GMT</pubDate>
+  <pubDate>Mon, 27 Oct 2025 06:25:28 GMT</pubDate>
 </item>
 <item>
   <title>Closure Notes</title>
+  <dc:creator>Jonathan Sarker</dc:creator>
   <link>http://thenewexecutor.github.io/notes/Closures.html</link>
   <description><![CDATA[ 
 
 
 
 
-<section id="closure-notes" class="level1">
-<h1>Closure Notes</h1>
 <p>These are notes based on Real Python’s <a href="https://realpython.com/python-closure/">article</a> with motivation to better understand Python <a href="../notes/Decorators.html">decorators</a>.</p>
 <p>A <a href="https://en.wikipedia.org/wiki/Closure_(computer_programming)">closure</a> also known as a function closure, is a technique to store a function with an environment. The function has local variables mapped to the enclosing scope.</p>
 <p>In Python, a closure is a nested function where the inner function is returned by the outer function, along with parameter bindings defined in the outer function.</p>
@@ -23271,6 +23270,8 @@ font-style: inherit;">==</span> Y31</span></code></pre></div>
 <h3 class="anchored" data-anchor-id="inner-functions">Inner Functions</h3>
 <p>This is simply a nested function. Just like in the format of many Elements of Programming Interview Python solutions, nesting functions can control scope:</p>
 <div id="638e26eb-6ade-41ed-b59a-22ba2d67f59a" class="cell" data-execution_count="1">
+<details class="code-fold">
+<summary>Code</summary>
 <div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><span class="kw" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">def</span> outer_func():</span>
@@ -23296,6 +23297,7 @@ font-style: inherit;">!'</span>)</span>
 <span id="cb1-5">    inner_func()</span>
 <span id="cb1-6"></span>
 <span id="cb1-7">outer_func()</span></code></pre></div>
+</details>
 <div class="cell-output cell-output-stdout">
 <pre><code>Hello, Jonathan!</code></pre>
 </div>
@@ -23305,6 +23307,8 @@ font-style: inherit;">!'</span>)</span>
 <h3 class="anchored" data-anchor-id="function-closures">Function Closures</h3>
 <p>The defining feature of a function closure separating them from other inner functions is that it <strong>returns the inner function</strong>. The anatomy of a function closure is the following: - outer function defining the scope - variables local to the outer function - inner function defined inside the outer function</p>
 <div id="9f1bdede-a4ed-417a-9c38-a67549ec466b" class="cell" data-execution_count="2">
+<details class="code-fold">
+<summary>Code</summary>
 <div class="sourceCode cell-code" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><span class="kw" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">def</span> outer_func():</span>
@@ -23332,21 +23336,27 @@ background-color: null;
 font-style: inherit;">return</span> inner_func</span>
 <span id="cb3-6"></span>
 <span id="cb3-7">outer_func()</span></code></pre></div>
+</details>
 <div class="cell-output cell-output-display" data-execution_count="2">
 <pre><code>&lt;function __main__.outer_func.&lt;locals&gt;.inner_func()&gt;</code></pre>
 </div>
 </div>
 <div id="6ac65970-f322-4f2a-bf72-47f302c0811b" class="cell" data-execution_count="4">
+<details class="code-fold">
+<summary>Code</summary>
 <div class="sourceCode cell-code" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1">greeter <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span> outer_func()</span>
 <span id="cb5-2">greeter()</span></code></pre></div>
+</details>
 <div class="cell-output cell-output-stdout">
 <pre><code>Hello, Jonathan</code></pre>
 </div>
 </div>
 <p>Lambda functions can be used to build closures:</p>
 <div id="064e887a-f91f-47cc-9c6b-328c787381d7" class="cell" data-execution_count="5">
+<details class="code-fold">
+<summary>Code</summary>
 <div class="sourceCode cell-code" id="cb7" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><span class="kw" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">def</span> outer_func():</span>
@@ -23375,6 +23385,7 @@ font-style: inherit;">!'</span>)</span>
 background-color: null;
 font-style: inherit;">=</span> outer_func()</span>
 <span id="cb7-6">greeter()</span></code></pre></div>
+</details>
 <div class="cell-output cell-output-stdout">
 <pre><code>Hello, Jonathan!</code></pre>
 </div>
@@ -23384,6 +23395,8 @@ font-style: inherit;">=</span> outer_func()</span>
 <h3 class="anchored" data-anchor-id="captured-variables">Captured Variables</h3>
 <p>In this example, the inner function has access to variables that are defined even after itself, demonstrating the subtleties of scope.</p>
 <div id="cc0a5970-df52-4907-a277-0f220ec708d8" class="cell" data-execution_count="7">
+<details class="code-fold">
+<summary>Code</summary>
 <div class="sourceCode cell-code" id="cb9" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1"><span class="kw" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">def</span> outer_func(outer_arg):</span>
@@ -23419,6 +23432,7 @@ font-style: inherit;">=</span> outer_func(<span class="st" style="color: #20794D
 background-color: null;
 font-style: inherit;">'Outer argument'</span>)</span>
 <span id="cb9-11">closure()</span></code></pre></div>
+</details>
 <div class="cell-output cell-output-stdout">
 <pre><code>Outer argument
 Outer local variable
@@ -23428,6 +23442,8 @@ Another local variable</code></pre>
 <section id="updating-immutable-objects" class="level4">
 <h4 class="anchored" data-anchor-id="updating-immutable-objects">Updating Immutable Objects</h4>
 <div id="3232560c-2d46-4391-99d7-f2df35bcabbf" class="cell" data-execution_count="14">
+<details class="code-fold">
+<summary>Code</summary>
 <div class="sourceCode cell-code" id="cb11" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb11-1"><span class="kw" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">def</span> make_counter():</span>
@@ -23460,18 +23476,25 @@ font-style: inherit;">return</span> counter</span>
 background-color: null;
 font-style: inherit;">=</span> make_counter()</span>
 <span id="cb11-10">counter()</span></code></pre></div>
+</details>
 <div class="cell-output cell-output-display" data-execution_count="14">
 <pre><code>1</code></pre>
 </div>
 </div>
 <div id="8b63f5f3-45a4-4287-a977-ffaaa7bad9dd" class="cell" data-execution_count="15">
+<details class="code-fold">
+<summary>Code</summary>
 <div class="sourceCode cell-code" id="cb13" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb13-1">counter()</span></code></pre></div>
+</details>
 <div class="cell-output cell-output-display" data-execution_count="15">
 <pre><code>2</code></pre>
 </div>
 </div>
 <div id="1e0a0267-b46d-48dc-aac0-993e6c084911" class="cell" data-execution_count="16">
+<details class="code-fold">
+<summary>Code</summary>
 <div class="sourceCode cell-code" id="cb15" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb15-1">counter()</span></code></pre></div>
+</details>
 <div class="cell-output cell-output-display" data-execution_count="16">
 <pre><code>3</code></pre>
 </div>
@@ -23480,6 +23503,8 @@ font-style: inherit;">=</span> make_counter()</span>
 <section id="updating-mutable-objects" class="level4">
 <h4 class="anchored" data-anchor-id="updating-mutable-objects">Updating Mutable Objects</h4>
 <div id="7c9b928b-81f5-46fe-ad4e-a0315530ff88" class="cell" data-execution_count="18">
+<details class="code-fold">
+<summary>Code</summary>
 <div class="sourceCode cell-code" id="cb17" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb17-1"><span class="kw" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">def</span> make_appender():</span>
@@ -23503,22 +23528,29 @@ font-style: inherit;">=</span> make_appender()</span>
 <span id="cb17-9">appender(<span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">'First item'</span>)</span></code></pre></div>
+</details>
 <div class="cell-output cell-output-display" data-execution_count="18">
 <pre><code>['First item']</code></pre>
 </div>
 </div>
 <div id="a96ba527-673d-4a2b-b157-8f6e1618cac8" class="cell" data-execution_count="19">
+<details class="code-fold">
+<summary>Code</summary>
 <div class="sourceCode cell-code" id="cb19" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb19-1">appender(<span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">'Second item'</span>)</span></code></pre></div>
+</details>
 <div class="cell-output cell-output-display" data-execution_count="19">
 <pre><code>['First item', 'Second item']</code></pre>
 </div>
 </div>
 <div id="990a9184-0a74-4387-b5a5-285716c77a05" class="cell" data-execution_count="20">
+<details class="code-fold">
+<summary>Code</summary>
 <div class="sourceCode cell-code" id="cb21" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb21-1">appender(<span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">'Third item'</span>)</span></code></pre></div>
+</details>
 <div class="cell-output cell-output-display" data-execution_count="20">
 <pre><code>['First item', 'Second item', 'Third item']</code></pre>
 </div>
@@ -23531,6 +23563,8 @@ font-style: inherit;">'Third item'</span>)</span></code></pre></div>
 <section id="creating-factory-functions" class="level3">
 <h3 class="anchored" data-anchor-id="creating-factory-functions">Creating Factory Functions</h3>
 <div id="55b76d54-142c-44ee-9751-1993b7c6c075" class="cell" data-execution_count="21">
+<details class="code-fold">
+<summary>Code</summary>
 <div class="sourceCode cell-code" id="cb23" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb23-1"><span class="kw" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">def</span> make_root_calculator(root_degree, precision<span class="op" style="color: #5E5E5E;
@@ -23567,11 +23601,14 @@ font-style: inherit;">4</span>)</span>
 <span id="cb23-8">square_root(<span class="dv" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">42</span>)</span></code></pre></div>
+</details>
 <div class="cell-output cell-output-display" data-execution_count="21">
 <pre><code>6.4807</code></pre>
 </div>
 </div>
 <div id="91b54e8b-3564-428b-ad35-561f9fc60827" class="cell" data-execution_count="22">
+<details class="code-fold">
+<summary>Code</summary>
 <div class="sourceCode cell-code" id="cb25" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb25-1">cubic_root <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span> make_root_calculator(<span class="dv" style="color: #AD0000;
@@ -23580,6 +23617,7 @@ font-style: inherit;">3</span>)</span>
 <span id="cb25-2">cubic_root(<span class="dv" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">42</span>)</span></code></pre></div>
+</details>
 <div class="cell-output cell-output-display" data-execution_count="22">
 <pre><code>3.48</code></pre>
 </div>
@@ -23588,6 +23626,8 @@ font-style: inherit;">42</span>)</span></code></pre></div>
 <section id="building-stateful-function" class="level3">
 <h3 class="anchored" data-anchor-id="building-stateful-function">Building Stateful Function</h3>
 <div id="44eaf2ea-c346-4368-a452-f941bcf7a53f" class="cell" data-execution_count="25">
+<details class="code-fold">
+<summary>Code</summary>
 <div class="sourceCode cell-code" id="cb27" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb27-1"><span class="kw" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">def</span> cumulative_average():</span>
@@ -23662,30 +23702,40 @@ font-style: inherit;">=</span> cumulative_average()</span>
 <span id="cb27-24">stream_average(<span class="dv" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">12</span>)</span></code></pre></div>
+</details>
 <div class="cell-output cell-output-display" data-execution_count="25">
 <pre><code>12.0</code></pre>
 </div>
 </div>
 <div id="03ac006b-e8ee-4864-83e5-62af7e7b82b0" class="cell" data-execution_count="26">
+<details class="code-fold">
+<summary>Code</summary>
 <div class="sourceCode cell-code" id="cb29" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb29-1">stream_average(<span class="dv" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">13</span>)</span></code></pre></div>
+</details>
 <div class="cell-output cell-output-display" data-execution_count="26">
 <pre><code>12.5</code></pre>
 </div>
 </div>
 <div id="ddb11459-38ef-4cb5-be47-b451868f70e6" class="cell" data-execution_count="27">
+<details class="code-fold">
+<summary>Code</summary>
 <div class="sourceCode cell-code" id="cb31" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb31-1">stream_average(<span class="dv" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">11</span>)</span></code></pre></div>
+</details>
 <div class="cell-output cell-output-display" data-execution_count="27">
 <pre><code>12.0</code></pre>
 </div>
 </div>
 <div id="75f9d141-3f50-47b4-bd3d-42ef0d1eb17a" class="cell" data-execution_count="28">
+<details class="code-fold">
+<summary>Code</summary>
 <div class="sourceCode cell-code" id="cb33" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb33-1">stream_average(<span class="dv" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">10</span>)</span></code></pre></div>
+</details>
 <div class="cell-output cell-output-display" data-execution_count="28">
 <pre><code>11.5</code></pre>
 </div>
@@ -23695,6 +23745,8 @@ font-style: inherit;">10</span>)</span></code></pre></div>
 <h3 class="anchored" data-anchor-id="providing-callback-functions">Providing Callback Functions</h3>
 <p>The <code>callback()</code> function returns a closure object that is passed onto the <code>command</code> argument, which takes callable objects without arguments. This is a workaround to pass parameters.</p>
 <div id="a55b8a82-3692-4cf9-8f72-6a981658d911" class="cell" data-execution_count="29">
+<details class="code-fold">
+<summary>Code</summary>
 <div class="sourceCode cell-code" id="cb35" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb35-1"><span class="im" style="color: #00769E;
 background-color: null;
 font-style: inherit;">import</span> tkinter <span class="im" style="color: #00769E;
@@ -23761,6 +23813,7 @@ font-style: inherit;">'Hello, World!'</span>),</span>
 <span id="cb35-26"></span>
 <span id="cb35-27">app.mainloop()</span>
 <span id="cb35-28">    </span></code></pre></div>
+</details>
 </div>
 </section>
 </section>
@@ -23769,6 +23822,8 @@ font-style: inherit;">'Hello, World!'</span>),</span>
 <p>There are two types of decorators in Python: - function based - class based</p>
 <p>Here is a simple function based implementation with and without the decorator, and using the syntax:</p>
 <div id="76e4c930-4ebc-4f66-90f9-723b75e524b3" class="cell" data-execution_count="34">
+<details class="code-fold">
+<summary>Code</summary>
 <div class="sourceCode cell-code" id="cb36" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb36-1"><span class="kw" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">def</span> greet():</span>
@@ -23779,11 +23834,14 @@ background-color: null;
 font-style: inherit;">'Hello, World!'</span>)</span>
 <span id="cb36-3"></span>
 <span id="cb36-4">greet()</span></code></pre></div>
+</details>
 <div class="cell-output cell-output-stdout">
 <pre><code>Hello, World!</code></pre>
 </div>
 </div>
 <div id="62a53eff-0850-48fa-975b-ce786aa6c406" class="cell" data-execution_count="35">
+<details class="code-fold">
+<summary>Code</summary>
 <div class="sourceCode cell-code" id="cb38" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb38-1"><span class="kw" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">def</span> decorator(function):</span>
@@ -23818,6 +23876,7 @@ font-style: inherit;">'Hello, World!'</span>)</span>
 background-color: null;
 font-style: inherit;">=</span> decorator(greet)</span>
 <span id="cb38-12">greet()</span></code></pre></div>
+</details>
 <div class="cell-output cell-output-stdout">
 <pre><code>Do something before calling the function.
 Hello, World!
@@ -23825,6 +23884,8 @@ Do something after calling the function.</code></pre>
 </div>
 </div>
 <div id="75940edd-ac6c-4ffc-9f6e-dcc4ddf1a576" class="cell" data-execution_count="36">
+<details class="code-fold">
+<summary>Code</summary>
 <div class="sourceCode cell-code" id="cb40" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb40-1"><span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">@decorator</span></span>
@@ -23838,6 +23899,7 @@ background-color: null;
 font-style: inherit;">'Hello, World!'</span>)</span>
 <span id="cb40-4"></span>
 <span id="cb40-5">greet()</span></code></pre></div>
+</details>
 <div class="cell-output cell-output-stdout">
 <pre><code>Do something before calling the function.
 Hello, World!
@@ -23845,9 +23907,11 @@ Do something after calling the function.</code></pre>
 </div>
 </div>
 </section>
-<section id="impelementing-memoization-with-closures" class="level2">
-<h2 class="anchored" data-anchor-id="impelementing-memoization-with-closures">Impelementing Memoization with Closures</h2>
+<section id="implementing-memoization-with-closures" class="level2">
+<h2 class="anchored" data-anchor-id="implementing-memoization-with-closures">Implementing Memoization with Closures</h2>
 <div id="9cafd684-373c-4fe1-8e7c-01b140c0785d" class="cell" data-execution_count="37">
+<details class="code-fold">
+<summary>Code</summary>
 <div class="sourceCode cell-code" id="cb42" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb42-1"><span class="kw" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">def</span> memoize(function):</span>
@@ -23873,8 +23937,11 @@ font-style: inherit;">return</span> cache[number]</span>
 <span id="cb42-7">    <span class="cf" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">return</span> closure</span></code></pre></div>
+</details>
 </div>
 <div id="d59adf33-f417-498b-87f6-f9e286c1fab3" class="cell" data-execution_count="39">
+<details class="code-fold">
+<summary>Code</summary>
 <div class="sourceCode cell-code" id="cb43" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb43-1"><span class="im" style="color: #00769E;
 background-color: null;
 font-style: inherit;">from</span> time <span class="im" style="color: #00769E;
@@ -23909,11 +23976,14 @@ font-style: inherit;">=</span><span class="dv" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">1</span>,</span>
 <span id="cb43-10">      )</span></code></pre></div>
+</details>
 <div class="cell-output cell-output-display" data-execution_count="39">
 <pre><code>3.0021948000066914</code></pre>
 </div>
 </div>
 <div id="815b9972-f1ce-4c2a-987c-cbcf43d4ac95" class="cell" data-execution_count="40">
+<details class="code-fold">
+<summary>Code</summary>
 <div class="sourceCode cell-code" id="cb45" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb45-1"><span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">@memoize</span></span>
@@ -23940,6 +24010,7 @@ font-style: inherit;">=</span><span class="dv" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">1</span>,</span>
 <span id="cb45-8">      )</span></code></pre></div>
+</details>
 <div class="cell-output cell-output-display" data-execution_count="40">
 <pre><code>1.501583400007803</code></pre>
 </div>
@@ -23950,6 +24021,8 @@ font-style: inherit;">1</span>,</span>
 <section id="private-methods-by-naming-convention" class="level4">
 <h4 class="anchored" data-anchor-id="private-methods-by-naming-convention">Private Methods by Naming Convention</h4>
 <div id="064d5215-cb46-443f-9ec1-5e26a006b0a0" class="cell" data-execution_count="41">
+<details class="code-fold">
+<summary>Code</summary>
 <div class="sourceCode cell-code" id="cb47" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb47-1"><span class="kw" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">class</span> Stack:</span>
@@ -24000,12 +24073,16 @@ background-color: null;
 font-style: inherit;">3</span>)</span>
 <span id="cb47-15"></span>
 <span id="cb47-16">stack.pop()</span></code></pre></div>
+</details>
 <div class="cell-output cell-output-display" data-execution_count="41">
 <pre><code>3</code></pre>
 </div>
 </div>
 <div id="e2cde4e7-d423-4896-a177-4292a35cd1e7" class="cell" data-execution_count="42">
+<details class="code-fold">
+<summary>Code</summary>
 <div class="sourceCode cell-code" id="cb49" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb49-1">stack._items</span></code></pre></div>
+</details>
 <div class="cell-output cell-output-display" data-execution_count="42">
 <pre><code>[1, 2]</code></pre>
 </div>
@@ -24014,6 +24091,8 @@ font-style: inherit;">3</span>)</span>
 <section id="private-methods-by-closures" class="level4">
 <h4 class="anchored" data-anchor-id="private-methods-by-closures">Private Methods by Closures</h4>
 <div id="8eb1c594-c07e-4227-9907-69b50c0541d2" class="cell" data-execution_count="43">
+<details class="code-fold">
+<summary>Code</summary>
 <div class="sourceCode cell-code" id="cb51" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb51-1"><span class="kw" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">def</span> Stack():</span>
@@ -24064,18 +24143,25 @@ background-color: null;
 font-style: inherit;">3</span>)</span>
 <span id="cb51-21"></span>
 <span id="cb51-22">stack.pop()</span></code></pre></div>
+</details>
 <div class="cell-output cell-output-display" data-execution_count="43">
 <pre><code>3</code></pre>
 </div>
 </div>
 <div id="d4e9dff2-1920-4bb0-8278-cda58dca4f9c" class="cell" data-execution_count="44">
+<details class="code-fold">
+<summary>Code</summary>
 <div class="sourceCode cell-code" id="cb53" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb53-1">stack._items</span></code></pre></div>
+</details>
 <div class="cell-output cell-output-error">
 <pre><code>AttributeError: 'function' object has no attribute '_items'</code></pre>
 </div>
 </div>
 <div id="66199ec0-39a6-4faf-b712-b6e05e4dad61" class="cell" data-execution_count="45">
+<details class="code-fold">
+<summary>Code</summary>
 <div class="sourceCode cell-code" id="cb55" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb55-1">stack</span></code></pre></div>
+</details>
 <div class="cell-output cell-output-display" data-execution_count="45">
 <pre><code>&lt;function __main__.Stack.&lt;locals&gt;.closure()&gt;</code></pre>
 </div>
@@ -24086,6 +24172,8 @@ font-style: inherit;">3</span>)</span>
 <h2 class="anchored" data-anchor-id="exploring-alternatives-to-closures">Exploring Alternatives to Closures</h2>
 <p>Instead of closures, which can be difficult to reason about, we can use classes with the <code>__call__()</code> method:</p>
 <div id="1100a497-9965-436f-9c24-3fab56b106a9" class="cell" data-execution_count="46">
+<details class="code-fold">
+<summary>Code</summary>
 <div class="sourceCode cell-code" id="cb57" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb57-1"><span class="kw" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">def</span> make_root_calculator(root_degree, precision<span class="op" style="color: #5E5E5E;
@@ -24122,11 +24210,14 @@ font-style: inherit;">4</span>)</span>
 <span id="cb57-8">square_root(<span class="dv" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">42</span>)</span></code></pre></div>
+</details>
 <div class="cell-output cell-output-display" data-execution_count="46">
 <pre><code>6.4807</code></pre>
 </div>
 </div>
 <div id="83ebc308-60a1-4285-8b61-e9f2a62ff025" class="cell" data-execution_count="47">
+<details class="code-fold">
+<summary>Code</summary>
 <div class="sourceCode cell-code" id="cb59" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb59-1"><span class="kw" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">class</span> RootCalculator:</span>
@@ -24185,11 +24276,14 @@ font-style: inherit;">4</span>)</span>
 <span id="cb59-10">square_root(<span class="dv" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">42</span>)</span></code></pre></div>
+</details>
 <div class="cell-output cell-output-display" data-execution_count="47">
 <pre><code>6.4807</code></pre>
 </div>
 </div>
 <div id="bee271a6-19fd-4b7e-95ab-1e865909f07e" class="cell" data-execution_count="48">
+<details class="code-fold">
+<summary>Code</summary>
 <div class="sourceCode cell-code" id="cb61" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb61-1">cubic_root <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span> RootCalculator(<span class="dv" style="color: #AD0000;
@@ -24198,6 +24292,7 @@ font-style: inherit;">3</span>)</span>
 <span id="cb61-2">cubic_root(<span class="dv" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">42</span>)</span></code></pre></div>
+</details>
 <div class="cell-output cell-output-display" data-execution_count="48">
 <pre><code>3.48</code></pre>
 </div>
@@ -24205,11 +24300,10 @@ font-style: inherit;">42</span>)</span></code></pre></div>
 
 
 </section>
-</section>
 
  ]]></description>
   <guid>http://thenewexecutor.github.io/notes/Closures.html</guid>
-  <pubDate>Sun, 26 Oct 2025 05:06:29 GMT</pubDate>
+  <pubDate>Mon, 27 Oct 2025 06:25:28 GMT</pubDate>
 </item>
 <item>
   <title>Probability Distribution Notes</title>
@@ -25564,7 +25658,7 @@ Matrix <img src="https://latex.codecogs.com/png.latex?%5CSigma_%7Bij%7D%20=%20%5
 
  ]]></description>
   <guid>http://thenewexecutor.github.io/notes/ProbabilityDistributionNotes.html</guid>
-  <pubDate>Sun, 26 Oct 2025 05:06:29 GMT</pubDate>
+  <pubDate>Mon, 27 Oct 2025 06:25:28 GMT</pubDate>
 </item>
 </channel>
 </rss>
