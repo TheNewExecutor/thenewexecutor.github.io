@@ -10,7 +10,7 @@
 <atom:link href="http://thenewexecutor.github.io/notes.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.4.550</generator>
-<lastBuildDate>Mon, 27 Oct 2025 06:25:28 GMT</lastBuildDate>
+<lastBuildDate>Mon, 27 Oct 2025 06:29:32 GMT</lastBuildDate>
 <item>
   <title>Decorator Notes</title>
   <link>http://thenewexecutor.github.io/notes/Decorators.html</link>
@@ -3527,7 +3527,7 @@ font-style: inherit;">=</span> value.upper()</span></code></pre></div>
 
  ]]></description>
   <guid>http://thenewexecutor.github.io/notes/Decorators.html</guid>
-  <pubDate>Mon, 27 Oct 2025 06:25:28 GMT</pubDate>
+  <pubDate>Mon, 27 Oct 2025 06:29:32 GMT</pubDate>
 </item>
 <item>
   <title>Multivariate Statistics</title>
@@ -3701,7 +3701,7 @@ font-style: inherit;">'equal'</span>)</span>
 
  ]]></description>
   <guid>http://thenewexecutor.github.io/notes/MultivariateStatisticsNotes.html</guid>
-  <pubDate>Mon, 27 Oct 2025 06:25:28 GMT</pubDate>
+  <pubDate>Mon, 27 Oct 2025 06:29:32 GMT</pubDate>
 </item>
 <item>
   <title>Clustering Notes</title>
@@ -22047,7 +22047,7 @@ font-style: inherit;">'</span>)</span></code></pre></div>
 
  ]]></description>
   <guid>http://thenewexecutor.github.io/notes/ClusteringNotes.html</guid>
-  <pubDate>Mon, 27 Oct 2025 06:25:28 GMT</pubDate>
+  <pubDate>Mon, 27 Oct 2025 06:29:32 GMT</pubDate>
 </item>
 <item>
   <title>Entropy Notes</title>
@@ -23250,7 +23250,7 @@ font-style: inherit;">==</span> Y31</span></code></pre></div>
 
  ]]></description>
   <guid>http://thenewexecutor.github.io/notes/EntropyNotes.html</guid>
-  <pubDate>Mon, 27 Oct 2025 06:25:28 GMT</pubDate>
+  <pubDate>Mon, 27 Oct 2025 06:29:32 GMT</pubDate>
 </item>
 <item>
   <title>Closure Notes</title>
@@ -23819,7 +23819,11 @@ font-style: inherit;">'Hello, World!'</span>),</span>
 </section>
 <section id="writing-decorators-with-closures" class="level2">
 <h2 class="anchored" data-anchor-id="writing-decorators-with-closures">Writing Decorators with Closures</h2>
-<p>There are two types of decorators in Python: - function based - class based</p>
+<p>There are two types of decorators in Python:</p>
+<ul>
+<li><p>function based</p></li>
+<li><p>class based</p></li>
+</ul>
 <p>Here is a simple function based implementation with and without the decorator, and using the syntax:</p>
 <div id="76e4c930-4ebc-4f66-90f9-723b75e524b3" class="cell" data-execution_count="34">
 <details class="code-fold">
@@ -24303,7 +24307,7 @@ font-style: inherit;">42</span>)</span></code></pre></div>
 
  ]]></description>
   <guid>http://thenewexecutor.github.io/notes/Closures.html</guid>
-  <pubDate>Mon, 27 Oct 2025 06:25:28 GMT</pubDate>
+  <pubDate>Mon, 27 Oct 2025 06:29:32 GMT</pubDate>
 </item>
 <item>
   <title>Probability Distribution Notes</title>
@@ -25658,7 +25662,7 @@ Matrix <img src="https://latex.codecogs.com/png.latex?%5CSigma_%7Bij%7D%20=%20%5
 
  ]]></description>
   <guid>http://thenewexecutor.github.io/notes/ProbabilityDistributionNotes.html</guid>
-  <pubDate>Mon, 27 Oct 2025 06:25:28 GMT</pubDate>
+  <pubDate>Mon, 27 Oct 2025 06:29:32 GMT</pubDate>
 </item>
 </channel>
 </rss>
